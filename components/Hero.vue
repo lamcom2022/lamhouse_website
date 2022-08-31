@@ -3,7 +3,7 @@
 		class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-12">
 		<h1 class="capitalize font-semibold text-[38px] lg:text-7xl text-center leading-snug text-white">			
 			<span class="font-normal text-[24px] bg-clip-text text-white lg:text-3xl uppercase">IT Software & Design</span><br />
-			<span class="font-extrabold bg-clip-text text-primary-500 uppercase">Lamhouse</span>
+			<span class="font-extrabold bg-clip-text text-primary-500 uppercase">Welcome to Lamhouse</span>
 		</h1>
 		<p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">
 			We bring your ideas to Life!!
