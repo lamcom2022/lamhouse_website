@@ -2,7 +2,7 @@
 	<a href="/">
 		<span class="sr-only">Swara Nritya</span>
 		<img tag="img" to="#" alt="Logo"
-			src="https://res.cloudinary.com/nathansweb/image/upload/v1660962725/aljabar.com/aljabar-logo_l4kodw.png" />
+			src="https://res.cloudinary.com/lamcom/image/upload/v1661957142/lamhouse/logo-white_wucxki.png" />
 	</a>
 	<!--<svg
 		id="logo-14"

@@ -6,15 +6,15 @@ status: published
 background: background goes here
 introduction: introduction goes here
 industries: [Music, Dance]
-coverimage: https://res.cloudinary.com/nathansweb/image/upload/v1660966528/aljabar.com/news-events/3_tp7xyz.jpg
-author: "Al Jabr"
+coverimage: https://res.cloudinary.com/lamcom/image/upload/v1661946521/lamhouse/icon/cloud-service_enexzc.png
+author: "Lam house"
 type: Article
 tags:
   - About
   - Laundry
 ---
 
-The journey of Al Jabr laundry....
+Cloud and DevOps <br />We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
 
 <!--more-->
 

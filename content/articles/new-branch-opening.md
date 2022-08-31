@@ -6,7 +6,7 @@ status: published
 background: background goes here
 introduction: introduction goes here
 industries: [Healthcare, Telecom]
-coverimage: https://res.cloudinary.com/nathansweb/image/upload/v1660966527/aljabar.com/news-events/4_bvsqgc.jpg
+coverimage: https://res.cloudinary.com/lamcom/image/upload/v1661947906/lamhouse/icon/software-development_luingo.png
 author: "Al Jabr"
 type: Event
 tags:
@@ -15,7 +15,7 @@ tags:
   - Internet Of Things
 ---
 
-New Branch Opening!
+Software Development <br /> We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
 
 <!--more-->
 

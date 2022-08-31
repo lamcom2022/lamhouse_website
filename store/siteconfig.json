@@ -13,7 +13,7 @@
       "href": "/"
     }
   },
-  "title": "Al Jabr",
+  "title": "Lam house",
   "description": "",
   "nav": [
     {
@@ -28,42 +28,7 @@
       "title": "About",
       "link": "/about"
     },
-    {
-      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
-      "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
-      "title": "Services",
-      "link": "/",
-      "children": [
-        {
-          "img": "",
-          "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
-          "spancolor": "primary",
-          "title": "Laundry - Hotels",
-          "link": "/services/Laundry/hotels"
-        },
-        {
-          "img": "",
-          "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
-          "spancolor": "primary",
-          "title": "Laundry - Residential campuses",
-          "link": "/services/Laundry/residential"
-        },
-        {
-          "img": "",
-          "icon": "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01",
-          "spancolor": "sky",
-          "title": "Laundry - Healthcare",
-          "link": "/services/Laundry/healthcare"
-        },
-        {
-          "img": "",
-          "icon": "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z",
-          "spancolor": "sky",
-          "title": "Carpet cleaning",
-          "link": "/services/carpet/cleaning"
-        }
-      ]
-    },
+    
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
       "icon": "M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z",
@@ -73,30 +38,14 @@
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
-      "title": "News & Updates",
-      "link": "/",
-      "children": [
-        {
-          "img": "",
-          "icon": "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z",
-          "spancolor": "primary",
-          "title": "Photo",
-          "link": "/about"
-        },
-        {
-          "img": "",
-          "icon": "M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z",
-          "spancolor": "sky",
-          "title": "Videos",
-          "link": "/methodology"
-        }
-      ]
+      "title": "Team",
+      "link": "/"      
     },
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
       "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
-      "title": "Locations",
-      "link": "/stores"
+      "title": "Contact us",
+      "link": "/"
     }
   ],
   "leftnav": [
@@ -195,7 +144,7 @@
         ]
       }
     ],
-    "copyright": "© 2015 Al Jabr laundry And dry cleaner. All rights reserved."
+    "copyright": "© Copyright 2021 LamHouse. All Rights Reserved."
   },
   "socialmedia": [
     {
@@ -210,15 +159,19 @@
       "link": "https://twitter.com/Aljabrlaundry",
       "rule": "evenodd"
     }
+   
   ],
   "testimonials": [
     {
-      "imageurl": "https://res.cloudinary.com/nathansweb/image/upload/v1660965035/aljabar.com/aljabr_ftjonu.jpg",
-      "testimony": "Five laundry plants serve more than 500 receiving shops situated in cities and villages throughout the eastern province, Riyadh, Jeddah, Qasim and Kharj",
-      "clientname": "Al Jabr laundry And dry cleaning",
+      "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1661952197/lamhouse/about_gotbx4.jpg",
+      "testimony": "We are crafting unique IT & Technology Ideas",
+      "clientname": "Our Goal is: Every business idea must grow and have an online presence – however big or small!!",
+      "clientname1": "Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.",
+      "clientname2": "It has been 10 years, and the journey has been incredible.",
       "clienteducation": "",
-      "clienttitle": "Head of Operations",
-      "clientcompany": "M.U.I Hotels"
+      "clienttitle": "",
+      "clientcompany": "",
+      "clienticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],
   "companies": [
@@ -324,18 +277,18 @@
     }
   ],
   "contactus": {
-    "companyname": "Al Jabr laundry And dry cleaning",
-    "addressline1": "Mahasin Al Baladiyyah, Al Mubarraz‎",
+    "companyname": "Lam House",
+    "addressline1": "#104, 2nd Cross, Royal County Layout, Parappana Agrahara",
     "addressline2": "",
     "city": "Al-Hasa",
     "state": "",
-    "country": "Saudi Arabia",
+    "country": "Bangalore Karnataka 560100",
     "zip": "",
-    "phone1": "+966 920018880",
+    "phone1": "(+91) 8861773950",
     "phone2": "",
     "fax": "",
-    "email": "info@aljabrlaundry.com",
-    "website": "https://www.aljabrlaundry.com.com"
+    "email": "biz@lamhouse.in",
+    "website": "https://www.lamhouse.in"
   },
   "bannerHeaderFlashNews": {
     "content": "",

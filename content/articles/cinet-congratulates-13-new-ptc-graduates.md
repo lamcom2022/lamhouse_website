@@ -9,7 +9,7 @@ background:
 introduction:
 industries: []
 rightStripColor: "bg-gray-50"
-coverimage: https://res.cloudinary.com/nathansweb/image/upload/v1660966528/aljabar.com/news-events/2_stobrp.jpg
+coverimage: https://res.cloudinary.com/lamcom/image/upload/v1661947673/lamhouse/icon/analytic_dofnax.png
 author: "Al Jabr"
 avatar:
 type: News
@@ -25,7 +25,7 @@ technologies:
     icon: bash.svg
 ---
 
-CINET congratulates 13 new PTC graduates – Retail Textile Cleaning, from Al Jabr Laundries (Saudi Arabia)!
+Analytic Solutions <br /> We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
 
 <!--more-->
 

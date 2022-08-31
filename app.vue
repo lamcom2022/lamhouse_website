@@ -18,7 +18,7 @@ import { Calendar } from 'v-calendar';
 //const colorMode = useColorMode()
 //console.log(colorMode.preference)
 useHead({
-	title: "Al Jabr laundry & dry cleaning",
+	title: "Lamhouse IT Solution",
 	meta: [
 		{
 			name: "description",

@@ -6,7 +6,7 @@ status: published
 background: background goes here
 introduction: introduction goes here
 industries: [Healthcare, Telecom]
-coverimage: https://cleancloudapp.com/frontend-website/v4/assets/images/testimonials/testimonials_hero_img.png
+coverimage: https://res.cloudinary.com/lamcom/image/upload/v1661947558/lamhouse/icon/webdevelopment_wsrcml.png
 author: "Al Jabr"
 type: Article
 tags:
@@ -14,7 +14,11 @@ tags:
   - RPA
 ---
 
-Al-jabr Laundry App is a digital platform where customers who seek to use any of Aljabr Laundry Services such as Washing Service, Pressing Service, Dry Clean Service, and Delivery Service
+Web Development <br /> We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
+
+---
+
+
 
 <!--more-->
 
