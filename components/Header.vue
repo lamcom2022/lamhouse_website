@@ -106,6 +106,9 @@
 
 		<!--Nav Action button start-->
 		<div class="hidden md:flex md:items-center md:space-x-6">
+			<NuxtLink to="/about"
+				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
+				Sign in</NuxtLink>
 			<NuxtLink to="/login"
 				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
 				Sign in</NuxtLink>

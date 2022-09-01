@@ -16,6 +16,7 @@
                                 <img v-if="article.coverimage" class="scale-x-50 scale-y-50 mx-auto object-center overflow-hidden"
                                     :src="article.coverimage" />
                             </div>
+                            
                         </a>
                         <div class="flex flex-1 flex-col justify-evenly bg-white p-3">
                             <div class="flex-1">
@@ -25,13 +26,13 @@
                                         {{ article.type }}
                                     </span>
                                 </a> -->
-                                <a :href="article._path">
+                                <a :href="article._path">                                   
                                     <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900 text-center">
                                         <ClientOnly>
-                                            {{ $s(article.description).prune(50)._wrapped }}
+                                            {{ $s(article.title).prune(50)._wrapped }}
                                         </ClientOnly>
                                     </h3>
-                                    <p class="mt-3 text-base leading-6 text-gray-500">
+                                    <p class="mt-3 text-base leading-6 text-gray-500 text-center">
                                         <ClientOnly>
                                             {{ $s(article.description).prune(100)._wrapped }}
                                         </ClientOnly>

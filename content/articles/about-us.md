@@ -1,5 +1,5 @@
 ---
-title: About Us
+title: Cloud and DevOps
 path:
 date: 2022-05-25
 status: published
@@ -14,7 +14,7 @@ tags:
   - Laundry
 ---
 
-Cloud and DevOps <br />We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
+We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
 
 <!--more-->
 

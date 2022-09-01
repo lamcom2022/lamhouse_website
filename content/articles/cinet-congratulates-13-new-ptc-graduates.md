@@ -1,5 +1,5 @@
 ---
-title: CINET congratulates 13 new PTC graduates
+title: Analytic Solutions
 path:
 date: 2022-12-28
 status: published
@@ -25,7 +25,7 @@ technologies:
     icon: bash.svg
 ---
 
-Analytic Solutions <br /> We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
+We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
 
 <!--more-->
 

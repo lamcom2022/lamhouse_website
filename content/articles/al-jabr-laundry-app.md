@@ -1,5 +1,5 @@
 ---
-title: "Al-jabr Laundry App"
+title: "Web Development"
 path:
 date: 2022-12-20
 status: published
@@ -14,7 +14,7 @@ tags:
   - RPA
 ---
 
-Web Development <br /> We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
+ We denounce with righteous indignation and dislike men who are so beguiled and demo ralized your data.
 
 ---
 
