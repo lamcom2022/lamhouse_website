@@ -36,11 +36,11 @@
           <a @click="handleSignUpClick" href="#" class="font-medium text-primary-600 hover:text-primary-500"> Sign up
           </a>
         </p>
-        <p v-if="forgotPassword" class="mt-2 text-center text-sm text-gray-600 max-w">
+        <!-- <p v-if="forgotPassword" class="mt-2 text-center text-sm text-gray-600 max-w">
           Go back to
           <a @click="handleSignInClick" href="#" class="font-medium text-primary-600 hover:text-primary-500"> Sign in
           </a>
-        </p>
+        </p> -->
         <p v-if="formSignUp" class="mt-2 text-center text-sm text-gray-600 max-w">
           Go back to
           <a @click="handleSignInClick" href="#" class="font-medium text-primary-600 hover:text-primary-500"> Sign in

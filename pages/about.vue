@@ -2,12 +2,10 @@
 <main
 		class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-12">
 		<h1 class="capitalize font-semibold text-[38px] lg:text-7xl text-center leading-snug text-white">			
-			<span class="font-normal text-[24px] bg-clip-text text-white lg:text-3xl uppercase">IT Software & Design</span><br />
-			<span class="font-extrabold bg-clip-text text-primary-500 uppercase">Welcome to Lamhouse</span>
+			
+			<span class="font-extrabold bg-clip-text text-primary-500 uppercase">About</span>
 		</h1>
-		<p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">
-			We bring your ideas to Life!!
-		</p>
+		
 		<div class="text-center p-10 flex items-center justify-center space-x-4">
 			<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
 				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
@@ -38,20 +36,26 @@
 			</NuxtLink>-->
 		</div>
 	</main>
-  <div class="py-12 bg-white">
+  <div class="grid grid-cols-2 gap-4 mt-16 my-20 max-w-7xl mx-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <img src="https://res.cloudinary.com/lamcom/image/upload/v1662041293/lamhouse/about-people-768x845_xqwaiz.jpg">
+     <div class="box-content bg-primary-600 mt-2 w-32 h-32 rounded-lg">
+     <p class="text-center p-10 text-white font-semibold text-xl ">Muthuraman <br /> CEO, Founder</p>
+     </div>
+      </div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
-        <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2>
+        <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">About Us</h2>
         <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          A better way to send money
+         Welcome to Lamhouse
         </p>
         <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-          Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
+          LAM House symbolises Brilliance, Reliability and Integrity
         </p>
       </div>
 
       <div class="mt-10">
-        <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+        <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
           <div v-for="about in about" :key="about.name" class="relative">
             <dt>
               <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
@@ -66,38 +70,36 @@
         </dl>
       </div>
     </div>
+
   </div>
+  
 </template>
 
 <script>
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/vue/outline/index.js'
+import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon, ArrowDownIcon } from '@heroicons/vue/outline/index.js'
 definePageMeta({
   //colorMode: 'system',
   layout: "main",
 })
 const about = [
   {
-    name: 'Competitive exchange rates',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    name: 'Our Goal is: Every business idea must grow and have an online presence – however big or small!!',    
     icon: GlobeAltIcon,
   },
   {
-    name: 'No hidden fees',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    name: 'Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.',    
     icon: ScaleIcon,
   },
   {
-    name: 'Transfers are instant',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    name: 'Success followed us after our debut. Yet, in keeping with changing trends, we quickly expanded our services, to include graphic design, website design and app development in our repertoire of projects.',    
     icon: LightningBoltIcon,
   },
   {
-    name: 'Mobile notifications',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+    name: 'It has been 10 years, and the journey has been incredible.',   
+    icon: AnnotationIcon,
+  },
+  {
+    name: 'With every year, our expertise and reputed clientele list grew bigger and bigger, both nationally and internationally. Today we positively state that we have numerous happy and satisfied clients whose visions and ideas we have brought to life.',   
     icon: AnnotationIcon,
   },
 ]
