@@ -174,6 +174,32 @@
       "clienticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],
+  "about": [
+    {
+      "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1661952197/lamhouse/about_gotbx4.jpg",
+      "heading": "We are crafting unique IT & Technology Ideas",
+      "point1": "Our Goal is: Every business idea must grow and have an online presence – however big or small!!",
+      "point2": "Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.",
+      "point3": "It has been 10 years, and the journey has been incredible.",
+      "clienteducation": "",
+      "clienttitle": "",
+      "clientcompany": "",
+      "abouticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
+    }
+  ],
+  "legacy": [
+    {
+      "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1661952197/lamhouse/about_gotbx4.jpg",
+      "heading": "We are crafting unique IT & Technology Ideas",
+      "point1": "Our Goal is: Every business idea must grow and have an online presence – however big or small!!",
+      "point2": "Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.",
+      "point3": "It has been 10 years, and the journey has been incredible.",
+      "clienteducation": "",
+      "clienttitle": "",
+      "clientcompany": "",
+      "abouticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
+    }
+  ],
   "companies": [
     {
       "name": "Robocorp",
