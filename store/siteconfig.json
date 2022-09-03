@@ -5,11 +5,11 @@
       "href": "/"
     },
     "mark": {
-      "source": "https://res.cloudinary.com/nathansweb/image/upload/v1660991986/aljabar.com/logo/aljabr-logo-mark_ieq5iy.jpg",
+      "source": "https://res.cloudinary.com/lamcom/image/upload/v1662194865/lamhouse/mlogo_zcewms.png",
       "href": "/"
     },
     "mlogo": {
-      "source": "https://res.cloudinary.com/nathansweb/image/upload/v1660991986/aljabar.com/logo/aljabr-logo-mark_ieq5iy.jpg",
+      "source": "https://res.cloudinary.com/lamcom/image/upload/v1661596350/lamhouse/logo_pwfaa6.png",
       "href": "/"
     }
   },
@@ -40,13 +40,8 @@
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
       "title": "Team",
       "link": "/team"      
-    },
-    {
-      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
-      "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
-      "title": "Contact us",
-      "link": "/contact"
     }
+    
   ],
   "leftnav": [
     {
@@ -103,8 +98,13 @@
           },
           {
             "icon": "",
-            "title": "Partners",
-            "link": "/#"
+            "title": "Services",
+            "link": "/services"
+          },
+          {
+            "icon": "",
+            "title": "Team",
+            "link": "/team"
           }
         ]
       },
@@ -113,18 +113,18 @@
         "menus": [
           {
             "icon": "M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z",
-            "title": "About",
-            "link": "/about"
+            "title": "",
+            "link": ""
           },
           {
             "icon": "M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z",
-            "title": "Services",
-            "link": "/services"
+            "title": "",
+            "link": ""
           },
           {
             "icon": "M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z",
-            "title": "Careers",
-            "link": "/careers"
+            "title": "",
+            "link": ""
           }
         ]
       },
