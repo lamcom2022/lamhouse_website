@@ -1,13 +1,13 @@
 <template>
     <div>
         <div class="bg-white pt-10 pb-20 px-4 sm:px-6 lg:pt-10 lg:pb-28 lg:px-8">
-            <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-                <h3 class="text-lg tracking-tight font-normal text-primary-900 sm:text-2xl my-6">
-                    Valued Services
-                </h3>
+            <div class="relative max-w-lg mx-auto lg:max-w-7xl">                
                 <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
-                    Managed IT, Software, Voice <br /> & Data Services for Your Organization.
+                    Services
                 </h2>
+                <h3 class="text-lg tracking-tight font-normal text-primary-900 sm:text-2xl my-6">
+                    In today’s Tech Savvy world, we provide solutions for the following:
+                </h3>
                 <div class="mt-6 pt-5 grid gap-4 place-self-center lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
                     <div v-for="service of services" :key="service._path"
                         class="shadow-lg flex-col flex-direction: column">
