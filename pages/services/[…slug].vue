@@ -11,9 +11,9 @@
           </div>
         </div>
         <div class="lg:mt-0">
-          <service class="prose md:prose-md">
+          <article class="prose md:prose-md">
             <ContentDoc />
-          </service>
+          </article>
         </div>
       </div>
     </div>

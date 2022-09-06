@@ -11,7 +11,7 @@
                 <div class="mt-6 pt-5 grid gap-4 place-self-center lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
                     <div v-for="service of services" :key="service._path"
                         class="shadow-lg flex-col flex-direction: column">
-                        <a :href="service._path">
+                        <a :href="services._path">
                             <div class="flex flex-1 h-48 xxlmin:w-1/2 xxlmax:w-full object-center">
                                 <img v-if="service.coverimage" class="scale-x-50 scale-y-50 mx-auto object-center overflow-hidden"
                                     :src="service.coverimage" />
