@@ -2,7 +2,7 @@
 	<a href="/">
 		<span class="sr-only">Swara Nritya</span>
 		<img tag="img" to="#" alt="Logo"
-			src="https://res.cloudinary.com/lamcom/image/upload/v1662195617/lamhouse/weblogo_e6ws3u.png" />
+			src="https://res.cloudinary.com/lamcom/image/upload/v1662471119/lamhouse/weblogo_cxvcqa.png" />
 	</a>
 	<!--<svg
 		id="logo-14"

@@ -2,18 +2,17 @@
     <hero />
 
     <div class="bg-white pt-10 pb-20 px-4 sm:px-6 lg:pt-10 lg:pb-28 lg:px-8">
-            <div class="relative max-w-lg mx-auto lg:max-w-7xl">
-                
+            <div class="relative max-w-lg mx-auto lg:max-w-7xl">                
                 <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
                     Our Team
                 </h2>
-                <h3 class="text-lg tracking-tight font-normal text-primary-900 sm:text-2xl my-6">
+                <p class="text-base font-medium text-primary-900 mt-5">
                     We are an enthusiastic team of passionate designers, coders, animators and developers,
                     with years of knowledge and skill behind us. We work hard every day to ensure your dreams and wishes
                     turn into reality in front of you, with your inputs and to your satisfaction. We are here to meet and exceed
                     your every expectation and requirement. <br />
                     After all – we believe that ‘every business must grow and be present online – however small or large”!
-                </h3>
+                </p>
             </div>
     </div>
 <div class="max-w-7xl mx-auto">

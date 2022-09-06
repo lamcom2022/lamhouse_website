@@ -17,6 +17,7 @@ const { data: articles } = await useAsyncData('articles-list', () => queryConten
   .only([
     "title",
     "description",
+    "link",
     "coverimage",
     "author",
     "date",

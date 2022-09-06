@@ -12,16 +12,17 @@
                 <div class="mt-6 pt-5 grid gap-4 place-self-center lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
                     <div v-for="article of articles" :key="article._path"
                         class="shadow-lg flex-col flex-direction: column">
-                        <a :href="article._path">
+                        
                             <div class="flex flex-1 h-48 xxlmin:w-1/2 xxlmax:w-full object-center">
                                 <img v-if="article.coverimage" class="scale-x-50 scale-y-50 mx-auto object-center overflow-hidden"
                                     :src="article.coverimage" />
                             </div>
                             
-                        </a>
+                       
+                        
                         <div class="flex flex-1 flex-col justify-evenly bg-white p-3">
                             <div class="flex-1">
-                                <a :href="article._path">                                   
+                                                           
                                     <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900 text-center">
                                         <ClientOnly>
                                             {{ $s(article.title).prune(50)._wrapped }}
@@ -29,10 +30,17 @@
                                     </h3>
                                     <p class="mt-3 text-base leading-6 text-gray-500 text-center">
                                         <ClientOnly>
-                                            {{ $s(article.description).prune(100)._wrapped }}
+                                            {{ $s(article.description).prune(50)._wrapped }}
                                         </ClientOnly>
                                     </p>
-                                </a> 
+                                    <a href="/services">
+                                     <p class="mt-3 text-base leading-6 text-primary-500 text-center">
+                                        <ClientOnly>
+                                            {{ $s(article.link).prune(50)._wrapped }}
+                                        </ClientOnly>
+                                    </p> 
+                                    </a>
+                              
                             </div>
                            <!--
                             <div class="mt-3 flex items-center">
