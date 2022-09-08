@@ -7,7 +7,7 @@
                     Valued Services
                 </h3>
                 <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
-                    Managed IT, Software, Voice <br /> & Data Services for Your Organization.
+                    Managed IT, Software, Data & <br />Digital Marketing Services for Your Organization.
                 </h2>
                 <div class="mt-6 pt-5 grid gap-4 place-self-center lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
                     <div v-for="article of articles" :key="article._path"

@@ -6,7 +6,7 @@
                     Services
                 </h2>
                 <h3 class="text-lg tracking-tight font-normal text-primary-900 sm:text-2xl my-6">
-                    In today’s Tech Savvy world, we provide solutions for the following:
+                    In today’s Tech Savvy world, we provide the best IT solutions
                 </h3>
                 <div class="mt-6 pt-5 grid gap-4 place-self-center lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
                     <div v-for="service of services" :key="service._path"

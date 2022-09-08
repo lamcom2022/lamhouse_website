@@ -38,7 +38,7 @@
 	</main>
   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid lg:grid-cols-2 md:flex md:flex-col">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-     <img src="https://res.cloudinary.com/lamcom/image/upload/v1662041293/lamhouse/about-people-768x845_xqwaiz.jpg">
+     <img src="https://res.cloudinary.com/lamcom/image/upload/v1662614663/lamhouse/muthu_oh9y2y.jpg">
      <div class="box-content bg-primary-600 mt-2 w-full h-32 rounded-lg">
      <p class="text-center p-10 text-white font-semibold text-xl ">Muthuraman <br /> CEO, Founder</p>
      </div>
