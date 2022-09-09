@@ -8,7 +8,7 @@
         <!--Footer Links (end)-->
 
         <!--Newsletter-->
-        <ContactUs />
+        <!-- <ContactUs /> -->
         <!--Newsletter-->
       </div>
       <div class="mt-8 border-t border-white pt-8 md:flex md:items-center md:justify-between">

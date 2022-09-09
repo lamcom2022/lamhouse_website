@@ -22,15 +22,15 @@ useHead({
 	meta: [
 		{
 			name: "description",
-			content: "Al Jabr laundry And dry cleaning is considered the largest commercial laundry in the Middle East,Five laundry plants serve more than 500 receiving shops situated in cities and villages throughout the eastern province, Riyadh, Jeddah, Qasim and Kharj",
+			content: "LAM House symbolises Brilliance, Reliability and Integrity",
 		},
 		{
 			property: "og:title",
-			content: "Al Jabr laundry and dry cleaning",
+			content: "Lamhouse IT Solution",
 		},
 		{
 			property: "og:description",
-			content: "Al Jabr laundry And dry cleaning is considered the largest commercial laundry in the Middle East,Five laundry plants serve more than 500 receiving shops situated in cities and villages throughout the eastern province, Riyadh, Jeddah, Qasim and Kharj",
+			content: "LAM House symbolises Brilliance, Reliability and Integrity ",
 		},
 		{
 			property: "og:image",
@@ -38,11 +38,11 @@ useHead({
 		},
 		{
 			property: "og:type",
-			content: "website",
+			content: "https://www.lamhouse.in",
 		},
 		{
 			property: "og:site_name",
-			content: "Al Jabr laundry And dry cleaning",
+			content: "Lamhouse",
 		},
 	],
 });

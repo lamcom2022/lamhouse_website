@@ -45,7 +45,7 @@
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
       "title": "Clients",
-      "link": "/"      
+      "link": "/clients"      
     }
     
   ],
@@ -120,7 +120,7 @@
           {
             "icon": "",
             "title": "Clients",
-            "link": "/"
+            "link": "/clients"
           }
         ]
       },
@@ -319,7 +319,7 @@
       "description": "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.",
       "img": "https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
     }
-  ],
+  ],  
   "contactus": {
     "companyname": "Lam House",
     "addressline1": "#104, 2nd Cross, Royal County Layout, Parappana Agrahara",
@@ -333,6 +333,12 @@
     "fax": "",
     "email": "biz@lamhouse.in",
     "website": "https://www.lamhouse.in"
+  },
+  "map": {
+    "mapsection": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.489847774526!2d77.6548749151321!3d12.876192590918535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c9d9255fc4d%3A0x6a652194251fe657!2sLAM%20House!5e0!3m2!1sen!2sin!4v1662564565090!5m2!1sen!2sin",
+    "width": "400",
+    "height": "300",
+    "border": "0"
   },
   "bannerHeaderFlashNews": {
     "content": "",
