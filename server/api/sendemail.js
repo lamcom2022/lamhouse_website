@@ -13,7 +13,7 @@ export default async (req, res) => {
         html: `<tr>
         <td>${body.first_name}</td>
         <td>${body.email}</td>
-        <td>${body.company}</td>
+        <td>${body.company}</td>        
         <td>${body.description}</td>
         </tr>`,
     }

@@ -34,7 +34,7 @@ useHead({
 		},
 		{
 			property: "og:image",
-			content: "/home.jpg",
+			content: "",
 		},
 		{
 			property: "og:type",

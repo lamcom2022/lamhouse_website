@@ -93,7 +93,7 @@
                                                                     name="phone_number" id="phone_number"
                                                                     autocomplete="tel"
                                                                     class="py-3 px-4 block w-full pl-5 focus:ring-green-500 focus:border-green-500 border-gray-300"
-                                                                    placeholder="+1 (555) 987-6543">
+                                                                    placeholder="1234567890">
                                                                 <!--</div>-->
                                                             </div>
                                                         </div>
