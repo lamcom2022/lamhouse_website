@@ -133,7 +133,7 @@
                             <span class="inline-flex rounded-md shadow-sm">
                                 <button v-on:click="sendContactUs" type="submit"
                                     class="inline-flex justify-center py-2 px-4 border border-transparent text-sm leading-5 font-medium  text-white bg-primary-600 hover:bg-primary-500 focus:outline-none focus:border-green-700 focus:shadow-outline-green active:bg-primary-700 transition duration-150 ease-in-out">
-                                    Save
+                                    Send
                                 </button>
                             </span>
                         </div>
