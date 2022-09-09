@@ -20,7 +20,6 @@ export default async (req, res) => {
 
     sgMail.send(msg).then(() => {
         console.log('Email sent')
-        alert("Thank you sending email")
         return sgMail;
     }).catch((error) => {
         console.error(error)
