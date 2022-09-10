@@ -30,7 +30,7 @@
                                     </h3>
                                     <p class="mt-3 text-base leading-6 text-gray-500 text-center">
                                         <ClientOnly>
-                                            {{ $s(article.description).prune(50)._wrapped }}
+                                            {{ $s(article.description).prune(100)._wrapped }}
                                         </ClientOnly>
                                     </p>
                                     <a href="/services">
