@@ -168,6 +168,8 @@ export default {
                 const { data: sendemail } = await useFetch("/api/sendemail", {
                     method: 'post', body: this.data                    
                 })
+                alert("Email delivered successfully");
+
                 this.data = {}
                 this.isContactFormVisible = !this.isContactFormVisible;
                 //this.$toast.success("Thank you for your enquiry! our customer success team will repond as soon as possible.")

@@ -1,30 +1,43 @@
-import sgMail from '@sendgrid/mail';
-
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-
-export default async (req, res) => {
+export default async (req, res, err) => {
     const body = await useBody(req)
 
-    const msg = {
-        to: body.email, // Change to your recipient
-        from: process.env.SENDGRID_FROM_EMAIL, // Change to your verified sender
-        subject: 'lamhouse',
-        text: 'and easy to do anywhere, even with Node.js',
-        html: `<tr>
-        <td>${body.first_name}</td>
-        <td>${body.email}</td>
-        <td>${body.company}</td>        
-        <td>${body.description}</td>
-        </tr>`,
+    const bodyData = {
+        personalizations: [
+            {
+                to: [
+                    {
+                        "email": `${body.email}`,
+                        // "name": `${body.name}`
+                    }
+                ],
+                "subject": "Lamhouse"
+            }
+        ],
+        "content": [
+            {
+                "type": "text/plain",
+                "value":`Hi ${body.email}`
+            }
+        ],
+        "from": {
+            "email": "sureshbabuweb@gmail.com",
+            "name": "lamhouse"
+        },
+        // "reply_to": {
+        //     "email": "sureshbabuweb@gmail.com",
+        //     "name": "Suresh"
+        // }
     }
 
-    sgMail.send(msg).then(() => {
-        console.log('Email sent')
-        return sgMail;
-    }).catch((error) => {
-        console.error(error)
+    const contact = await $fetch("https://api.sendgrid.com/v3/mail/send", {
+        method: 'post', headers: {
+            "Authorization": process.env.SENDGRID_API_KEY,
+            "Content-Type": "application/json"
+        },
+        body: bodyData,
     })
-    return null;
+
+    return contact
 }
 
 
