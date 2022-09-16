@@ -1,3 +1,4 @@
+
 export default async (req, res, err) => {
     const body = await useBody(req)
 
@@ -29,7 +30,7 @@ export default async (req, res, err) => {
         // }
     }
 
-    const contact = await $fetch("https://api.sendgrid.com/v3/mail/send", {
+    const contact = await $fetch(process.env.SENDGRID_API_URL, {
         method: 'post', headers: {
             "Authorization": process.env.SENDGRID_API_KEY,
             "Content-Type": "application/json"

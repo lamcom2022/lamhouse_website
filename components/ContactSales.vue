@@ -161,7 +161,7 @@ export default {
         async sendContactUs(args) {
             try {
                 let request = {}
-                const { data: contact } = await useFetch("/api/contact", {
+                const { data: contact } = await useFetch("api/contact", {
                     method: 'post', body: this.data                    
                 })
                 alert("Thank you for your enquiry! our customer success team will repond as soon as possible.")
