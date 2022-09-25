@@ -52,7 +52,7 @@
         <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
             <img class="w-full rounded" src="https://res.cloudinary.com/lamcom/image/upload/v1662786765/lamhouse/sripathy_kxethl.jpg">
             <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
-                <p class="text-white text-center font-bold pt-10 text-2xl">Sripathi R</p>
+                <p class="text-white text-center font-bold pt-10 text-2xl">Sreepathy R</p>
                 <p class="text-white text-center font-normal text-xl">Head, Digital Marketing</p>
             </div>
         </div>
