@@ -47,10 +47,10 @@
       <div class="lg:text-center md:text-center">
         <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">About Us</h2>
         <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-         Welcome to Lamhouse
+         Welcome to Mind & Beyond
         </p>
         <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto md:mx-auto">
-          LAM House symbolises Brilliance, Reliability and Integrity
+          We take care of your mind!!
         </p>
       </div>
 
@@ -132,7 +132,7 @@ const legacy = [
     icon: ArrowCircleRightIcon,
   },
   {
-    name: 'Mr. Muthuraman A. as the proprietor of this company brings along with him over 20 years of experience in the fields of animation and graphic design. From managerial roles, to HR roles to administrative details to the financial aspects of a graphic designing and software development firm. In the past years he has grown and groomed our team to reflect these qualities of integrity and dedication in their work.',    
+    name: 'Mr. Muthuraman A. as the proprietor of this company brings along with him over 20 years of experience in the fields of animation and graphic design. From managerial roles, to HR roles to administrative details to the financial aspects of a graphic designing and software development firm. In the past years he has grown and groomed our  to reflect these qualities of integrity and dedication in their work.',    
     icon: ArrowCircleRightIcon,
   },  
 ]

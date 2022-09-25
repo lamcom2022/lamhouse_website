@@ -42,3 +42,14 @@ GOOGLE_MAP_TOKEN=
 MONGODB_ATLAS_DATABASE=
 MONGODB_ATLAS_DATASOURCE=
 ```
+
+
+### Mind and Beyond Website Details
+
+#### Domain
+[Shivaami](https://sso.secureserver.net/?plid=495613&prog_id=shivaami&realm=idp&path=%2Fproducts%3Fplid%3D495613&app=account&auth_reason=1)
+
+
+
+
+

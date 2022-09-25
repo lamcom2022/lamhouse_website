@@ -3,7 +3,7 @@
     <div class="bg-white pt-10 pb-20">
         <div class="grid max-w-7xl mx-auto pt-10 pb-10">
             <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
-                    Our Clients
+                    Happy Clients List
                 </h2>
         </div>        
         <div class="max-w-7xl inline-block mx-auto mt-6 pt-5 grid gap-4 lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">

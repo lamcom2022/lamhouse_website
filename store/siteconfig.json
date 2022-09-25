@@ -11,9 +11,13 @@
     "mlogo": {
       "source": "https://res.cloudinary.com/lamcom/image/upload/v1661596350/lamhouse/logo_pwfaa6.png",
       "href": "/"
+    },
+    "mindbeyondlogo": {
+      "source": "https://res.cloudinary.com/lamcom/image/upload/v1664081856/mindbeyond/logo_mindbeyond_ws0xnf.jpg",
+      "href": "/"
     }
   },
-  "title": "Lamhouse",
+  "title": "Mind & Beyond",
   "description": "",
   "nav": [
     {
@@ -25,7 +29,7 @@
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
       "icon": "M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z",
-      "title": "About",
+      "title": "Why us",
       "link": "/about"
     },
     
@@ -38,13 +42,19 @@
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
-      "title": "Team",
+      "title": "Our Team",
       "link": "/team"      
     },
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
-      "title": "Clients",
+      "title": "Happy Clients",
+      "link": "/clients"      
+    },
+    {
+      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
+      "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
+      "title": "Testimonials",
       "link": "/clients"      
     }
     
@@ -321,7 +331,7 @@
     }
   ],  
   "contactus": {
-    "companyname": "Lam House",
+    "companyname": "Mind & Beyond",
     "addressline1": "#104, 2nd Cross, Royal County Layout, Parappana Agrahara",
     "addressline2": "",
     "city": "Al-Hasa",
