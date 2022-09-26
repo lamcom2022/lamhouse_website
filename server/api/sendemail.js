@@ -31,7 +31,8 @@ export default async (req, res, err) => {
     }
 
     const contact = await $fetch(process.env.SENDGRID_API_URL, {
-        method: 'post', headers: {
+        method: 'post', 
+        headers: {
             "Authorization": process.env.SENDGRID_API_KEY,
             "Content-Type": "application/json"
         },
