@@ -20,8 +20,8 @@ export default async (req, res, err) => {
                 "value":`Hi ${body.email}`
             }
         ],
-        "from": {
-            "email": "sureshbabuweb@gmail.com",
+        "from": { 
+            "email": "biz@lamhouse.in",
             "name": "lamhouse"
         },
         // "reply_to": {
