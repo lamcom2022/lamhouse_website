@@ -146,6 +146,7 @@
 
 <script>
 //const config = useRuntimeConfig()
+let isFirst = false;
 export default {
     components: {
 
@@ -161,19 +162,27 @@ export default {
         async sendContactUs(args) {
             try {
                 let request = {}
+
+
+                const { data: sendemail } = await useFetch("/api/sendemail", {
+                    method: 'post', body: this.data
+                })
+                // debugger
+                alert("Email delivered successfully", sendemail);
+
                 const { data: contact } = await useFetch("api/contact", {
                     method: 'post', body: this.data
                 })
                 alert("Thank you for your enquiry! our customer success team will repond as soon as possible.")
 
                 // debugger
-                if(contact._rawValue != null && contact._rawValue != undefined){
+                if (contact._rawValue != null && contact._rawValue != undefined) {
                     alert("Before send email");
-                    const { data: sendemail } = await useFetch("/api/sendemail", {
-                        method: 'post', body: this.data
-                    })
-                    // debugger
-                    alert("Email delivered successfully", sendemail);
+                    // const { data: sendemail } = await useFetch("/api/sendemail", {
+                    //     method: 'post', body: this.data
+                    // })
+                    // // debugger
+                    // alert("Email delivered successfully", sendemail);
                 }
 
                 this.data = {}
