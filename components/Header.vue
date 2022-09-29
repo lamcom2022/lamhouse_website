@@ -1,16 +1,32 @@
 <template>
-	<header class="flex1 flex items-center bg-primary-900  justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5">
+ <div class="bg-yellow-500 pt-5 pb-5 px-4 sm:px-6 lg:pt-5 lg:pb-5 lg:px-8">
+            <div class="grid lg:grid-cols-4 md:grid-cols-1 relative max-w-lg mx-auto lg:max-w-7xl">
+	
+		<div class="flex gap-2">
+			<span><img src="https://res.cloudinary.com/lamcom/image/upload/v1663067576/mkagency/icon/arrow-circle-right_cbk5gc.svg"></span>
+			<p>+91 9845582007</p>
+		</div>
+		<div class="flex gap-2">
+			<img src="https://res.cloudinary.com/lamcom/image/upload/v1663067576/mkagency/icon/arrow-circle-right_cbk5gc.svg">
+			<p>krsarsfi@gmail.com</p>
+		</div>
+		<!-- <div>first</div>
+		<div>first</div> -->
+			</div>
+ </div>
+	<header class="flex1 flex items-center  justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5 lg:py-5">
 		<!-- Logo (Start)-->
 		<NuxtLink to="/">
 			<IconLogo class="w-14 h-14" />
 		</NuxtLink>
 		<!-- Logo (End) -->
+		
 		<!--Mobile Nav(Start)-->
 		<div id="mobile_sidebar" v-if="mobileNav"
-			class="fixed z-40 inset-0 flex-none h-full bg-opacity-25 w-full lg:bg-white lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-60 xl:w-72">
+			class="fixed z-40 inset-0 flex-none h-full bg-opacity-25 w-full lg:bg-gray-900 lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-60 xl:w-72">
 			<div id="navwrapper"
-				class="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:sticky lg:bg-transparent overflow-hidden lg:top-18 bg-white mr-24 lg:mr-0">
-				<div class="lg:block h-12 pointer-events-none absolute inset-x-0 z-10 bg-gradient-to-b from-white">
+				class="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:sticky lg:bg-transparent overflow-hidden lg:top-18 bg-gray-900 mr-24 lg:mr-0">
+				<div class="lg:block h-12 pointer-events-none absolute inset-x-0 z-10 bg-gradient-to-b from-gray-500">
 				</div>
 				<div class="px-5 pt-4 flex items-center justify-between">
 					<div>
@@ -21,7 +37,7 @@
 					</div>
 					<div class="-mr-2">
 						<button type="button" @click="toggleMobileMenu"
-							class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 hover:rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-600">
+							class="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-900 focus:bg-gray-900 hover:bg-gray-900 hover:rounded-full focus:outline focus:ring-2 focus:ring-inset focus:ring-gray-600">
 							<span class="sr-only">Close menu</span>
 							<!-- Heroicon name: outline/x -->
 							<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -33,19 +49,24 @@
 					</div>
 				</div>
 				<nav id="nav"
-					class="px-1 pt-6 overflow-y-auto font-medium text-base sm:px-3 xl:px-5 lg:text-sm pb-10 lg:pt-10 lg:pb-14 sticky?lg:h-(screen-18)">
+					class="px-1 pt-6 overflow-y-auto font-normal text-base sm:px-3 xl:px-5 lg:text-sm pb-10 lg:pt-10 lg:pb-14 sticky?lg:h-(screen-18)">
 					<LeftNavColor :data="[]" />
 				</nav>
 			</div>
 		</div>
 		<!--Mobile Nav(End)-->
+		
 		<!-- Nav Starts-->
+		<!--Top of Main Menu -->
+		
+
+		<!--End of Top section -->
 		<!--Main Menu (Start)-->
-		<div class="hidden space-x-8 md:ml-10 md:flex">
+		<div class="hidden space-x-10 md:ml-2 md:flex">
 			<div v-for="(menu, idx) in menuitems.nav" @mouseover="showMenu(idx)" :key="'mnu_' + idx + '_' + menu.link">
 				<div class="relative" v-if="menu.children">
 					<button type="button" class="group inline-flex items-center space-x-2 font-bold text-xl leading-6 focus:outline-none transition ease-in-out duration-150
-						text-white  hover:text-white  focus:text-white">
+						text-gray-900  hover:text-white  focus:text-gray-900">
 						<span>{{ menu.title }}</span>
 						<!-- Item active: "text-white", Item inactive: "text-white-400" -->
 						<svg class="transition ease-in-out duration-150
@@ -96,7 +117,7 @@
 				</div>
 				<div v-else>
 					<a :href="menu.link"
-						class="text-xl leading-6 font-bold  focus:outline-none transition ease-in-out duration-150 text-white  hover:text-white  focus:text-white'">
+						class="text-lg leading-6 font-normal  focus:outline-none transition ease-in-out duration-150 text-gray-900  hover:text-yellow-500  focus:text-white'">
 						{{ menu.title }}
 					</a>
 				</div>
@@ -126,7 +147,7 @@
 			aria-expanded="false">
 			<span class="sr-only">Open main menu</span>
 			<!-- Heroicon name: outline/menu -->
-			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hover:text-primary-500" fill="fill-white"
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500 hover:text-primary-500" fill="fill-white"
 				viewBox="0 0 24 24" stroke="currentColor">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
 			</svg>

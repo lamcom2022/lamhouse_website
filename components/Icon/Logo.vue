@@ -1,8 +1,8 @@
 <template>
 	<a href="/">
 		<span class="sr-only">Swara Nritya</span>
-		<img tag="img" to="#" alt="Logo"
-			src="https://res.cloudinary.com/lamcom/image/upload/v1662471119/lamhouse/weblogo_cxvcqa.png" />
+		<img class="lg:w-auto md:w-2xl" tag="img" to="#" alt="Logo"
+			src="https://res.cloudinary.com/lamcom/image/upload/v1664204602/krsa/logo/krsa-logo_nvzpak.png" />
 	</a>
 	<!--<svg
 		id="logo-14"

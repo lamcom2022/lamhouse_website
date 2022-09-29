@@ -1,6 +1,6 @@
 <template>
-    <div class="mt-8 xl:mt-0 w-96">
-        <div class="md:grid md:grid-cols-2">
+    <div class="mt-8 xl:mt-0 w-64">
+        <div>
             
             <div>
             </div>

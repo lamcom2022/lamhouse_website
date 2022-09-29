@@ -1,8 +1,10 @@
 <template>
   <div>
     <Hero />
-    <Blog :articles="articles" />    
-    <Testimonials />
+    <Blog />
+    <Partner />
+    
+   
   </div>
 
 </template>

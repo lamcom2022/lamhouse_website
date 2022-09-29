@@ -1,16 +1,12 @@
 <template>
 	<main
-		class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-12">
-		<h1 class="capitalize font-semibold text-[38px] lg:text-7xl text-center leading-snug text-white">			
-			<span class="font-normal text-[24px] bg-clip-text text-white lg:text-3xl uppercase">IT Software & Design</span><br />
-			<span class="font-extrabold bg-clip-text text-primary-500 uppercase">Welcome to Lamhouse</span>
-		</h1>
-		<p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">
-			We bring your ideas to Life!!
-		</p>
-		<div class="text-center p-10 flex items-center justify-center space-x-4">
+		class="mx-auto lg:max-w-8xl px-5 lg:px-0">
+		<div class="flex items-center justify-center bg-primary-200">
+		<img class="bg-gray-100 px-2 py-2 shadow-lg" src="https://res.cloudinary.com/lamcom/image/upload/v1664205219/krsa/banner/slide_bzmdus.jpg">
+		</div>
+		<div class="text-center p-10 flex items-center justify-center space-x-4 bg-primary-200">
 			<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
-				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
+				class="px-5 py-2 text-sm  ring-2 bg-yellow-500 ring-yellow-500 hover:bg-primary-500 text-white rounded-full transition-all duration-300">
 				Contact us</NuxtLink>
 			<!--<div class="relative group">
 				<div

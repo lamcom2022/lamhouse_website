@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gradient-to-r from-footer-900 via-primary-800 to-footer-900 ... lg:max-w-8xl">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-2">
+      <div>
 
         <!--Footer Links (Start)-->
         <FooterLinks />

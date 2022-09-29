@@ -18,19 +18,19 @@ import { Calendar } from 'v-calendar';
 //const colorMode = useColorMode()
 //console.log(colorMode.preference)
 useHead({
-	title: "Lamhouse IT Solution",
+	title: "Karnataka Roller Skating Association",
 	meta: [
 		{
 			name: "description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity",
+			content: "KRSA goal is not only limited to winning competitions but also to motivate each and every one to a better way of life.",
 		},
 		{
 			property: "og:title",
-			content: "Lamhouse IT Solution",
+			content: "Karnataka Roller Skating Association",
 		},
 		{
 			property: "og:description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity ",
+			content: "KRSA goal is not only limited to winning competitions but also to motivate each and every one to a better way of life",
 		},
 		{
 			property: "og:image",
@@ -38,11 +38,11 @@ useHead({
 		},
 		{
 			property: "og:type",
-			content: "https://www.lamhouse.in",
+			content: "https://www.karnatakarollerskatingassociation.com",
 		},
 		{
 			property: "og:site_name",
-			content: "Lamhouse",
+			content: "KRSA",
 		},
 	],
 });

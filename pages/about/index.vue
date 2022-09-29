@@ -1,14 +1,16 @@
 <template>
 <div>
     
-     <ClientsComp />
+     <About />
+     <OfficeBearer />
+     <EcMembers />
     
   </div>
 
 </template>
 
 <script setup>
-import ClientsComp from '@/components/ClientsComp.vue'
+import Partner from '@/components/Partner.vue'
 definePageMeta({
   //colorMode: 'system',
   layout: "main",
