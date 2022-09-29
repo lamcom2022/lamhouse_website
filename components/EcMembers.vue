@@ -9,19 +9,24 @@
         <div class="max-w-7xl mx-auto mt-6 pt-5 grid gap-4 lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
              
         <div class="grid justify-center w-full bg-white shadow-lg h-96">
-        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664432425/krsa/officebearers/president_utzir1.png">
-        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">President</p>
-        <p class="grid grid-cols-1 text-center mt-8 text-lg">Shri LakshmiNarayana</p>
+        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664433763/krsa/ecmembers/vice-president_c9ltqs.png">
+        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">Vice President</p>
+        <p class="grid grid-cols-1 text-center mt-8 text-lg">Vishwanatha Shetty </p>
         </div>
           <div class="grid justify-center w-full bg-white shadow-lg h-96">
-        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664432425/krsa/officebearers/gen-secre_k8mvur.png">
-        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">Secretary</p>
-        <p class="grid grid-cols-1 text-center mt-8 text-lg">P.K. Bharath Kumar</p>
+        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664433764/krsa/ecmembers/vice-president-1_nmuxjj.png">
+        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">Vice President</p>
+        <p class="grid grid-cols-1 text-center mt-8 text-lg">M. Shivakumar</p>
         </div>
          <div class="grid justify-center w-full bg-white shadow-lg h-96">
-        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664432424/krsa/officebearers/tresurer_hbeix8.png">
-        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">Tresurer</p>
-        <p class="grid grid-cols-1 text-center mt-8 text-lg">S.N. Subbaraj</p>
+        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664433764/krsa/ecmembers/joint-secre_l68p6s.png">
+        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">Joint Secretary</p>
+        <p class="grid grid-cols-1 text-center mt-8 text-lg">Mahesh Kumar</p>
+        </div>
+        <div class="grid justify-center w-full bg-white shadow-lg h-96">
+        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664433765/krsa/ecmembers/executive-member_juskvr.png">
+        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">Executive Member</p>
+        <p class="grid grid-cols-1 text-center mt-8 text-lg">Munnishwamy Reddy</p>
         </div>
        
       

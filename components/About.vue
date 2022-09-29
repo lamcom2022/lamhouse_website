@@ -78,16 +78,14 @@
           Welcome to KRSA
         </p>
         <p class="mt-4 text-gray-700">
-          Kalaburagi District Roller Skating Association (KDRSA) , registered
-          under the Societies Act 1960, is a non profitable organisation ,
-          established in 2018; is affiliated to The Karnataka Roller Skating
+         The Karnataka Roller Skating
           Association (KRSA) , which is affiliated to the Roller Skating
           Federation of India (RSFI). RSFI is the national body of roller sports
           in India and is recognised by the Department of Youth Affairs and
           Sports, Government of India.
         </p>
         <p class="mt-4 text-gray-700">
-          KDRSA conducts district selections of Roller Sports in all age groups
+          KRSA conducts district selections of Roller Sports in all age groups
           . The selected skaters represent the district in Karnataka State
           Events .
         </p>
