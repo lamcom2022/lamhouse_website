@@ -1,14 +1,14 @@
 <template>
- <div class="bg-yellow-500 pt-5 pb-5 px-4 sm:px-6 lg:pt-5 lg:pb-5 lg:px-8">
+ <div class="bg-gray-700 pt-5 pb-5 px-4 sm:px-6 lg:pt-5 lg:pb-5 lg:px-8">
             <div class="grid lg:grid-cols-4 md:grid-cols-1 relative max-w-lg mx-auto lg:max-w-7xl">
 	
 		<div class="flex gap-2">
 			<span><img src="https://res.cloudinary.com/lamcom/image/upload/v1663067576/mkagency/icon/arrow-circle-right_cbk5gc.svg"></span>
-			<p>+91 9845582007</p>
+			<p class="text-white">+91 9845582007</p>
 		</div>
 		<div class="flex gap-2">
 			<img src="https://res.cloudinary.com/lamcom/image/upload/v1663067576/mkagency/icon/arrow-circle-right_cbk5gc.svg">
-			<p>krsarsfi@gmail.com</p>
+			<p class="text-white">krsarsfi@gmail.com</p>
 		</div>
 		<!-- <div>first</div>
 		<div>first</div> -->
@@ -117,7 +117,7 @@
 				</div>
 				<div v-else>
 					<a :href="menu.link"
-						class="text-lg leading-6 font-normal  focus:outline-none transition ease-in-out duration-150 text-gray-900  hover:text-yellow-500  focus:text-white'">
+						class="text-lg leading-6 font-normal  focus:outline-none transition ease-in-out duration-150 text-gray-900  hover:text-red-700  focus:text-white'">
 						{{ menu.title }}
 					</a>
 				</div>

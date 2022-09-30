@@ -1,9 +1,7 @@
 <template>
 <div>
     
-     <About />
-     <OfficeBearer />
-     <EcMembers />
+     <Districts />    
      <Partner />
     
   </div>
