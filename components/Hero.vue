@@ -6,7 +6,7 @@
 		</div>
 		<div class="text-center p-10 flex items-center justify-center space-x-4 bg-primary-200">
 			<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
-				class="px-5 py-2 text-sm  ring-2 bg-yellow-500 ring-yellow-500 hover:bg-primary-500 text-white rounded-full transition-all duration-300">
+				class="px-5 py-2 text-sm  ring-2 bg-red-600 ring-yellow-500 hover:bg-gray-700 text-white rounded-full transition-all duration-300">
 				Contact us</NuxtLink>
 			<!--<div class="relative group">
 				<div

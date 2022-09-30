@@ -1,5 +1,5 @@
 <template>
-  <banner />
+ 
   <div class="bg-white pt-5 pb-5 px-4 sm:px-6 lg:pt-12 lg:pb-12 lg:px-8">
     <div class="grid lg:grid-cols-2 md:grid-cols-1 relative max-w-lg mx-auto lg:max-w-7xl">
       <div>
