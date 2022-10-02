@@ -1,7 +1,7 @@
 <template>
 
     <div class="bg-white pt-10 pb-20">
-        <div class="grid max-w-7xl mx-auto pt-10 pb-10">
+        <div class="grid max-w-7xl mx-auto pt-10 pb-10 px-4">
             <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
                     Partner
                 </h2>

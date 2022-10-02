@@ -51,8 +51,8 @@
       >
     </div>
   </main>
-  <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid px-4">
+    <div class="max-w-7xl mx-auto px-4">
       <div>
         <h2
           class="
@@ -104,6 +104,64 @@
         </p>
       </div>
     </div>
+  </div>  
+  <div class="max-w-7xl lg:grid mx-auto">
+    <div class="px-4">
+        <h2
+          class="
+            text-red-600
+            font-semibold
+            tracking-wide
+            uppercase
+          "
+        >
+          About Us
+        </h2>
+        <p
+          class="
+            mt-2
+            text-3xl
+            leading-8
+            font-extrabold
+            tracking-tight
+            text-gray-900
+            sm:text-4xl
+          "
+        >
+          About KRSA
+        </p>       
+      </div> 
+      <div class="grid lg:grid-cols-2 px-4">
+        <ul class="list-disc">
+     <li class="mt-4 text-gray-700">
+         Popularizing the game in more than 19 districts
+        </li>
+        <li class="mt-4 text-gray-700">
+          Affiliated 14 districts to its fold
+        </li>
+        <li class="mt-4 text-gray-700">
+          Decentralizing the functioning of districts
+        </li>
+        <li class="mt-4 text-gray-700">
+          Increased number of clubs
+        </li>
+        <li class="mt-4 text-gray-700">
+         Conducting the state championships thus popularizing the game all over the Karnataka
+        </li>
+        <li class="mt-4 text-gray-700">
+          Streamlining the functioning of districts
+        </li>
+        <li class="mt-4 text-gray-700">
+          Improving the infrastructure facilities by interacting with Government agencies
+        </li>
+        <li class="mt-4 text-gray-700">
+          Consistent winner of National Speed Championships Trophy for …….. years
+        </li>
+        <li class="mt-4 text-gray-700">
+         Since 2005 KRSA officials were selected to participate in all Internationals/Nationals
+        </li>
+        </ul>
+      </div>
   </div>
 </template>
 
