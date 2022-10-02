@@ -8,25 +8,41 @@
         </div>        
         <div class="max-w-7xl mx-auto mt-6 pt-5 grid gap-4 lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
              
-        <div class="grid justify-center w-full bg-white shadow-lg h-96">
-        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664432425/krsa/officebearers/president_utzir1.png">
-        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">President</p>
-        <p class="grid grid-cols-1 text-center mt-8 text-lg">Shri LakshmiNarayana</p>
+        <div class="grid justify-items-center w-full bg-white shadow-lg h-80">
+            <div class="grid object-center">
+        <img src="https://res.cloudinary.com/lamcom/image/upload/v1664602514/krsa/team/president_lissa3.png"> 
+            </div>
+            <div class="mx-auto w-full">     
+        <p class="text-center uppercase text-normal font-bold">President</p>
+        <p class="text-center text-normal">MR LAKSHMINARAYANA,IAS</p>
+            </div>      
         </div>
-          <div class="grid justify-center w-full bg-white shadow-lg h-96">
-        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664432425/krsa/officebearers/gen-secre_k8mvur.png">
-        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">Secretary</p>
-        <p class="grid grid-cols-1 text-center mt-8 text-lg">P.K. Bharath Kumar</p>
+
+         <div class="grid justify-items-center w-full bg-white shadow-lg h-80">
+           <div class="grid object-center">
+        <img src="https://res.cloudinary.com/lamcom/image/upload/v1664603016/krsa/team/gen-secre_fxuw21.png">
+           </div> 
+            <div class="mx-auto w-full">         
+        <p class="text-center uppercase text-normal font-bold">General Secretary</p>
+        <p class="text-center  text-normal">MR INDUDHAR SEETHARAM</p>
+            </div>       
         </div>
-         <div class="grid justify-center w-full bg-white shadow-lg h-96">
-        <img class="w-full aspect-auto object-none object-center" src="https://res.cloudinary.com/lamcom/image/upload/v1664432424/krsa/officebearers/tresurer_hbeix8.png">
-        <p class="grid grid-cols-1 text-center mt-4 uppercase text-lg font-bold">Tresurer</p>
-        <p class="grid grid-cols-1 text-center mt-8 text-lg">S.N. Subbaraj</p>
+
+        <div class="grid justify-center w-full bg-white shadow-lg h-80">
+            <div class="w-full object-center">
+            <img src="https://res.cloudinary.com/lamcom/image/upload/v1664602514/krsa/team/tresurer_srnvys.png">
+            </div>
+            <div class="mx-auto w-full">          
+        <p class="text-center uppercase text-normal font-bold">Tresurer</p>
+        <p class="text-center text-normal">MR LOKESHWARIAH</p>
+            </div>
         </div>
        
       
         </div>
     </div>
+
+    
 </template>
 
 <script>
