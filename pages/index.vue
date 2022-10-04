@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero />
-    <Carousel />
+    <!-- <Carousel /> -->
     <Blog />
     <Partner />
     
