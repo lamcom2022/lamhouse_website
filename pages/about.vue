@@ -3,7 +3,7 @@
 		class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-12">
 		<h1 class="capitalize font-semibold text-[38px] lg:text-7xl text-center leading-snug text-white">			
 			
-			<span class="font-extrabold bg-clip-text text-primary-500 uppercase">About</span>
+			<span class="font-extrabold bg-clip-text text-primary-500 uppercase">Why us</span>
 		</h1>
 		
 		<div class="text-center p-10 flex items-center justify-center space-x-4">
@@ -36,7 +36,7 @@
 			</NuxtLink>-->
 		</div>
 	</main>
-  <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid lg:grid-cols-2 md:flex md:flex-col">
+  <!-- <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid lg:grid-cols-2 md:flex md:flex-col">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
      <img src="https://res.cloudinary.com/lamcom/image/upload/v1662614663/lamhouse/muthu_oh9y2y.jpg">
      <div class="box-content bg-primary-600 mt-2 w-full h-32 rounded-lg">
@@ -67,24 +67,24 @@
         </dl>
       </div>      
     </div>
-  </div>
+  </div> -->
 
   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid">
      <div class="max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="lg:text-left md:text-left">
-        <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">About Us</h2>
-        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <h1 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Vision</h1>
+        <!-- <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
          The Name and Legacy
-        </p>        
+        </p>         -->
       </div>
    </div>
      <div class="mt-10 max-w-7xl">
         <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
           <div v-for="legacy in legacy" :key="legacy.name" class="relative">
             <dt>
-              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <!-- <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                 <component :is="legacy.icon" class="h-6 w-6" aria-hidden="true" />
-              </div>
+              </div> -->
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ legacy.name }}</p>
             </dt>            
           </div>
@@ -128,11 +128,11 @@ const about = [
 
 const legacy = [
   {
-    name: 'The name LAM House is inspired by and dedicated to my parents and family. LAM is an acronym for Life, Art and Multimedia.',    
+    name: 'We envision a future in which individuals thrive in communities that support mental health, achieve health equity, and promote well-being.',    
     icon: ArrowCircleRightIcon,
   },
   {
-    name: 'Mr. Muthuraman A. as the proprietor of this company brings along with him over 20 years of experience in the fields of animation and graphic design. From managerial roles, to HR roles to administrative details to the financial aspects of a graphic designing and software development firm. In the past years he has grown and groomed our  to reflect these qualities of integrity and dedication in their work.',    
+    name: 'To be committed to mental health wellness through prevention, intervention, treatment and psycho - education.',    
     icon: ArrowCircleRightIcon,
   },  
 ]

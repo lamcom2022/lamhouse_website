@@ -18,19 +18,19 @@ import { Calendar } from 'v-calendar';
 //const colorMode = useColorMode()
 //console.log(colorMode.preference)
 useHead({
-	title: "Lamhouse IT Solution",
+	title: "Mind & Beyond",
 	meta: [
 		{
 			name: "description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity",
+			content: "We take care of your mind!!",
 		},
 		{
 			property: "og:title",
-			content: "Lamhouse IT Solution",
+			content: "We take care of your mind!!",
 		},
 		{
 			property: "og:description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity ",
+			content: "We take care of your mind!!",
 		},
 		{
 			property: "og:image",
@@ -42,7 +42,7 @@ useHead({
 		},
 		{
 			property: "og:site_name",
-			content: "Lamhouse",
+			content: "Mind & Beyond",
 		},
 	],
 });
