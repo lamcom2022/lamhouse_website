@@ -77,7 +77,7 @@
            </div> 
             <div class="mx-auto w-full">         
         <p class="text-center uppercase text-normal font-bold">General Secretary</p>
-        <p class="text-center  text-normal">MR INDUDHAR SEETHARAM</p>
+        <p class="text-center  text-normal">MR INDUDHAR SEETARAM</p>
             </div>       
         </div>
 

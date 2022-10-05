@@ -15,7 +15,7 @@
         </p>
         <ul class="list-disc mx-4 mt-4">
             <li class="mt-4 text-gray-700">
-         Mr INDUDHAR SEETHARAM - CHAIRMAN (MOB:  +91 9845582007)
+         Mr INDUDHAR SEETARAM - CHAIRMAN (MOB:  +91 9845582007)
         </li>
         <li class="mt-4 text-gray-700">
          Mr ANTONY JAMES
