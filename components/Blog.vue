@@ -28,17 +28,15 @@
         </h2>
         <p class="mt-6 text-lg font-normal">
                 Karnataka Roller Skating Association (KRSA) ,
-                registered under the Societies Act 1960, is a non profitable
-                organisation , established in 2018; which is
+                registered under the Societies Act 1960, established in 2018; which is
                 affiliated to the Roller Skating Federation of India (RSFI).
                 RSFI is the national body of roller sports in India and is
                 recognised by the Department of Youth Affairs and Sports,
                 Government of India.
               </p>
               <p class="mt-6 text-lg font-normal">
-                KRSA conducts district selections of Roller Sports in all age
-                groups . The selected skaters represent the district in
-                Karnataka State Events .
+                KRSA conducts State selections of Roller Sports in all age
+                groups. The selected skaters represent the State in RSFI national and other national events like National Games.
               </p>
       </div>
       <div class="mx-auto w-auto relative mt-12 mr-0">

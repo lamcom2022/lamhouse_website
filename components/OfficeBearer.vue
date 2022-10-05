@@ -20,7 +20,7 @@
 
          <div class="grid justify-items-center w-full bg-white shadow-lg h-80">
            <div class="grid object-center">
-        <img src="https://res.cloudinary.com/lamcom/image/upload/v1664603016/krsa/team/gen-secre_fxuw21.png">
+        <img src="https://res.cloudinary.com/lamcom/image/upload/v1664972311/krsa/team/gen-secre1_bpdkhl.png">
            </div> 
             <div class="mx-auto w-full">         
         <p class="text-center uppercase text-normal font-bold">General Secretary</p>
