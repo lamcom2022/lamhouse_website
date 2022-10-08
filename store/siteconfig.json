@@ -45,12 +45,7 @@
       "title": "Our Team",
       "link": "/team"      
     },
-    {
-      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
-      "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
-      "title": "Happy Clients",
-      "link": "/clients"      
-    },
+
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
@@ -192,13 +187,10 @@
   "testimonials": [
     {
       "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1661952197/lamhouse/about_gotbx4.jpg",
-      "testimony": "We are crafting unique IT & Technology Ideas",
-      "clientname": "Our Goal is: Every business idea must grow and have an online presence – however big or small!!",
-      "clientname1": "Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.",
-      "clientname2": "It has been 10 years, and the journey has been incredible.",
-      "clienteducation": "",
-      "clienttitle": "",
-      "clientcompany": "",
+      "testimony": "Therapy sessions",
+      "clientname": "Individual Therapy Sessions",
+      "clientname1": "Couple Therapy Sessions",
+      "clientname2": "Group Therapy Sessions",
       "clienticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],

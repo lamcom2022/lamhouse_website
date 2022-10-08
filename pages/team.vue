@@ -42,7 +42,7 @@
                 <p class="text-white text-center font-normal text-xl">CEO, Founder</p>
             </div>
         </div>
-        <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
+        <!-- <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
             <img class="w-full rounded-t" src="https://res.cloudinary.com/lamcom/image/upload/v1662786421/lamhouse/ravi_ynbww9.jpg">
             <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
                 <p class="text-white text-center font-bold pt-10 text-2xl">Ravinther R</p>
@@ -55,7 +55,7 @@
                 <p class="text-white text-center font-bold pt-10 text-2xl">Sripathi R</p>
                 <p class="text-white text-center font-normal text-xl">Head, Digital Marketing</p>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
