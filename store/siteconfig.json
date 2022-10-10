@@ -174,7 +174,7 @@
   ],
   "testimonials": [
     {
-      "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1661952197/lamhouse/about_gotbx4.jpg",
+      "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1665421353/mindbeyond/therapy-session_tunpou.jpg",
       "testimony": "Therapy sessions",
       "clientname": "Individual Therapy Sessions",
       "clientname1": "Couple Therapy Sessions",
@@ -326,8 +326,8 @@
   },
   "map": {
     "mapsection": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.489847774526!2d77.6548749151321!3d12.876192590918535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c9d9255fc4d%3A0x6a652194251fe657!2sLAM%20House!5e0!3m2!1sen!2sin!4v1662564565090!5m2!1sen!2sin",
-    "width": "400",
-    "height": "300",
+    "width": "0",
+    "height": "00",
     "border": "0"
   },
   "bannerHeaderFlashNews": {
