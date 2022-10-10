@@ -22,10 +22,11 @@
     </div> 
    </div> -->
 
-   <div class="max-w-7xl mx-auto">
+   <div class="max-w-7xl mx-auto mt-8">
     <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
       Our Strength Include
     </h2>
+   
     <div class="mt-10 max-w-7xl">
 
       <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
