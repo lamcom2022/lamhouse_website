@@ -17,10 +17,10 @@ export default async (req, res, err) => {
         "content": [
             {
                 "type": "text/plain",
-                "value":`Hi ${body.email}`
+                "value": `Hi ${body.email}`
             }
         ],
-        "from": { 
+        "from": {
             "email": "biz@lamhouse.in",
             "name": "lamhouse"
         },
@@ -31,9 +31,9 @@ export default async (req, res, err) => {
     }
 
     const contact = await $fetch("https://api.sendgrid.com/v3/mail/send", {
-        method: 'post', 
+        method: 'post',
         headers: {
-            "Authorization": process.env.SENDGRID_API_KEY,
+            "Authorization": "Bearer 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",
             "Content-Type": "application/json"
         },
         body: bodyData,
