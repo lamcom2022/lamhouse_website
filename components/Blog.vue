@@ -6,9 +6,9 @@
                 <h3 class="text-lg tracking-tight font-normal text-primary-900 sm:text-2xl my-6">
                     Valued Services
                 </h3>
-                <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
+                <!-- <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
                     Managed IT, Software, Data & <br />Digital Marketing Services for Your Organization.
-                </h2>
+                </h2> -->
                 <div class="mt-6 pt-5 grid gap-4 place-self-center lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
                     <div v-for="article of articles" :key="article._path"
                         class="shadow-lg flex-col flex-direction: column">
