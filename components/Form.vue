@@ -405,7 +405,7 @@ export default {
           method: 'post', body: this.data
         })
 
-        if (contact._rawValue != null && contact._rawValue != undefined && sendemail._rawValue != null && sendemail._rawValue != undefined) {
+        if (contact._rawValue != null && contact._rawValue != undefined) {
           this.$router.push("/");
         }
       } catch (error) {
