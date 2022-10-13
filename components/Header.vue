@@ -109,12 +109,12 @@
 			<!-- <NuxtLink to="#"
 				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
 				Sign in</NuxtLink> -->
-			<div
+			<!-- <div
 				class="px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300">
-				<a href="/form">Contact us</a></div>
-			<!--<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
-				class="px-5 py-2 text-sm bg-primary-500 text-white rounded-full hover:bg-primary-700 transition-all duration-300">
-				Contact us</NuxtLink>-->
+				<a href="/form">Contact us</a></div> -->
+			<NuxtLink to="#" @click="contactform()"
+			class="px-5 py-2 text-sm  ring-2 ring-primary hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
+				Contact us</NuxtLink>
 		</div>
 		<!--Nav action button end-->
 		<!--Nav Ends-->
@@ -167,6 +167,9 @@ export default {
 			this.mobileNav = !this.mobileNav;
 			//useNuxtApp().$bus.$emit('evtMobilemenu');
 		},
+		contactform(){
+		this.$router.push("/form");	
+		}
 	},
 };
 </script>
