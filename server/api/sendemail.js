@@ -2,8 +2,8 @@
 export default async (req, res, err) => {
     const body = await useBody(req)
 
-    console.log("bodyData: ", body);
-    
+    // console.log("bodyData: ", body);
+
     const bodyData = {
         personalizations: [
             {

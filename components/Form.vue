@@ -43,9 +43,8 @@
   </div>
 
   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid px-4">
-    <form name="Contact" id="Contact" class="space-y-8" method="POST" @submit.prevent="SubmitForm" ref="frmContact">
-      <input type="hidden" name="form-name" value="Contact">
-
+    <form name="Contact" id="Contact" class="space-y-8" method="POST" v-on:submit.prevent="SubmitForm" ref="frmContact">
+      <input type="hidden" name="formdetails" value="Contact">
       <div class="
           form-group
           lg:w-3/4
@@ -59,7 +58,8 @@
         <!--Name -->
         <label for="Name" class="form-label inline-block mb-2 text-gray-700 font-semibold"><span
             class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Name</label>
-        <input type="text" name="fname" id="fname" class="shrink w-72 form-control rounded mb-2 mx-4" />
+        <input v-model="data.first_name" type="text" name="fname" id="fname"
+          class="shrink w-72 form-control rounded mb-2 mx-4" />
         <!--Age -->
         <div class="grid lg:grid-cols-2 md:grid-cols-1 mt-6">
           <label for="Age" class="
@@ -71,7 +71,8 @@
               font-semibold
             ">
             <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Age</label>
-          <input type="date" name="age" id="DOB" class="shrink w-72 form-control rounded mb-2 mx-4" />
+          <input v-model="data.age" type="date" name="age" id="DOB"
+            class="shrink w-72 form-control rounded mb-2 mx-4" />
           <!-- Sex -->
           <label for="Sex" class="
               form-label
@@ -83,11 +84,11 @@
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Sex</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Male">Male
-              <input type="radio" name="age" id="male" class="form-control mt-0" /></label>
+              <input v-model="data.male" type="radio" name="age" id="male" class="form-control mt-0" /></label>
             <label for="Female">Female
-              <input type="radio" name="age" id="female" class="form-control mt-0" /></label>
+              <input v-model="data.female" type="radio" name="age" id="female" class="form-control mt-0" /></label>
             <label for="Female">Other
-              <input type="radio" name="age" id="other" class="form-control mt-0" /></label>
+              <input v-model="data.other" type="radio" name="age" id="other" class="form-control mt-0" /></label>
           </div>
         </div>
 
@@ -123,7 +124,8 @@
               contact)
             </p>
           </label>
-          <input type="tel" name="phone" id="phone" class="shrink w-72 form-control rounded mb-2 mx-4" />
+          <input v-model="data.mobile_number" type="tel" name="phone" id="phone"
+            class="shrink w-72 form-control rounded mb-2 mx-4" />
         </div>
 
         <!--Email -->
@@ -135,7 +137,8 @@
               email)
             </p>
           </label>
-          <input type="text" name="email" id="email" class="shrink w-72 form-control rounded mb-2 mx-4" />
+          <input v-model="data.email" type="text" name="email" id="email"
+            class="shrink w-72 form-control rounded mb-2 mx-4" />
         </div>
 
         <!--Current Status -->
@@ -169,9 +172,11 @@
             before?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Yes">Yes
-              <input type="radio" name="counselling" id="yes" class="form-control mt-0" /></label>
+              <input v-model="data.counseling_yes" type="radio" name="counselling" id="yes"
+                class="form-control mt-0" /></label>
             <label for="No">No
-              <input type="radio" name="counselling" id="no" class="form-control mt-0" /></label>
+              <input v-model="data.counseling_no" type="radio" name="counselling" id="no"
+                class="form-control mt-0" /></label>
           </div>
         </div>
 
@@ -185,7 +190,8 @@
               therapy)
             </p>
           </label>
-          <textarea rows="2" name="session" id="session" class="shrink w-72 form-control rounded mb-2 mx-4"></textarea>
+          <textarea v-model="data.userinfo" rows="2" name="session" id="session"
+            class="shrink w-72 form-control rounded mb-2 mx-4"></textarea>
         </div>
 
         <!--Mode of Counselling preferred -->
@@ -212,7 +218,8 @@
           <label for="Language Preference" class="form-label inline-block mb-2 text-gray-700 font-semibold">
             <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Do you have any language preference?
             If so, please mention.</label>
-          <input type="text" name="langpref" id="email" class="shrink w-72 form-control rounded mb-2 mx-4" />
+          <input v-model="data.user_comments" type="text" name="langpref" id="email"
+            class="shrink w-72 form-control rounded mb-2 mx-4" />
         </div>
 
         <!--What would you like to talk about -->
@@ -275,9 +282,11 @@
             medication?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Yes">Yes
-              <input type="radio" name="medication" id="medyes" class="form-control mt-0" /></label>
+              <input v-model="data.medication_yes" value="Yes" type="radio" name="medication" id="medyes"
+                class="form-control mt-0" /></label>
             <label for="No">No
-              <input type="radio" name="medication" id="medno" class="form-control mt-0" /></label>
+              <input v-model="data.medication_no" value="No" type="radio" name="medication" id="medno"
+                class="form-control mt-0" /></label>
           </div>
         </div>
 
@@ -299,7 +308,7 @@
             <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
               Name of emergency contact
             </label>
-            <input type="text" name="emergencyname" id="emergencyname"
+            <input v-model="data.emergencyContact" type="text" name="emergencyname" id="emergencyname"
               class="shrink w-72 form-control rounded mb-2 mx-4" />
           </div>
 
@@ -373,21 +382,35 @@
       </div>
     </form>
   </div>
+  <!-- <h2>{{data}}</h2> -->
 </template>
 
 <script>
 export default {
   data() {
     return {
-      data: { 'form-name': 'contact' },
-      api: ""
+      data: { 'formdetails': 'contact' },
     }
   },
   methods: {
     async SubmitForm(args) {
-      const { data: contact } = await useFetch("/api/sendemail", {
-        method: 'post', body: contact
-      })
+      try {
+        console.log(this.data + "Data added");
+
+        const { data: contact } = await useFetch("api/contact", {
+          method: 'post', body: this.data
+        })
+
+        const { data: sendemail } = await useFetch("/api/sendemail", {
+          method: 'post', body: this.data
+        })
+
+        if (contact._rawValue != null && contact._rawValue != undefined && sendemail._rawValue != null && sendemail._rawValue != undefined) {
+          this.$router.push("/");
+        }
+      } catch (error) {
+        console.log(error);
+      }
     }
   }
 };
