@@ -1,5 +1,5 @@
 <template>
-	<header class="flex1 flex items-center bg-primary-900  justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5">
+	<header class="flex1 flex items-center bg-primary justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5">
 		<!-- Logo (Start)-->
 		<NuxtLink to="/">
 			<IconLogo class="w-14 h-14" />
@@ -96,7 +96,7 @@
 				</div>
 				<div v-else>
 					<a :href="menu.link"
-						class="text-xl leading-6 font-bold  focus:outline-none transition ease-in-out duration-150 text-white  hover:text-white  focus:text-white'">
+						class="text-xl leading-6 font-bold  focus:outline-none transition ease-in-out duration-150 text-gray-900  hover:text-gray-300  focus:text-gray-900'">
 						{{ menu.title }}
 					</a>
 				</div>
@@ -109,9 +109,9 @@
 			<!-- <NuxtLink to="#"
 				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
 				Sign in</NuxtLink> -->
-			<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+			<div
 				class="px-5 py-2 text-sm bg-primary-500 text-white rounded-full hover:bg-primary-700 transition-all duration-300">
-				Contact us</NuxtLink>
+				<a href="/form">Contact us</a></div>
 			<!--<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
 				class="px-5 py-2 text-sm bg-primary-500 text-white rounded-full hover:bg-primary-700 transition-all duration-300">
 				Contact us</NuxtLink>-->

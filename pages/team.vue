@@ -22,8 +22,8 @@
     </div> 
    </div> -->
 
-   <div class="max-w-7xl mx-auto mt-8">
-    <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
+   <div class="max-w-7xl mx-auto mt-12">
+    <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl mt-12">
       Our Strength Include
     </h2>
    
@@ -32,7 +32,7 @@
       <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
         <div v-for="founderData in founderData" :key="founderData.name" class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
               <component :is="founderData.icon" class="h-6 w-6" aria-hidden="true" />
             </div>
             <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ founderData.name }}</p>
@@ -66,8 +66,8 @@
       <img class="w-full rounded"
         src="https://res.cloudinary.com/lamcom/image/upload/v1665325147/mindbeyond/MindBeyond_Founder_lyjat9.jpg">
       <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
-        <p class="text-white text-center font-bold pt-10 text-2xl">Akshaya Ashokan</p>
-        <p class="text-white text-center font-normal text-xl">CEO, Founder</p>
+        <p class="text-primary text-center font-bold pt-10 text-2xl">Akshaya Ashokan</p>
+        <p class="text-primary text-center font-normal text-xl">CEO, Founder</p>
       </div>
     </div>
     <!-- <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">

@@ -40,14 +40,18 @@ module.exports = {
       teal: colors.teal,
       orange: colors.orange,
       magenta: colors.magenta,
-      primary: colors.green,
-      secondary: colors.pink,
+      primary: '#697664',
+      secondary: '#728574',
       footer: colors.slate,
     },
     extend: {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },
+      backgroundImage: theme => ({
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+       })
     },
   },
   variants: {

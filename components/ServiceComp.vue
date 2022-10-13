@@ -26,6 +26,11 @@
                                             {{ $s(service.title).prune(50)._wrapped }}
                                         </ClientOnly>
                                     </h3>
+                                     <a href="/form">
+                                    <div class="grid w-3/4 mx-auto justify-center bg-primary h-12 mt-12 align-bottom rounded-lg">
+                                    <span class="text-justify mt-3 text-white">Book Now</span>
+                                    </div>
+                                     </a>
                                     <p class="mt-3 text-base leading-6 text-gray-500 text-center">
                                         <ClientOnly>
                                             {{ $s(service.description).prune(500)._wrapped }}

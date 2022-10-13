@@ -8,6 +8,9 @@
             <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ service.title
             }}
             </h3>
+            <div class="w-32 h-32 bg-primary-500 rounded">
+              Check
+            </div>
           </div>
         </div>
         <div class="lg:mt-0">

@@ -1,5 +1,4 @@
 <template>
-<banner />
     <div>
         <div class="bg-white pt-10 pb-20 px-4 sm:px-6 lg:pt-10 lg:pb-28 lg:px-8">
             <div class="relative max-w-lg mx-auto lg:max-w-7xl">
@@ -16,8 +15,7 @@
                             <div class="flex flex-1 h-48 xxlmin:w-1/2 xxlmax:w-full object-center">
                                 <img v-if="article.coverimage" class="scale-x-50 scale-y-50 mx-auto object-center overflow-hidden"
                                     :src="article.coverimage" />
-                            </div>
-                            
+                            </div>                            
                        
                         
                         <div class="flex flex-1 flex-col justify-evenly bg-white p-3">
@@ -28,17 +26,21 @@
                                             {{ $s(article.title).prune(50)._wrapped }}
                                         </ClientOnly>
                                     </h3>
-                                    <p class="mt-3 text-base leading-6 text-gray-500 text-center">
+                                    
+                                    <p class="mt-3 text-base leading-6 text-gray-500 text-center fixed top-0 left-0 right-0">
                                         <ClientOnly>
                                             {{ $s(article.description).prune(100)._wrapped }}
                                         </ClientOnly>
                                     </p>
-                                    <a href="/services">
-                                     <p class="mt-3 text-base leading-6 text-primary-500 text-center">
+                                    <a href="/form">
+                                     <!-- <p class="mt-3 text-base leading-6 text-primary-500 text-center">
                                         <ClientOnly>
                                             {{ $s(article.link).prune(50)._wrapped }}
                                         </ClientOnly>
-                                    </p> 
+                                    </p>  -->
+                                    <div class="grid w-3/4 mx-auto justify-center bg-primary h-12 mt-12 align-bottom rounded-lg">
+                                    <span class="text-justify mt-3 text-white">Book Now</span>
+                                    </div>
                                     </a>
                               
                             </div>
