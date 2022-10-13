@@ -6,7 +6,7 @@ module.exports = {
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}"
+    "./plugins/**/*.{js,ts}"   
   ],
   darkMode: "class",
   theme: {

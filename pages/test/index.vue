@@ -1,6 +1,9 @@
 <template>
-<div>    
-     <Gallery />
+<div>
+    
+     <Test />
+     
+    
   </div>
 
 </template>

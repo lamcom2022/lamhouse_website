@@ -1,6 +1,6 @@
 <template>
 <div>    
-     <Gallery />
+     <Championship />
   </div>
 
 </template>
