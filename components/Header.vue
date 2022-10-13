@@ -112,9 +112,11 @@
 			<!-- <div
 				class="px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300">
 				<a href="/form">Contact us</a></div> -->
-			<NuxtLink to="#" @click="contactform()"
-			class="px-5 py-2 text-sm  ring-2 ring-primary hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
-				Contact us</NuxtLink>
+				<header class="px-5 py-2 text-sm ring-2 ring-primary hover:bg-white-700 ring-inset text-white rounded-full">
+					<NuxtLink to="#" @click="contactform()"
+					class="px-5 py-2 text-sm  ring-2 ring-primary hover:bg-white-700 ring-inset text-white rounded-full">
+						Contact us</NuxtLink>
+				</header>
 		</div>
 		<!--Nav action button end-->
 		<!--Nav Ends-->

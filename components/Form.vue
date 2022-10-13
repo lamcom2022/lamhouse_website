@@ -2,8 +2,7 @@
   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid px-4">
     <div class="max-w-7xl mx-auto px-4">
       <div>
-        <p
-          class="
+        <p class="
             mt-2
             text-3xl
             leading-8
@@ -11,8 +10,7 @@
             tracking-tight
             text-gray-900
             sm:text-4xl
-          "
-        >
+          ">
           Appointment
         </p>
         <p class="mt-4 text-gray-700">
@@ -45,9 +43,10 @@
   </div>
 
   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid px-4">
-    <form>
-      <div
-        class="
+    <form name="Contact" id="Contact" class="space-y-8" method="POST" @submit.prevent="SubmitForm" ref="frmContact">
+      <input type="hidden" name="form-name" value="Contact">
+
+      <div class="
           form-group
           lg:w-3/4
           md:w-1/2
@@ -56,479 +55,236 @@
           py-12
           lg:mx-12
           flex flex-col
-        "
-      >
+        ">
         <!--Name -->
-        <label
-          for="Name"
-          class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          ><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span
-          >Name</label
-        >
-        <input
-          type="text"
-          name="fname"
-          id="fname"
-          class="shrink w-72 form-control rounded mb-2 mx-4"
-        />
+        <label for="Name" class="form-label inline-block mb-2 text-gray-700 font-semibold"><span
+            class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Name</label>
+        <input type="text" name="fname" id="fname" class="shrink w-72 form-control rounded mb-2 mx-4" />
         <!--Age -->
         <div class="grid lg:grid-cols-2 md:grid-cols-1 mt-6">
-          <label
-            for="Age"
-            class="
+          <label for="Age" class="
               md:flex-none
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
-            "
-          >
-            <span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Age</label
-          >
-          <input
-            type="date"
-            name="age"
-            id="DOB"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          />
+            ">
+            <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Age</label>
+          <input type="date" name="age" id="DOB" class="shrink w-72 form-control rounded mb-2 mx-4" />
           <!-- Sex -->
-          <label
-            for="Sex"
-            class="
+          <label for="Sex" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Sex</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Sex</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Male"
-              >Male
-              <input
-                type="radio"
-                name="age"
-                id="male"
-                class="form-control mt-0"
-            /></label>
-            <label for="Female"
-              >Female
-              <input
-                type="radio"
-                name="age"
-                id="female"
-                class="form-control mt-0"
-            /></label>
-            <label for="Female"
-              >Other
-              <input
-                type="radio"
-                name="age"
-                id="other"
-                class="form-control mt-0"
-            /></label>
+            <label for="Male">Male
+              <input type="radio" name="age" id="male" class="form-control mt-0" /></label>
+            <label for="Female">Female
+              <input type="radio" name="age" id="female" class="form-control mt-0" /></label>
+            <label for="Female">Other
+              <input type="radio" name="age" id="other" class="form-control mt-0" /></label>
           </div>
         </div>
 
         <!--Preferred pronouns -->
         <div class="grid lg:grid-cols-2 mt-6">
-          <label
-            for="Sex"
-            class="
+          <label for="Sex" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Preferred Pronouns</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Preferred Pronouns</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Male"
-              >She/Her
-              <input
-                type="radio"
-                name="prefer"
-                id="she"
-                class="form-control mt-0"
-            /></label>
-            <label for="Female"
-              >They/Them
-              <input
-                type="radio"
-                name="prefer"
-                id="they"
-                class="form-control mt-0"
-            /></label>
-            <label for="Female"
-              >He/Him
-              <input
-                type="radio"
-                name="prefer"
-                id="he"
-                class="form-control mt-0"
-            /></label>
-            <label for="Female"
-              >Prefer not to say
-              <input
-                type="radio"
-                name="prefer"
-                id="preferno"
-                class="form-control mt-0"
-            /></label>
+            <label for="Male">She/Her
+              <input type="radio" name="prefer" id="she" class="form-control mt-0" /></label>
+            <label for="Female">They/Them
+              <input type="radio" name="prefer" id="they" class="form-control mt-0" /></label>
+            <label for="Female">He/Him
+              <input type="radio" name="prefer" id="he" class="form-control mt-0" /></label>
+            <label for="Female">Prefer not to say
+              <input type="radio" name="prefer" id="preferno" class="form-control mt-0" /></label>
           </div>
         </div>
 
         <!--Phone Number -->
         <div class="grid mt-6">
-          <label
-            for="PhoneNumber"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          >
-            <span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Phone Number
+          <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+            <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Phone Number
             <p class="flex flex-col text-sm font-normal">
               (If you are situated outside of India, kindly provide an
               alternative local number or mention the means of direct cellular
               contact)
-            </p></label
-          >
-          <input
-            type="tel"
-            name="phone"
-            id="phone"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          />
+            </p>
+          </label>
+          <input type="tel" name="phone" id="phone" class="shrink w-72 form-control rounded mb-2 mx-4" />
         </div>
 
         <!--Email -->
         <div class="grid mt-6">
-          <label
-            for="PhoneNumber"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          >
-            <span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Email
+          <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+            <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Email
             <p class="flex flex-col text-sm font-normal">
               (Please note that your session details will be sent to you on this
               email)
-            </p></label
-          >
-          <input
-            type="text"
-            name="email"
-            id="email"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          />
+            </p>
+          </label>
+          <input type="text" name="email" id="email" class="shrink w-72 form-control rounded mb-2 mx-4" />
         </div>
 
         <!--Current Status -->
         <div class="grid lg:grid-cols-2 mt-6">
-          <label
-            for="CurrentStatus"
-            class="
+          <label for="CurrentStatus" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Current Status</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Current Status</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Student"
-              >Student
-              <input
-                type="radio"
-                name="status"
-                id="student"
-                class="form-control mt-0"
-            /></label>
-            <label for="Working"
-              >Working
-              <input
-                type="radio"
-                name="status"
-                id="working"
-                class="form-control mt-0"
-            /></label>
+            <label for="Student">Student
+              <input type="radio" name="status" id="student" class="form-control mt-0" /></label>
+            <label for="Working">Working
+              <input type="radio" name="status" id="working" class="form-control mt-0" /></label>
           </div>
         </div>
 
         <!--Have you ever taken counselling before -->
         <div class="grid lg:grid-cols-2 mt-6">
-          <label
-            for="CurrentStatus"
-            class="
+          <label for="CurrentStatus" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Have you ever taken counselling before?</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Have you ever taken counselling
+            before?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Yes"
-              >Yes
-              <input
-                type="radio"
-                name="counselling"
-                id="yes"
-                class="form-control mt-0"
-            /></label>
-            <label for="No"
-              >No
-              <input
-                type="radio"
-                name="counselling"
-                id="no"
-                class="form-control mt-0"
-            /></label>
+            <label for="Yes">Yes
+              <input type="radio" name="counselling" id="yes" class="form-control mt-0" /></label>
+            <label for="No">No
+              <input type="radio" name="counselling" id="no" class="form-control mt-0" /></label>
           </div>
         </div>
 
         <!--First session -->
         <div class="grid mt-6">
-          <label
-            for="Session"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          >
-            <span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Anything you would like to share before your first session
+          <label for="Session" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+            <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Anything you would like to share
+            before your first session
             <p class="flex flex-col text-sm font-normal">
               (concerns, challenges or objectives you want to work on through
               therapy)
-            </p></label
-          >
-          <textarea
-            rows="2"
-            name="session"
-            id="session"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          ></textarea>
+            </p>
+          </label>
+          <textarea rows="2" name="session" id="session" class="shrink w-72 form-control rounded mb-2 mx-4"></textarea>
         </div>
 
         <!--Mode of Counselling preferred -->
         <div class="grid lg:grid-cols-2 mt-6">
-          <label
-            for="Mode of Counselling"
-            class="
+          <label for="Mode of Counselling" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Mode of Counselling preferred?</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Mode of Counselling
+            preferred?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Phone Call"
-              >Phone Call
-              <input
-                type="radio"
-                name="mcounselling"
-                id="phonecall"
-                class="form-control mt-0"
-            /></label>
-            <label for="Google Meet"
-              >Google Meet
-              <input
-                type="radio"
-                name="mcounselling"
-                id="gmeet"
-                class="form-control mt-0"
-            /></label>
+            <label for="Phone Call">Phone Call
+              <input type="radio" name="mcounselling" id="phonecall" class="form-control mt-0" /></label>
+            <label for="Google Meet">Google Meet
+              <input type="radio" name="mcounselling" id="gmeet" class="form-control mt-0" /></label>
           </div>
         </div>
 
         <!--Language Preference -->
         <div class="grid mt-6">
-          <label
-            for="Language Preference"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          >
-            <span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Do you have any language preference? If so, please mention.</label
-          >
-          <input
-            type="text"
-            name="langpref"
-            id="email"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          />
+          <label for="Language Preference" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+            <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Do you have any language preference?
+            If so, please mention.</label>
+          <input type="text" name="langpref" id="email" class="shrink w-72 form-control rounded mb-2 mx-4" />
         </div>
 
         <!--What would you like to talk about -->
         <div class="grid lg:grid-cols-2 mt-6">
-          <label
-            for="Sex"
-            class="
+          <label for="Sex" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >What would you like to talk about</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>What would you like to talk
+            about</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Anxiety"
-              >Anxiety
-              <input
-                type="checkbox"
-                name="anxiety"
-                id="anxiety"
-                value="anxiety"
-                class="form-control mt-0"
-            /></label>
-            <label for="Depression"
-              >Depression
-              <input
-                type="checkbox"
-                name="depression"
-                id="depression"
-                value="depression "
-                class="form-control mt-0"
-            /></label>
-            <label for="Family issues"
-              >Family issues
-              <input
-                type="checkbox"
-                name="fissues"
-                id="fissues"
-                value="fissues"
-                class="form-control mt-0"
-            /></label>
-            <label for="Relationship problems"
-              >Relationship problems
-              <input
-                type="checkbox"
-                name="rproblems"
-                id="rproblems"
-                value="rproblems"
-                class="form-control mt-0"
-            /></label>
-            <label for="Others"
-              >Others
-              <input
-                type="checkbox"
-                name="others"
-                id="others"
-                value="others"
-                class="form-control mt-0"
-            /></label>
+            <label for="Anxiety">Anxiety
+              <input type="checkbox" name="anxiety" id="anxiety" value="anxiety" class="form-control mt-0" /></label>
+            <label for="Depression">Depression
+              <input type="checkbox" name="depression" id="depression" value="depression "
+                class="form-control mt-0" /></label>
+            <label for="Family issues">Family issues
+              <input type="checkbox" name="fissues" id="fissues" value="fissues" class="form-control mt-0" /></label>
+            <label for="Relationship problems">Relationship problems
+              <input type="checkbox" name="rproblems" id="rproblems" value="rproblems"
+                class="form-control mt-0" /></label>
+            <label for="Others">Others
+              <input type="checkbox" name="others" id="others" value="others" class="form-control mt-0" /></label>
           </div>
         </div>
 
         <!--Have you been clinically diagnosed with a mental health issue -->
         <div class="grid lg:grid-cols-2 mt-6">
-          <label
-            for="MentalHealth"
-            class="
+          <label for="MentalHealth" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Have you been clinically diagnosed with a mental health
-            issue?</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Have you been clinically diagnosed
+            with a mental health
+            issue?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Yes"
-              >Yes
-              <input
-                type="radio"
-                name="mhealth"
-                id="mhyes"
-                class="form-control mt-0"
-            /></label>
-            <label for="No"
-              >No
-              <input
-                type="radio"
-                name="mhealth"
-                id="mhno"
-                class="form-control mt-0"
-            /></label>
+            <label for="Yes">Yes
+              <input type="radio" name="mhealth" id="mhyes" class="form-control mt-0" /></label>
+            <label for="No">No
+              <input type="radio" name="mhealth" id="mhno" class="form-control mt-0" /></label>
           </div>
         </div>
 
         <!--Are you taking any medication -->
         <div class="grid lg:grid-cols-2 mt-6">
-          <label
-            for="Medication"
-            class="
+          <label for="Medication" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Are you taking any medication?</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Are you taking any
+            medication?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Yes"
-              >Yes
-              <input
-                type="radio"
-                name="medication"
-                id="medyes"
-                class="form-control mt-0"
-            /></label>
-            <label for="No"
-              >No
-              <input
-                type="radio"
-                name="medication"
-                id="medno"
-                class="form-control mt-0"
-            /></label>
+            <label for="Yes">Yes
+              <input type="radio" name="medication" id="medyes" class="form-control mt-0" /></label>
+            <label for="No">No
+              <input type="radio" name="medication" id="medno" class="form-control mt-0" /></label>
           </div>
         </div>
 
         <!--Emergency contact details  -->
         <div class="grid mt-6">
-          <label
-            for="Session"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          >
-            <span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >Emergency contact details
+          <label for="Session" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+            <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Emergency contact details
             <p class="flex flex-col text-sm font-normal">
               Please share details of someone we can reach out to in case of any
               emergency. It would be helpful to have details of someone who can
@@ -537,135 +293,71 @@
               serious harm to self or others. This individual will not be
               contacted unless there is a mental health emergency, and no
               confidential information would be shared with them.
-            </p></label>
-            <div class="grid grid-cols-2">
-             <label
-            for="PhoneNumber"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          >
-            Name of emergency contact 
+            </p>
+          </label>
+          <div class="grid grid-cols-2">
+            <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+              Name of emergency contact
             </label>
-          <input
-            type="text"
-            name="emergencyname"
-            id="emergencyname"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          />
-            </div>
+            <input type="text" name="emergencyname" id="emergencyname"
+              class="shrink w-72 form-control rounded mb-2 mx-4" />
+          </div>
 
-               <div class="grid grid-cols-2">
-             <label
-            for="PhoneNumber"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          >
-            Phone number of emergency contact 
+          <div class="grid grid-cols-2">
+            <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+              Phone number of emergency contact
             </label>
-          <input
-            type="text"
-            name="emergencyphone"
-            id="emergencyphone"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          />
-            </div>
+            <input type="text" name="emergencyphone" id="emergencyphone"
+              class="shrink w-72 form-control rounded mb-2 mx-4" />
+          </div>
 
-             <div class="grid grid-cols-2">
-             <label
-            for="PhoneNumber"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold"
-          >
-            Email ID of emergency contact 
+          <div class="grid grid-cols-2">
+            <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+              Email ID of emergency contact
             </label>
-          <input
-            type="text"
-            name="emergencyemail"
-            id="emergencyemail"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          />
-            </div>
+            <input type="text" name="emergencyemail" id="emergencyemail"
+              class="shrink w-72 form-control rounded mb-2 mx-4" />
+          </div>
         </div>
 
         <!--Conducting Sessions -->
 
-         <div class="grid grid-cols-2 mt-6">
-             <label
-            for="PhoneNumber"
-            class="form-label inline-block mb-2 text-gray-700 font-semibold">
-            We will be conducting sessions from 11:00 am - 7:00 pm IST, from Monday to Saturday. Do you have a time preference? If yes, please mention the day and time. 
-            </label>
-          <input
-            type="text"
-            name="emergencyemail"
-            id="emergencyemail"
-            class="shrink w-72 form-control rounded mb-2 mx-4"
-          />
-            </div>
-        
+        <div class="grid grid-cols-2 mt-6">
+          <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
+            We will be conducting sessions from 11:00 am - 7:00 pm IST, from Monday to Saturday. Do you have a time
+            preference? If yes, please mention the day and time.
+          </label>
+          <input type="text" name="emergencyemail" id="emergencyemail"
+            class="shrink w-72 form-control rounded mb-2 mx-4" />
+        </div>
+
         <!--How did you find out about us? -->
         <div class="grid lg:grid-cols-2 mt-6">
-          <label
-            for="About Us"
-            class="
+          <label for="About Us" class="
               form-label
               inline-block
               mb-2
               text-gray-700
               font-semibold
               mt-6
-            "
-            ><span class="text-secondary px-2 text-lg gap-2 font-semibold"
-              >*</span
-            >How did you find out about us?</label
-          >
+            "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>How did you find out about
+            us?</label>
           <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
-            <label for="Social Media"
-              >Social Media
-              <input
-                type="radio"
-                name="aboutus"
-                id="smedia"
-                class="form-control mt-0"
-            /></label>
-            <label for="Google"
-              >Google
-              <input
-                type="radio"
-                name="aboutus"
-                id="google"
-                class="form-control mt-0"
-            /></label>
-            <label for="Word of Mouth"
-              >Word of mouth(friends, family etc.)
-              <input
-                type="radio"
-                name="aboutus"
-                id="womouth"
-                class="form-control mt-0"
-            /></label>
-            <label for="Word of Mouth"
-              >Recommendation from someone who has availed our services
-              <input
-                type="radio"
-                name="aboutus"
-                id="recom"
-                class="form-control mt-0"
-            /></label>
-             <label for="Word of Mouth"
-              >Referral from another counsellor/therapist
-              <input
-                type="radio"
-                name="aboutus"
-                id="refer"
-                class="form-control mt-0"
-            /></label>
+            <label for="Social Media">Social Media
+              <input type="radio" name="aboutus" id="smedia" class="form-control mt-0" /></label>
+            <label for="Google">Google
+              <input type="radio" name="aboutus" id="google" class="form-control mt-0" /></label>
+            <label for="Word of Mouth">Word of mouth(friends, family etc.)
+              <input type="radio" name="aboutus" id="womouth" class="form-control mt-0" /></label>
+            <label for="Word of Mouth">Recommendation from someone who has availed our services
+              <input type="radio" name="aboutus" id="recom" class="form-control mt-0" /></label>
+            <label for="Word of Mouth">Referral from another counsellor/therapist
+              <input type="radio" name="aboutus" id="refer" class="form-control mt-0" /></label>
 
           </div>
         </div>
 
-
-
-
-        <button
-          class="
+        <button v-on:click="SubmitForm" class="
             bg-gray-600
             rounded-full
             mt-6
@@ -675,9 +367,7 @@
             font-semibold
             uppercase
             mx-4
-          "
-          type="submit"
-        >
+          " type="submit">
           Submit
         </button>
       </div>
@@ -686,32 +376,23 @@
 </template>
 
 <script>
-function ageCalculator() {
-  var userinput = document.getElementById("DOB").value;
-  var dob = new Date(userinput);
-  if (userinput == null || userinput == "") {
-    document.getElementById("message").innerHTML = "**Choose a date please!";
-    return false;
-  } else {
-    //calculate month difference from current date in time
-    var month_diff = Date.now() - dob.getTime();
-
-    //convert the calculated difference in date format
-    var age_dt = new Date(month_diff);
-
-    //extract year from date
-    var year = age_dt.getUTCFullYear();
-
-    //now calculate the age of the user
-    var age = Math.abs(year - 1970);
-
-    //display the calculated age
-    return (document.getElementById("result").innerHTML =
-      "Age is: " + age + " years. ");
+export default {
+  data() {
+    return {
+      data: { 'form-name': 'contact' },
+      api: ""
+    }
+  },
+  methods: {
+    async SubmitForm(args) {
+      const { data: contact } = await useFetch("/api/sendemail", {
+        method: 'post', body: contact
+      })
+    }
   }
-}
-export default {};
+};
 </script>
 
 <style>
+
 </style>
