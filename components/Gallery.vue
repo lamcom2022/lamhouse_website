@@ -139,7 +139,7 @@
         </li>
         <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
           <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" v-on:click="toggleTabs(2)" v-bind:class="{'text-slate-600 bg-white': openTab !== 2, 'text-white bg-primary-600': openTab === 2}">
-            Natial Participants
+            National Participants
           </a>
         </li>
         <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">

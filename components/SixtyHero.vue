@@ -1,0 +1,45 @@
+<template>
+<div class="grid grid-cols-2 mx-auto lg:max-w-8xl lg:px-0">
+	<div class="grid grid-cols-1 mx-auto justify-center lg:fit-w-3/4 bg-primary-200">
+		main page
+	</div>
+	<div class="grid grid-cols-1 mx-auto justify-center lg:max-w-1/4 bg-primary-500">
+		button page
+	</div>
+</div>
+	<main
+		class="mx-auto lg:max-w-8xl px-5 lg:px-0">
+		<div class="flex items-center justify-center bg-primary-200">
+		<img class="bg-gray-100 px-2 py-2 shadow-lg" src="https://res.cloudinary.com/lamcom/image/upload/v1664205219/krsa/banner/slide_bzmdus.jpg">
+		</div>
+		<div class="text-center p-10 flex items-center justify-center space-x-4 bg-primary-200">
+			<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+				class="px-5 py-2 text-sm  ring-2 bg-red-600 ring-yellow-500 hover:bg-gray-700 text-white rounded-full transition-all duration-300">
+				Contact us</NuxtLink>
+			<!--<div class="relative group">
+				<div
+					class="absolute -inset-0.5 bg-gradient-to-r from-secondary-600 to-primary-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
+				</div>
+				<button @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+					class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+					<span class="flex items-center space-x-5">
+						<span class="pr-6 font-medium text-white">Contact us</span>
+					</span>
+				</button>
+			</div>
+
+			<NuxtLink
+				to="#"
+				class="text-sm group overflow-hidden relative bg-gray-50 ring-1 hover:ring-transparent ring-gray-300 rounded-full transition-all duration-300"
+			>
+				<div
+					class="absolute h-full w-0 group-hover:w-full transition-all duration-500 bg-primary-700"
+				></div>
+				<span
+					class="block px-6 py-3 transition-all duration-500 group-hover:text-white relative"
+					>Take Tour</span
+				>
+			</NuxtLink>-->
+		</div>
+	</main>
+</template>
