@@ -3,7 +3,7 @@ export default async (req, res) => {
     // console.log("bodyData: ", body)
     const contact = await $fetch(`https://data.mongodb-api.com/app/data-fgorq/endpoint/data/v1/action/insertOne`, {
         method: 'post', headers: {
-            "api-key": `${process.env.MONGODB_ATLAS_REST_TOKEN}`
+            "api-key": `KTzPhWk0W9fQHmSuQFxK2enn8wjSJ71y1pz3MdaYrzQ2RNcFT4N0mFfaNEweKR2k`
         }, body: {
             "collection": "mindbeyond",
             "database": `lamhouse-webapp-db`,
