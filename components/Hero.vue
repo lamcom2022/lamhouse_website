@@ -6,7 +6,7 @@
 		
 		<h1 class="capitalize font-semibold text-[38px] lg:text-7xl text-center leading-snug text-white">			
 			<!-- <span class="font-normal text-[24px] bg-clip-text text-white lg:text-3xl uppercase">Health & Mind</span><br /> -->
-			<span class=" font-semibold bg-clip-text text-white text-right uppercase">Mind & Beyond</span>
+			<span class=" font-semibold bg-clip-text text-white text-center uppercase">Mind & Beyond</span>
 		</h1>
 		<p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">
 			We take care of your mind!!
