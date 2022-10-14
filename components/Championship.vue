@@ -26,7 +26,7 @@
       "
     >
       <span class="font-extrabold bg-clip-text text-primary-500 uppercase"
-        >Championships</span>
+        >Champions</span>
     </h1>
 
     <div class="text-center p-10 flex items-center justify-center space-x-4">
