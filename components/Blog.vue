@@ -161,7 +161,7 @@
                       </div>
                       <h4 class="text-lg font-semibold text-primary-900">Property Maintenance</h4>
                       <p class="text-base text-center text-gray-500">We provide professional and reliable property maintenance services...,</p>
-                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
+                      <a href=""><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
                   <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
@@ -170,7 +170,7 @@
                       </div>
                       <h4 class="text-lg font-semibold text-primary-900">Housekeeping</h4>
                       <p class="text-base text-center text-gray-500">We provide end-to-end housekeeping services, such as..., </p>
-                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
+                      <a href=""><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
                   <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
@@ -179,7 +179,7 @@
                       </div>
                       <h4 class="text-lg font-semibold text-primary-900">Documentation Services</h4>
                       <p class="text-base text-center text-gray-500">Ensuring all papers and documents, such as Khata and Sale Deed..., </p>
-                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
+                      <a href=""><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
                   <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
@@ -188,7 +188,7 @@
                       </div>
                       <h4 class="text-lg font-semibold text-primary-900">Property Tax Services</h4>
                       <p class="text-base text-center text-gray-500">Developer tools to help grow your application and keep it up-to-date.</p>
-                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
+                      <a href=""><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
                   <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
@@ -197,7 +197,7 @@
                       </div>
                       <h4 class="text-lg font-semibold text-primary-900">Repair Works</h4>
                       <p class="text-base text-center text-gray-500">Over time, a property may undergo some form of damage..., </p>
-                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
+                      <a href=""><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
                   <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
@@ -206,7 +206,7 @@
                       </div>
                       <h4 class="text-lg font-semibold text-primary-900">Attorney Assistance</h4>
                       <p class="text-base text-center text-gray-500">At times, you may need some legal assistance for ...,</p>
-                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
+                      <a href=""><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
               </div>
