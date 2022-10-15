@@ -166,8 +166,7 @@ export default {
 			//this.$set(this.isVisible, index, false);
 			this.isVisible[index] = false;
 		},
-		toggleMobileMenu() {
-			console.log("toggleMobileMenu")
+		toggleMobileMenu() {			
 			this.mobileNav = !this.mobileNav;
 			//useNuxtApp().$bus.$emit('evtMobilemenu');
 		},

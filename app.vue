@@ -26,23 +26,23 @@ useHead({
 		},
 		{
 			property: "og:title",
-			content: "Lamhouse IT Solution",
+			content: "Beyond Border",
 		},
 		{
 			property: "og:description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity ",
+			content: "A property management partner has the potential to add significant value to your investment",
 		},
 		{
 			property: "og:image",
-			content: "/",
+			content: "",
 		},
 		{
 			property: "og:type",
-			content: "https://www.lamhouse.in",
+			content: "https://www.beyondborder.com",
 		},
 		{
 			property: "og:site_name",
-			content: "Lamhouse",
+			content: "Beyond Border",
 		},
 	],
 });

@@ -46,7 +46,7 @@ export default defineNuxtConfig({
 		// https://content.nuxtjs.org/api/configuration
 	},
 	head: {
-		title: process.env.npm_package_name || "Swara Nritya Company",
+		title: process.env.npm_package_name || "Beyond Border",
 		htmlAttrs: {
 			lang: "en",
 		},
@@ -69,7 +69,7 @@ export default defineNuxtConfig({
 			{
 				hid: "og:site_name",
 				name: "og:site_name",
-				content: "SwaraNritya",
+				content: "Beyond Border",
 			},
 			{
 				hid: "og:type",
@@ -79,7 +79,7 @@ export default defineNuxtConfig({
 			{
 				hid: "og:title",
 				name: "og:title",
-				content: process.env.npm_package_name || "Swara Nritya Company",
+				content: process.env.npm_package_name || "Beyond Border",
 			},
 			{
 				hid: "og:description",
@@ -97,17 +97,17 @@ export default defineNuxtConfig({
 			{
 				hid: "author",
 				name: "author",
-				content: "SwaraNritya",
+				content: "Beyond Border",
 			},
 			{
 				hid: "copyright",
 				name: "copyright",
-				content: "SwaraNritya",
+				content: "Beyond Border",
 			},
 			{
 				hid: "reply-to",
 				name: "reply-to",
-				content: "contact@SwaraNritya.com",
+				content: "contact@beyondborder.com",
 			},
 		],
 		link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
