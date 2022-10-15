@@ -1,5 +1,7 @@
 <template>
-	<header class="flex1 flex items-center bg-primary-900  justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5">
+
+<div class="max-w-8xl flex flex-auto lg:grid-cols-2 place-content-center">
+	<header class="lg:space-x-64 flex1 flex items-center bg-white h-20 px-5 lg:px-5">
 		<!-- Logo (Start)-->
 		<NuxtLink to="/">
 			<IconLogo class="w-14 h-14" />
@@ -96,7 +98,7 @@
 				</div>
 				<div v-else>
 					<a :href="menu.link"
-						class="text-xl leading-6 font-bold  focus:outline-none transition ease-in-out duration-150 text-white  hover:text-white  focus:text-white'">
+						class="text-lg leading-6 font-semibold  focus:outline-none transition ease-in-out duration-150 text-gray-500  hover:text-gray-900  focus:text-white'">
 						{{ menu.title }}
 					</a>
 				</div>
@@ -109,9 +111,9 @@
 			<!-- <NuxtLink to="#"
 				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
 				Sign in</NuxtLink> -->
-			<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
-				class="px-5 py-2 text-sm bg-primary-500 text-white rounded-full hover:bg-primary-700 transition-all duration-300">
-				Contact us</NuxtLink>
+			<!-- <NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+				class="px-5 py-2 text-sm bg-primary-500 text-gray-500 rounded-full hover:bg-primary-700 transition-all duration-300">
+				Contact us</NuxtLink> -->
 			<!--<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
 				class="px-5 py-2 text-sm bg-primary-500 text-white rounded-full hover:bg-primary-700 transition-all duration-300">
 				Contact us</NuxtLink>-->
@@ -119,6 +121,8 @@
 		<!--Nav action button end-->
 		<!--Nav Ends-->
 	</header>
+</div>
+
 	<!--Mobile menu activator button (start)-->
 	<div @click="toggleMobileMenu" class="-mr-2 items-center sm:hidden">
 		<button type="button"
@@ -126,7 +130,7 @@
 			aria-expanded="false">
 			<span class="sr-only">Open main menu</span>
 			<!-- Heroicon name: outline/menu -->
-			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hover:text-primary-500" fill="fill-white"
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-900 hover:text-primary-500" fill="fill-white"
 				viewBox="0 0 24 24" stroke="currentColor">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
 			</svg>

@@ -1,41 +1,28 @@
 <template>
-	<main
-		class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-12">
-		<h1 class="capitalize font-semibold text-[38px] lg:text-7xl text-center leading-snug text-white">			
-			<span class="font-normal text-[24px] bg-clip-text text-white lg:text-3xl uppercase">IT Software & Design</span><br />
-			<span class="font-extrabold bg-clip-text text-primary-500 uppercase">Welcome to Lamhouse</span>
-		</h1>
-		<p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">
-			We bring your ideas to Life!!
-		</p>
-		<div class="text-center p-10 flex items-center justify-center space-x-4">
-			<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
-				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
-				Contact us</NuxtLink>
-			<!--<div class="relative group">
-				<div
-					class="absolute -inset-0.5 bg-gradient-to-r from-secondary-600 to-primary-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
-				</div>
-				<button @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
-					class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-					<span class="flex items-center space-x-5">
-						<span class="pr-6 font-medium text-white">Contact us</span>
-					</span>
-				</button>
-			</div>
-
-			<NuxtLink
-				to="#"
-				class="text-sm group overflow-hidden relative bg-gray-50 ring-1 hover:ring-transparent ring-gray-300 rounded-full transition-all duration-300"
-			>
-				<div
-					class="absolute h-full w-0 group-hover:w-full transition-all duration-500 bg-primary-700"
-				></div>
-				<span
-					class="block px-6 py-3 transition-all duration-500 group-hover:text-white relative"
-					>Take Tour</span
-				>
-			</NuxtLink>-->
-		</div>
-	</main>
+	 <!-- Section 18 -->
+    <section class="relative flex flex-col-reverse w-full px-6 py-16 bg-gray-900 lg:pt-0 lg:flex-col lg:pb-0">
+        <div class="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
+            <svg class="absolute left-0 hidden h-full text-gray-900 transform -translate-x-1/2 lg:block" viewBox="0 0 100 100" fill="currentColor" preserveAspectRatio="none slice"><path d="M50 0H80L50 120H0L50 0Z"></path></svg>
+            <img class="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full" src="https://res.cloudinary.com/lamcom/image/upload/v1665822300/beyondborder/home/home-hero_ytgafg.jpg" alt="">
+        </div>
+        <div class="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
+            <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+                <p class="flex inline-block text-sm font-semibold tracking-wider text-purple-200 uppercase rounded-full mb-7">
+                    New Features
+                </p>
+                <h1 class="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-6xl sm:leading-none">
+                    Modern<br class="hidden md:block">
+                    <span class="inline-block text-primary-500">Luxury Home</span>
+                </h1>
+                <p class="mb-5 text-base text-gray-300 sm:pr-10 md:text-lg">
+                    Let's Find A Home That's Perfect Place For You !
+                </p>
+                <div class="flex flex-col items-center pt-2 sm:flex-row sm:pt-4">                  
+                    <a href="/" class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-primary-500 rounded shadow-md sm:w-auto hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>

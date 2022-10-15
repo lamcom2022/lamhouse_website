@@ -18,11 +18,11 @@ import { Calendar } from 'v-calendar';
 //const colorMode = useColorMode()
 //console.log(colorMode.preference)
 useHead({
-	title: "Lamhouse IT Solution",
+	title: "Property Management",
 	meta: [
 		{
 			name: "description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity",
+			content: "A property management partner has the potential to add significant value to your investment",
 		},
 		{
 			property: "og:title",

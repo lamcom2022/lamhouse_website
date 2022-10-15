@@ -41,7 +41,7 @@ module.exports = {
       orange: colors.orange,
       magenta: colors.magenta,
       primary: colors.sky,
-      secondary: colors.pink,
+      secondary: '#111827',
       footer: colors.slate,
     },
     extend: {

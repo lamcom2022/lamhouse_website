@@ -2,7 +2,7 @@
   <div>
     <Hero />
     <Blog :articles="articles" />    
-    <Testimonials />
+   
   </div>
 
 </template>

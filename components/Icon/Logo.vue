@@ -1,9 +1,11 @@
 <template>
-	<a href="/">
-		<span class="sr-only">Swara Nritya</span>
+
+	<a href="/" class="items-right">	
 		<img tag="img" to="#" alt="Logo"
-			src="https://res.cloudinary.com/lamcom/image/upload/v1662471119/lamhouse/weblogo_cxvcqa.png" />
+			src="https://res.cloudinary.com/lamcom/image/upload/v1665845796/beyondborder/logo/log-title-thin_u5vqcn.png" />
 	</a>
+
+
 	<!--<svg
 		id="logo-14"
 		width="73"
