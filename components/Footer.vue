@@ -34,11 +34,14 @@
                   </nav>
                   <nav class="col-span-2 md:col-span-1 lg:col-span-3">
                       <p class="mb-3 text-base font-semibold tracking-wider text-blue-200 uppercase">Contact</p>
-                      <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Address</a>
-                      <!-- <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Press</a>
-                      <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Email</a>
-                      <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Partners</a>
-                      <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Jobs</a> -->
+                      <p class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">18, SBN corner, Netkallappa circle</p>
+                      <p class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Above union bank, 2nd floor</p>
+                      <p class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Basavanagudi</p>
+                      <p class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Bangalore 560004</p>
+                       <p class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white gap-5 py-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill text-white" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>80 2660 0004 </svg>
+                      80 2660 0004</p>
+                      
                   </nav>
                  
               </div>

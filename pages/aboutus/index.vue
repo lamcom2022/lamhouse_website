@@ -1,8 +1,9 @@
 <template>
   <div>
-    
-     <Services />
-    
+    <Aboutus />
+    <AboutWho />
+     
+   
   </div>
 
 </template>
@@ -11,6 +12,5 @@
 definePageMeta({
   //colorMode: 'system',
   layout: "main",
-})
-
+}) 
 </script>
