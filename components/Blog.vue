@@ -94,7 +94,7 @@
           impeccable housekeeping to taxes and documentation
         </p>
         <div class="mx-auto w-7xl grid justify-center">
-        <p class="mt-12 text-primary-900 text-center text-sm w-32 h-12 rounded-lg bg-white py-3"><a href="">Read more...</a></p>
+        <p class="mt-12 text-primary-900 text-center text-sm w-32 h-12 rounded-lg bg-white py-3"><a href="/aboutus">Read more...</a></p>
         </div>
       </div>
     </div>
@@ -134,7 +134,7 @@
                         </div>
 
                          <div class="w-7xl grid">
-        <p class="mt-12 text-white text-center text-sm w-32 h-12 rounded-lg bg-primary-900 py-3"><a href="">Read more...</a></p>
+        <p class="mt-12 text-white text-center text-sm w-32 h-12 rounded-lg bg-primary-900 py-3"><a href="/aboutus">Read more...</a></p>
         </div>
                         
                     </div>
