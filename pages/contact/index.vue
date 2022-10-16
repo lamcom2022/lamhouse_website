@@ -1,5 +1,5 @@
 <template>
-    <ContactSales />
+    <Contact />
 </template>
 <script>
 definePageMeta({
