@@ -2,12 +2,12 @@
 export default async (req, res, err) => {
     const body = await useBody(req)
 
-    // console.log("bodyData: ", body);
+    console.log("bodyData: ", body.email);
 
     const bodyData = {
         personalizations: [
             {
-                to: [
+                "to": [
                     {
                         "email": `${body.email}`,
                         // "name": `${body.name}`
@@ -39,7 +39,13 @@ export default async (req, res, err) => {
             "Content-Type": "application/json"
         },
         body: bodyData,
-    })
+    }).then((response) => response.json())
+        .then((data) => {
+            console.log('Success:', data);
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
 
     return contact
 }

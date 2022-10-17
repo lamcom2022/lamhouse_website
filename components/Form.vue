@@ -104,13 +104,17 @@
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Preferred Pronouns</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Male">She/Her
-              <input type="radio" name="prefer" id="she" class="form-control mt-0" /></label>
+              <input v-model="data.gender" value="Female" type="radio" name="prefer" id="she"
+                class="form-control mt-0" /></label>
             <label for="Female">They/Them
-              <input type="radio" name="prefer" id="they" class="form-control mt-0" /></label>
-            <label for="Female">He/Him
-              <input type="radio" name="prefer" id="he" class="form-control mt-0" /></label>
-            <label for="Female">Prefer not to say
-              <input type="radio" name="prefer" id="preferno" class="form-control mt-0" /></label>
+              <input v-model="data.gender" value="Other" type="radio" name="prefer" id="they"
+                class="form-control mt-0" /></label>
+            <label for="other">He/Him
+              <input v-model="data.gender" value="He" type="radio" name="prefer" id="he"
+                class="form-control mt-0" /></label>
+            <label for="male">Prefer not to say
+              <input v-model="data.gender" value="Not Preffered" type="radio" name="prefer" id="preferno"
+                class="form-control mt-0" /></label>
           </div>
         </div>
 
@@ -153,9 +157,11 @@
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Current Status</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Student">Student
-              <input type="radio" name="status" id="student" class="form-control mt-0" /></label>
+              <input v-model="data.job" value="Student" type="radio" name="status" id="student"
+                class="form-control mt-0" /></label>
             <label for="Working">Working
-              <input type="radio" name="status" id="working" class="form-control mt-0" /></label>
+              <input v-model="data.job" value="Working" type="radio" name="status" id="working"
+                class="form-control mt-0" /></label>
           </div>
         </div>
 
@@ -172,10 +178,10 @@
             before?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Yes">Yes
-              <input v-model="data.counseling_yes" type="radio" name="counselling" id="yes"
+              <input v-model="data.counselingTaken" value="Yes" type="radio" name="counselling" id="yes"
                 class="form-control mt-0" /></label>
             <label for="No">No
-              <input v-model="data.counseling_no" type="radio" name="counselling" id="no"
+              <input v-model="data.counselingTaken" value="No" type="radio" name="counselling" id="no"
                 class="form-control mt-0" /></label>
           </div>
         </div>
@@ -190,7 +196,7 @@
               therapy)
             </p>
           </label>
-          <textarea v-model="data.userinfo" rows="2" name="session" id="session"
+          <textarea v-model="data.usermessage" rows="2" name="session" id="session"
             class="shrink w-72 form-control rounded mb-2 mx-4"></textarea>
         </div>
 
@@ -207,9 +213,11 @@
             preferred?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Phone Call">Phone Call
-              <input type="radio" name="mcounselling" id="phonecall" class="form-control mt-0" /></label>
+              <input v-model="data.meetingpreference" value="Phone" type="radio" name="mcounselling" id="phonecall"
+                class="form-control mt-0" /></label>
             <label for="Google Meet">Google Meet
-              <input type="radio" name="mcounselling" id="gmeet" class="form-control mt-0" /></label>
+              <input v-model="data.meetingpreference" value="GoogleMeet" type="radio" name="mcounselling" id="gmeet"
+                class="form-control mt-0" /></label>
           </div>
         </div>
 
@@ -218,7 +226,7 @@
           <label for="Language Preference" class="form-label inline-block mb-2 text-gray-700 font-semibold">
             <span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Do you have any language preference?
             If so, please mention.</label>
-          <input v-model="data.user_comments" type="text" name="langpref" id="email"
+          <input v-model="data.language" type="text" name="langpref" id="email"
             class="shrink w-72 form-control rounded mb-2 mx-4" />
         </div>
 
@@ -235,17 +243,20 @@
             about</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Anxiety">Anxiety
-              <input type="checkbox" name="anxiety" id="anxiety" value="anxiety" class="form-control mt-0" /></label>
+              <input v-model="data.problem" value="Anxiety" type="checkbox" name="anxiety" id="anxiety"
+                class="form-control mt-0" /></label>
             <label for="Depression">Depression
-              <input type="checkbox" name="depression" id="depression" value="depression "
+              <input v-model="data.problem" value="Depression" type="checkbox" name="depression" id="depression"
                 class="form-control mt-0" /></label>
             <label for="Family issues">Family issues
-              <input type="checkbox" name="fissues" id="fissues" value="fissues" class="form-control mt-0" /></label>
-            <label for="Relationship problems">Relationship problems
-              <input type="checkbox" name="rproblems" id="rproblems" value="rproblems"
+              <input v-model="data.problem" value="Family issues" type="checkbox" name="fissues" id="fissues"
                 class="form-control mt-0" /></label>
-            <label for="Others">Others
-              <input type="checkbox" name="others" id="others" value="others" class="form-control mt-0" /></label>
+            <label for="Relationship problems">Relationship problems
+              <input v-model="data.problem" value="Relationship" type="checkbox" name="rproblems" id="rproblems"
+                class="form-control mt-0" /></label>
+            <label for="Others">Other
+              <input v-model="data.problem" value="other" type="checkbox" name="others" id="others"
+                class="form-control mt-0" /></label>
           </div>
         </div>
 
@@ -263,9 +274,11 @@
             issue?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Yes">Yes
-              <input type="radio" name="mhealth" id="mhyes" class="form-control mt-0" /></label>
+              <input v-model="data.diagnosedMentalHealth" value="Yes" type="radio" name="mhealth" id="mhyes"
+                class="form-control mt-0" /></label>
             <label for="No">No
-              <input type="radio" name="mhealth" id="mhno" class="form-control mt-0" /></label>
+              <input v-model="data.diagnosedMentalHealth" value="No" type="radio" name="mhealth" id="mhno"
+                class="form-control mt-0" /></label>
           </div>
         </div>
 
@@ -282,10 +295,10 @@
             medication?</label>
           <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Yes">Yes
-              <input v-model="data.medication_yes" value="Yes" type="radio" name="medication" id="medyes"
+              <input v-model="data.medicationTaken" value="Yes" type="radio" name="medication" id="medyes"
                 class="form-control mt-0" /></label>
             <label for="No">No
-              <input v-model="data.medication_no" value="No" type="radio" name="medication" id="medno"
+              <input v-model="data.medicationTaken" value="No" type="radio" name="medication" id="medno"
                 class="form-control mt-0" /></label>
           </div>
         </div>
@@ -308,7 +321,7 @@
             <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
               Name of emergency contact
             </label>
-            <input v-model="data.emergencyContact" type="text" name="emergencyname" id="emergencyname"
+            <input v-model="data.emergencyContactName" type="text" name="emergencyname" id="emergencyname"
               class="shrink w-72 form-control rounded mb-2 mx-4" />
           </div>
 
@@ -316,7 +329,7 @@
             <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
               Phone number of emergency contact
             </label>
-            <input type="text" name="emergencyphone" id="emergencyphone"
+            <input v-model="data.emergencyContactNumber" type="text" name="emergencyphone" id="emergencyphone"
               class="shrink w-72 form-control rounded mb-2 mx-4" />
           </div>
 
@@ -324,7 +337,7 @@
             <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
               Email ID of emergency contact
             </label>
-            <input type="text" name="emergencyemail" id="emergencyemail"
+            <input v-model="data.emergencyContactEmail" type="text" name="emergencyemail" id="emergencyemail"
               class="shrink w-72 form-control rounded mb-2 mx-4" />
           </div>
         </div>
@@ -336,7 +349,7 @@
             We will be conducting sessions from 11:00 am - 7:00 pm IST, from Monday to Saturday. Do you have a time
             preference? If yes, please mention the day and time.
           </label>
-          <input type="text" name="emergencyemail" id="emergencyemail"
+          <input v-model="data.prefferedDateTime" type="text" name="emergencyemail" id="emergencyemail"
             class="shrink w-72 form-control rounded mb-2 mx-4" />
         </div>
 
@@ -353,15 +366,20 @@
             us?</label>
           <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Social Media">Social Media
-              <input type="radio" name="aboutus" id="smedia" class="form-control mt-0" /></label>
+              <input v-model="data.how" value="SocialMedia" type="radio" name="aboutus" id="smedia"
+                class="form-control mt-0" /></label>
             <label for="Google">Google
-              <input type="radio" name="aboutus" id="google" class="form-control mt-0" /></label>
+              <input v-model="data.how" value="Google" type="radio" name="aboutus" id="google"
+                class="form-control mt-0" /></label>
             <label for="Word of Mouth">Word of mouth(friends, family etc.)
-              <input type="radio" name="aboutus" id="womouth" class="form-control mt-0" /></label>
+              <input v-model="data.how" value="WordOfMouth" type="radio" name="aboutus" id="womouth"
+                class="form-control mt-0" /></label>
             <label for="Word of Mouth">Recommendation from someone who has availed our services
-              <input type="radio" name="aboutus" id="recom" class="form-control mt-0" /></label>
+              <input v-model="data.how" value="Recommended" type="radio" name="aboutus" id="recom"
+                class="form-control mt-0" /></label>
             <label for="Word of Mouth">Referral from another counsellor/therapist
-              <input type="radio" name="aboutus" id="refer" class="form-control mt-0" /></label>
+              <input v-model="data.how" value="Counsellor/Therapist" type="radio" name="aboutus" id="refer"
+                class="form-control mt-0" /></label>
 
           </div>
         </div>
@@ -386,6 +404,7 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -395,18 +414,27 @@ export default {
   methods: {
     async SubmitForm(args) {
       try {
-        console.log(this.data + "Data added");
+        // console.log(this.data + "Data added");
 
         const { data: contact } = await useFetch("api/contact", {
           method: 'post', body: this.data
         })
 
-        const { data: sendemail } = await useFetch("/api/sendemail", {
+        const { data: sendemail, onFetchResponse, onFetchError } = await useFetch("/api/sendemail", {
           method: 'post', body: this.data
         })
+        onFetchResponse((response) => {
+          console.log("status: ", response.status)
+        })
 
+        onFetchError((error) => {
+          console.error(error.message)
+        })
+
+
+        console.log(sendemail.value);
         if (contact._rawValue != null && contact._rawValue != undefined) {
-          this.$router.push("/");
+          // this.$router.push("/");
         }
       } catch (error) {
         console.log(error);
