@@ -107,7 +107,7 @@
               Property Maintenance
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               We provide professional and reliable property maintenance
               services, including painting, plastering, plumbing and electrical
@@ -429,6 +429,7 @@
             bg-gray-100
             sm:rounded-xl
             h-[50vh]
+            
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
