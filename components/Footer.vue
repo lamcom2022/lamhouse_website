@@ -27,10 +27,10 @@
                   
                   <nav class="col-span-3 md:col-span-1 lg:col-span-3">
                       <p class="mb-3 text-base font-semibold tracking-wider text-blue-200 uppercase">Quick Links</p>
-                      <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">About us</a>
-                      <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Services</a>
+                      <a href="/aboutus" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">About us</a>
+                      <a href="/services" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Services</a>
                       <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Team</a>
-                      <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Contact</a>
+                      <a href="/contact" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Contact</a>
                   </nav>
                   <nav class="col-span-3 md:col-span-1 lg:col-span-3">
                       <p class="mb-3 text-base font-semibold tracking-wider text-blue-200 uppercase">Contact</p>

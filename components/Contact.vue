@@ -25,7 +25,7 @@
                       <div class="relative z-10 flex flex-col items-start justify-start p-10 bg-white shadow-2xl rounded-xl">
                           <h4 class="w-full text-4xl font-medium leading-snug">Contact Us</h4>
                           <div class="relative w-full mt-6 space-y-8">
-                            <form action="">
+                            <form action="#" method="post">
                               <div class="relative">
                                   <label class="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Name</label>
                                   <input type="text" class="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black" placeholder="John">
@@ -41,10 +41,10 @@
                               </div>
                               <div class="relative">
                                   <label class="px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Message</label>
-                                  <text-area rows="4" cols="50" name="msg" id="msg" class="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black"></text-area>
+                                  <textarea rows="4" cols="50" name="msg" id="msg" class="block w-full px-4 py-4 mt-2 text-base placeholder-gray-400 bg-white border border-gray-300 rounded-md focus:outline-none focus:border-black"></textarea>
                               </div>
                               <div class="relative mb-6 py-4">
-                                  <input type="submit" value="submit" class="w-full px-5 py-4 text-xl font-medium text-center text-white transition duration-200 bg-primary-900 rounded-lg hover:bg-primary-700 ease">
+                                 <button type="submit" class="inline-flex justify-center rounded-md border border-transparent bg-primary-900 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Save</button>
 
                               </div>
                             </form>
