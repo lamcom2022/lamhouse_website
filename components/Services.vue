@@ -144,7 +144,7 @@
               Housekeeping
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               We provide end-to-end housekeeping services, such as cleaning the
               property and ensuring the proper functioning of electrical and
@@ -182,7 +182,7 @@
               Documentation Services
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               Ensuring all papers and documents, such as Khata and Sale Deed
               related to your property, are available while living in a
@@ -219,7 +219,7 @@
               Property Tax Services
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               Paying your property tax is an annual affair. Forgetting or
               failing to pay your taxes can attract hefty penalties. We ensure
@@ -255,7 +255,7 @@
               Repair Works
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               Over time, a property may undergo some form of damage, such as
               hairline cracks or broken windows. Our expert team undertakes
@@ -292,7 +292,7 @@
               Attorney Assistance
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               At times, you may need some legal assistance for various
               requirements, such as getting the property documents in order or
@@ -329,7 +329,7 @@
               Property Purchase
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               Purchasing a property, be it a residential plot, home, or
               apartment, involves significant research and due diligence. Buying
@@ -367,7 +367,7 @@
               Property Sale
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               Like purchasing a property, selling one too requires finding the
               right customers, which can be tricky from a foreign land. We use
@@ -404,7 +404,7 @@
               Bank Assistance
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               When abroad, you may want to perform tasks related to the bank
               back home, such as opening a fixed deposit and encashment. You may
@@ -443,7 +443,7 @@
               Construction
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               Constructing a house is one of the most taxing endeavors for a
               property owner. It requires constant coordination and supervision
@@ -482,7 +482,7 @@
               House Interiors Services
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               Interiors are a vital part of a house. Our experts provide you
               with the best interior design services, whether it is a new house
@@ -518,7 +518,7 @@
               Senior Citizen Care Services
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               While abroad, the health of a senior family member back home is
               always a concern. Rest assured, we can take care of them for you.
@@ -556,7 +556,7 @@
               Audit Help
             </h4>
           </div>
-          <div class="grid absolute py-28">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               As a property owner, you may sometimes need assistance with
               auditing-related tasks, such as GST filing and TDS payments. Our
