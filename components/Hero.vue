@@ -7,19 +7,17 @@
         </div>
         <div class="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
             <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-                <p class="flex inline-block text-sm font-semibold tracking-wider text-purple-200 uppercase rounded-full mb-7">
-                    New Features
-                </p>
+               
                 <h1 class="mb-5 font-sans text-3xl font-bold tracking-tight text-white sm:text-6xl sm:leading-none">
-                    Modern<br class="hidden md:block">
-                    <span class="inline-block text-primary-500">Luxury Home</span>
+                    International<br class="hidden md:block">
+                    <span class="inline-block text-primary-500">Property Management</span>
                 </h1>
                 <p class="mb-5 text-base text-gray-300 sm:pr-10 md:text-lg">
-                    Let's Find A Home That's Perfect Place For You !
+                    The Perfect hassle free property management support
                 </p>
                 <div class="flex flex-col items-center pt-2 sm:flex-row sm:pt-4">                  
-                    <a href="/" class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-primary-500 rounded shadow-md sm:w-auto hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
-                        Learn More
+                    <a href="/contact" class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-primary-500 rounded shadow-md sm:w-auto hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                        Get in Touch
                     </a>
                 </div>
             </div>

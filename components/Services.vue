@@ -117,45 +117,7 @@
           </div>
         </div>
 
-        <div
-          class="
-            relative
-            flex flex-col
-            items-center
-            justify-between
-            col-span-4
-            px-8
-            py-12
-            space-y-4
-            overflow-hidden
-            bg-gray-100
-            sm:rounded-xl
-            h-[50vh]
-          "
-        >
-          <div class="grid p-3 text-white bg-primary-500 rounded-full">
-            <img
-              src="https://res.cloudinary.com/lamcom/image/upload/v1665843113/beyondborder/icon/housekeeping-w_hgoht2.svg"
-              class="w-8 h-8"
-            />
-          </div>
-          <div class="grid py-16 absolute mt-24 mx-auto">
-            <h4 class="text-lg text-left font-semibold text-primary-900">
-              Housekeeping
-            </h4>
-          </div>
-          <div class="grid absolute py-28 mx-4">
-            <p class="text-base text-center text-gray-500">
-              We provide end-to-end housekeeping services, such as cleaning the
-              property and ensuring the proper functioning of electrical and
-              lighting systems and plumbing. We ensure your laundry is as clean
-              as new. We also make sure your gardens and lawns are
-              well-maintained.
-            </p>
-          </div>
-        </div>
-
-        <div
+         <div
           class="
             relative
             flex flex-col
@@ -191,6 +153,45 @@
             </p>
           </div>
         </div>
+
+         <div
+          class="
+            relative
+            flex flex-col
+            items-center
+            justify-between
+            col-span-4
+            px-8
+            py-12
+            space-y-4
+            overflow-hidden
+            bg-gray-100
+            sm:rounded-xl
+            h-[50vh]
+          "
+        >
+          <div class="grid p-3 text-white bg-primary-500 rounded-full">
+            <img
+              src="https://res.cloudinary.com/lamcom/image/upload/v1665928707/beyondborder/icon/auditw_zuy9vk.svg"
+              class="w-8 h-8"
+            />
+          </div>
+          <div class="grid py-16 absolute mt-24 mx-auto">
+            <h4 class="text-lg text-left font-semibold text-primary-900">
+              Audit Help
+            </h4>
+          </div>
+          <div class="grid absolute py-28 mx-4">
+            <p class="text-base text-center text-gray-500">
+              As a property owner, you may sometimes need assistance with
+              auditing-related tasks, such as GST filing and TDS payments. Our
+              professionals can help you with all the audit-related tasks while
+              you are abroad.
+            </p>
+          </div>
+        </div>
+
+       
 
         <div
           class="
@@ -228,7 +229,7 @@
             </p>
           </div>
         </div>
-        <div
+        <!-- <div
           class="
             relative
             flex flex-col
@@ -244,7 +245,7 @@
             h-[50vh]
           "
         >
-          <div class="grid p-3 text-white bg-primary-500 rounded-full">
+           <div class="grid p-3 text-white bg-primary-500 rounded-full">
             <img
               src="https://res.cloudinary.com/lamcom/image/upload/v1665841601/beyondborder/icon/property-maintentce-w_xu6kw1.svg"
               class="w-8 h-8"
@@ -263,7 +264,7 @@
               former glory as before the incident.
             </p>
           </div>
-        </div>
+        </div> --> 
 
         <div
           class="
@@ -340,7 +341,81 @@
           </div>
         </div>
 
-        <div
+         <div
+          class="
+            relative
+            flex flex-col
+            items-center
+            justify-between
+            col-span-4
+            px-8
+            py-12
+            space-y-4
+            overflow-hidden
+            bg-gray-100
+            sm:rounded-xl
+            h-[50vh]
+          "
+        >
+          <div class="grid p-3 text-white bg-primary-500 rounded-full">
+            <img
+              src="https://res.cloudinary.com/lamcom/image/upload/v1665928466/beyondborder/icon/interiorw_pgcj8e.svg"
+              class="w-8 h-8"
+            />
+          </div>
+          <div class="grid py-16 absolute mt-24 mx-auto">
+            <h4 class="text-lg text-left font-semibold text-primary-900">
+              House Interior Services
+            </h4>
+          </div>
+          <div class="grid absolute py-28 mx-4">
+            <p class="text-base text-center text-gray-500">
+              Interiors are a vital part of a house. Our experts provide you
+              with the best interior design services, whether it is a new house
+              or you are looking to renovate your home.
+            </p>
+          </div>
+        </div>
+
+         <div
+          class="
+            relative
+            flex flex-col
+            items-center
+            justify-between
+            col-span-4
+            px-8
+            py-12
+            space-y-4
+            overflow-hidden
+            bg-gray-100
+            sm:rounded-xl
+            h-[50vh]
+          "
+        >
+          <div class="grid p-3 text-white bg-primary-500 rounded-full">
+            <img
+              src="https://res.cloudinary.com/lamcom/image/upload/v1665928601/beyondborder/icon/eldercarew_q3tkub.svg"
+              class="w-8 h-8"
+            />
+          </div>
+          <div class="grid py-16 absolute mt-24 mx-auto">
+            <h4 class="text-lg text-left font-semibold text-primary-900">
+              Senior Citizen Care Services
+            </h4>
+          </div>
+          <div class="grid absolute py-28 mx-4">
+            <p class="text-base text-center text-gray-500">
+              While abroad, the health of a senior family member back home is
+              always a concern. Rest assured, we can take care of them for you.
+              From periodic visits and meals supply to essential health
+              checkups, we ensure that your senior family member(s) is well
+              cared for.
+            </p>
+          </div>
+        </div>
+
+        <!-- <div
           class="
             relative
             flex flex-col
@@ -453,7 +528,13 @@
               contractor to the architect, in the most professional way.
             </p>
           </div>
-        </div>
+        </div> -->
+
+       
+
+       
+
+       
 
         <div
           class="
@@ -473,95 +554,22 @@
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
             <img
-              src="https://res.cloudinary.com/lamcom/image/upload/v1665928466/beyondborder/icon/interiorw_pgcj8e.svg"
+              src="https://res.cloudinary.com/lamcom/image/upload/v1665843113/beyondborder/icon/housekeeping-w_hgoht2.svg"
               class="w-8 h-8"
             />
           </div>
           <div class="grid py-16 absolute mt-24 mx-auto">
             <h4 class="text-lg text-left font-semibold text-primary-900">
-              House Interiors Services
+              Housekeeping
             </h4>
           </div>
           <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
-              Interiors are a vital part of a house. Our experts provide you
-              with the best interior design services, whether it is a new house
-              or you are looking to renovate your home.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="
-            relative
-            flex flex-col
-            items-center
-            justify-between
-            col-span-4
-            px-8
-            py-12
-            space-y-4
-            overflow-hidden
-            bg-gray-100
-            sm:rounded-xl
-            h-[50vh]
-          "
-        >
-          <div class="grid p-3 text-white bg-primary-500 rounded-full">
-            <img
-              src="https://res.cloudinary.com/lamcom/image/upload/v1665928601/beyondborder/icon/eldercarew_q3tkub.svg"
-              class="w-8 h-8"
-            />
-          </div>
-          <div class="grid py-16 absolute mt-24 mx-auto">
-            <h4 class="text-lg text-left font-semibold text-primary-900">
-              Senior Citizen Care Services
-            </h4>
-          </div>
-          <div class="grid absolute py-28 mx-4">
-            <p class="text-base text-center text-gray-500">
-              While abroad, the health of a senior family member back home is
-              always a concern. Rest assured, we can take care of them for you.
-              From periodic visits and meals supply to essential health
-              checkups, we ensure that your senior family member(s) is well
-              cared for.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="
-            relative
-            flex flex-col
-            items-center
-            justify-between
-            col-span-4
-            px-8
-            py-12
-            space-y-4
-            overflow-hidden
-            bg-gray-100
-            sm:rounded-xl
-            h-[50vh]
-          "
-        >
-          <div class="grid p-3 text-white bg-primary-500 rounded-full">
-            <img
-              src="https://res.cloudinary.com/lamcom/image/upload/v1665928707/beyondborder/icon/auditw_zuy9vk.svg"
-              class="w-8 h-8"
-            />
-          </div>
-          <div class="grid py-16 absolute mt-24 mx-auto">
-            <h4 class="text-lg text-left font-semibold text-primary-900">
-              Audit Help
-            </h4>
-          </div>
-          <div class="grid absolute py-28 mx-4">
-            <p class="text-base text-center text-gray-500">
-              As a property owner, you may sometimes need assistance with
-              auditing-related tasks, such as GST filing and TDS payments. Our
-              professionals can help you with all the audit-related tasks while
-              you are abroad.
+              We provide end-to-end housekeeping services, such as cleaning the
+              property and ensuring the proper functioning of electrical and
+              lighting systems and plumbing. We ensure your laundry is as clean
+              as new. We also make sure your gardens and lawns are
+              well-maintained.
             </p>
           </div>
         </div>

@@ -144,8 +144,10 @@
                         <img src="https://res.cloudinary.com/lamcom/image/upload/v1665834166/beyondborder/home/whyus_ejdcvw.jpg" class="">
                     </div>
                 </div>
+              
             </div>          
         </div>
+       
     </section>
 
      <!-- services -->
@@ -164,16 +166,7 @@
                       <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
-                  <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                      <div class="p-3 text-white bg-primary-500 rounded-full">
-                          <img src="https://res.cloudinary.com/lamcom/image/upload/v1665843113/beyondborder/icon/housekeeping-w_hgoht2.svg" class="w-8 h-8">
-                      </div>
-                      <h4 class="text-lg font-semibold text-primary-900">Housekeeping</h4>
-                      <p class="text-base text-center text-gray-500">We provide end-to-end housekeeping services, such as..., </p>
-                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
-                  </div>
-
-                  <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
                       <div class="p-3 text-white bg-primary-500 rounded-full">
                           <img src="https://res.cloudinary.com/lamcom/image/upload/v1665842088/beyondborder/icon/document-w_djk2h0.svg" class="w-8 h-8">
                       </div>
@@ -182,6 +175,17 @@
                       <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
+
+                  <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                      <div class="p-3 text-white bg-primary-500 rounded-full">
+                          <img src="https://res.cloudinary.com/lamcom/image/upload/v1665843113/beyondborder/icon/housekeeping-w_hgoht2.svg" class="w-8 h-8">
+                      </div>
+                      <h4 class="text-lg font-semibold text-primary-900">Audit Help</h4>
+                      <p class="text-base text-center text-gray-500">As a property owner, you may sometimes need assistance..., </p>
+                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
+                  </div>
+
+                
                   <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
                       <div class="p-3 text-white bg-primary-500 rounded-full">
                        <img src="https://res.cloudinary.com/lamcom/image/upload/v1665842522/beyondborder/icon/tax-w_xgtxcv.svg" class="w-8 h-8">
@@ -191,16 +195,7 @@
                       <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
-                  <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                      <div class="p-3 text-white bg-primary-500 rounded-full">
-                          <img src="https://res.cloudinary.com/lamcom/image/upload/v1665841601/beyondborder/icon/property-maintentce-w_xu6kw1.svg" class="w-8 h-8">
-                      </div>
-                      <h4 class="text-lg font-semibold text-primary-900">Repair Works</h4>
-                      <p class="text-base text-center text-gray-500">Over time, a property may undergo some form of damage..., </p>
-                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
-                  </div>
-
-                  <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                   <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
                       <div class="p-3 text-white bg-primary-500 rounded-full">
                           <img src="https://res.cloudinary.com/lamcom/image/upload/v1665843231/beyondborder/icon/attorney-w_uvnftb.svg" class="w-8 h-8">
                       </div>
@@ -209,7 +204,22 @@
                       <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
                   </div>
 
-              </div>
+                  <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                      <div class="p-3 text-white bg-primary-500 rounded-full">
+                          <img src="https://res.cloudinary.com/lamcom/image/upload/v1665841601/beyondborder/icon/property-maintentce-w_xu6kw1.svg" class="w-8 h-8">
+                      </div>
+                      <h4 class="text-lg font-semibold text-primary-900">Property Purchase</h4>
+                      <p class="text-base text-center text-gray-500">Purchasing a property, be it a residential plot,..., </p>
+                      <a href="/services"><p class="text-right text-primary-900 hover:text-primary-500 text-sm">Read more...</p></a>
+                  </div>
+
+                 
+                 
+              </div>               
+                <div class="w-7xl grid mx-auto">
+        <p class="mt-12 text-white text-center text-sm w-32 h-12 rounded-lg bg-primary-900 py-3 mx-auto"><a href="/services">More Services...</a></p>
+        </div>
+                        
           </div>
       </section>
 

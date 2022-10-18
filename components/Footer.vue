@@ -4,7 +4,7 @@
           <div class="px-8 py-12 mx-auto max-w-7xl">
               <div class="grid grid-cols-2 gap-20 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
                   <div class="col-span-5">
-                      <a href="#_"><img src="https://res.cloudinary.com/lamcom/image/upload/v1665820582/beyondborder/logo/web-logo_as5t9k.png"></a>
+                      <a href="/"><img src="https://res.cloudinary.com/lamcom/image/upload/v1665820582/beyondborder/logo/web-logo_as5t9k.png"></a>
                       <p class="my-4 text-sm leading-normal text-primary-100">
                           Beyond Borders can help you. We are professional property management experts with more than 15 years of experience delivering best-in-class services to our customers.
                       </p>
@@ -29,7 +29,7 @@
                       <p class="mb-3 text-base font-semibold tracking-wider text-blue-200 uppercase">Quick Links</p>
                       <a href="/aboutus" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">About us</a>
                       <a href="/services" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Services</a>
-                      <a href="#" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Team</a>
+                      <a href="" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Blog</a>
                       <a href="/contact" class="flex mb-3 text-sm font-medium text-blue-100 transition md:mb-2 hover:text-white">Contact</a>
                   </nav>
                   <nav class="col-span-3 md:col-span-1 lg:col-span-3">

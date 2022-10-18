@@ -2,7 +2,7 @@
 
 	<a href="/" class="items-right">	
 		<img tag="img" to="#" alt="Logo"
-			src="https://res.cloudinary.com/lamcom/image/upload/v1665845796/beyondborder/logo/log-title-thin_u5vqcn.png" />
+			src="https://res.cloudinary.com/lamcom/image/upload/v1666097595/beyondborder/logo/logo-title-thin_ga65dx.png" />
 	</a>
 
 
