@@ -150,7 +150,7 @@
                 focus:text-white'
               "
             >
-              {{ menu.title }}
+              <!-- {{ menu.title }} -->
             </a>
           </div>
         </div>
