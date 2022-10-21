@@ -108,8 +108,8 @@
                 text-white
                 hover:text-white
                 focus:text-white
-              ">
-              <span>{{ menu.title }}</span>
+              ">``
+              <!-- <span>{{ menu.title }}</span> -->
               <!-- Item active: "text-white", Item inactive: "text-white-400" -->
               <svg class="
                   transition
