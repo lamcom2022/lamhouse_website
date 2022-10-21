@@ -196,7 +196,7 @@
             </div>
             <!--Flyout Menu (End)-->
           </div>
-          <div v-else>
+          <div>
             <a :href="menu.link" class="
                 text-lg
                 leading-6
