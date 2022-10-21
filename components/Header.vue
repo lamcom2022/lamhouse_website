@@ -143,7 +143,7 @@
                 ">
                 <div class="rounded-lg shadow-lg">
                   <div class="rounded-lg shadow-xs overflow-hidden">
-                    <div class="
+                    <!-- <div class=" 
                         z-20
                         relative
                         grid
@@ -165,31 +165,31 @@
                           ease-in-out
                           duration-150
                         ">
-                        <!-- <div v-if="childmenu.img">
+                        <div v-if="childmenu.img">
                           <img
                             :src="childmenu.img"
                             width="30"
                             height="30"
                             :alt="childmenu.title"
                           />
-                        </div> -->
-                        <!-- <div v-else> -->
+                        </div>
+                         <div v-else>
                         <div>
 
-                          <!--<span  class="rounded-full bg-indigo-50 inline-flex p-3 text-indigo-700 ring-4 ring-white" :class="`bg-${childmenu.spancolor}-50`">-->
+                          <span  class="rounded-full bg-indigo-50 inline-flex p-3 text-indigo-700 ring-4 ring-white" :class="`bg-${childmenu.spancolor}-50`">
                           <svg class="flex-shrink-0 h-6 w-6 fill-primary-500" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="childmenu.icon" />
                           </svg>
-                          <!--</span>-->
-                        </div>
-                        <div class="space-y-1">
+                       </span
+                        </div> 
+                       <div class="space-y-1">
                           <p class="leading-6 font-bold hover:text-primary-900">
-                            <!-- {{ childmenu.title }} -->
+                            {{ childmenu.title }}
                           </p>
                         </div>
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
