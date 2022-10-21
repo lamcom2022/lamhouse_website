@@ -185,7 +185,7 @@
                         </div>
                         <div class="space-y-1">
                           <p class="leading-6 font-bold hover:text-primary-900">
-                            {{ childmenu.title }}
+                            <!-- {{ childmenu.title }} -->
                           </p>
                         </div>
                       </a>
