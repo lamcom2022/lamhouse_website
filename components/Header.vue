@@ -209,14 +209,16 @@
                 hover:text-gray-900
                 focus:text-white'
               ">
-              {{ menu.title }}
+              {{ 
+              menu.title 
+              }}
             </a>
           </div>
         </div>
       </div>
 
       <!--  -->
-      <div class="lg:flex md:grid lg:col-span-3 md:col-span-1">
+      <!-- <div class="lg:flex md:grid lg:col-span-3 md:col-span-1">
         <div class="flex flex-col-1">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
             class="bi bi-telephone mt-1 text-primary-500" viewBox="0 0 16 16">
@@ -241,7 +243,7 @@
             beyondborder@gmail.com
           </p>
         </div>
-      </div>
+      </div> -->
 
       <!--Main Menu (End)-->
 
