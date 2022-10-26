@@ -207,7 +207,7 @@
                 duration-150
                 text-gray-500
                 hover:text-gray-900
-                focus:text-white'
+                focus:text-white'                
               ">
               {{ 
               menu.title 
