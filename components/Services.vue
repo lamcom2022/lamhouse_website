@@ -77,8 +77,8 @@
           lg:grid-cols-12
           sm:px-8
           xl:px-0
-        "
-      >
+         
+          ">
         <div
           class="
             relative
@@ -92,7 +92,7 @@
             overflow-hidden
             bg-gray-100
             sm:rounded-xl
-            h-[50vh]
+            lg:h-[50vh]          
           "
         >
           <div class="p-3 text-white bg-primary-500 rounded-full">
@@ -130,7 +130,8 @@
             overflow-hidden
             bg-gray-100
             sm:rounded-xl
-            h-[50vh]
+           lg:h-[50vh]          
+           
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">

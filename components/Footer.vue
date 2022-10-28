@@ -1,4 +1,5 @@
 <template>
+<Map />
   <!-- Section 7 -->
   <section class="w-full bg-primary-900">
     <div class="px-8 py-12 mx-auto max-w-7xl">
@@ -298,10 +299,13 @@
               hover:text-white                         
             "
           >
-            services.beyondbordersindia.in
+            services@beyondbordersindia.in
           </p>
          
         </nav>
+
+        
+        
       </div>
       <div
         class="
