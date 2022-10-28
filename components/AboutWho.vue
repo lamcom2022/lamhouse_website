@@ -1,4 +1,53 @@
 <template>
+ <div class="bg-white pt-5 pb-5 px-4 sm:px-6 lg:pt-12 lg:pb-12 lg:px-8">
+    <div
+      class="
+        grid
+        lg:grid-cols-2
+        md:grid-cols-1
+        relative
+        max-w-lg
+        mx-auto
+        lg:max-w-7xl
+      "
+    >
+      <div>
+        <h3
+          class="
+            text-lg
+            tracking-tight
+            font-normal
+            text-primary-500
+            sm:text-2xl
+            my-6
+            lg:mt-48
+            lg:mb-48
+            md:mt-12
+          "
+        ></h3>
+        <h2
+          class="text-xl tracking-tight font-bold text-primary-900 sm:text-2xl"
+        >
+          About Beyond Borders
+        </h2>
+        <p class="mt-6 text-base font-normal">
+          Beyond Borders is managed by <span class="uppercase text-primary-900 font-bold">Mrs. Swathi Gowda</span>, who is a skilled real
+          estate agent with excellent skills in property management. She has the
+          expertise in this field for 5+ years and there has been no looking
+          back since then. If you are looking for a trustworthy, honest and
+          effecient support, you have landed at the right place. Click here and
+          reach out to us.
+        </p>
+       
+      </div>
+
+      <div class="mx-auto w-auto relative mt-12 mr-0">
+        <img
+          src="https://res.cloudinary.com/lamcom/image/upload/v1666964947/beyondborder/about/swathi-small_gierqy.jpg"
+        />
+      </div>
+    </div>
+  </div>
   <!-- who we are -->
   <section class="relative block py-24 overflow-hidden leading-6 text-left bg-primary-900">
     <div class="w-full max-w-5xl px-8 mx-auto leading-6 text-left xl:px-12">
