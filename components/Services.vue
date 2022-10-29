@@ -87,12 +87,13 @@
             justify-between
             col-span-4
             px-8
-            py-12
+            py-12           
             space-y-4
             overflow-hidden
             bg-gray-100
             sm:rounded-xl
-            h-[50vh]                                   
+            h-[50vh] 
+            md:min-h-[70vh]                                           
           "
         >
           <div class="p-3 text-white bg-primary-500 rounded-full">
@@ -131,7 +132,7 @@
             bg-gray-100
             sm:rounded-xl
            h-[50vh]   
-           max-h-full       
+           md:min-h-[70vh]        
            
           "
         >
@@ -170,6 +171,7 @@
             bg-gray-100
             sm:rounded-xl
             h-[50vh]
+            md:min-h-[70vh] 
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
@@ -209,6 +211,7 @@
             bg-gray-100
             sm:rounded-xl
             h-[50vh]
+            md:min-h-[70vh] 
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
@@ -282,6 +285,7 @@
             bg-gray-100
             sm:rounded-xl
             h-[50vh]
+            md:min-h-[70vh] 
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
@@ -319,6 +323,7 @@
             bg-gray-100
             sm:rounded-xl
             h-[50vh]
+            md:min-h-[70vh] 
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
@@ -357,6 +362,7 @@
             bg-gray-100
             sm:rounded-xl
             h-[50vh]
+            md:min-h-[70vh] 
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
@@ -393,6 +399,7 @@
             bg-gray-100
             sm:rounded-xl
             h-[50vh]
+            md:min-h-[70vh] 
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
@@ -539,7 +546,7 @@
             flex flex-col
             items-center
             justify-between
-            col-span-4
+            col-span-4           
             px-8
             py-12
             lg:space-y-4
@@ -547,7 +554,9 @@
             overflow-hidden
             bg-gray-100
             sm:rounded-xl
-            lg:h-[50vh] 
+            h-[50vh] 
+            md:min-h-[70vh]           
+            
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
@@ -556,7 +565,7 @@
               class="w-8 h-8"
             />
           </div>
-          <div class="grid py-16 absolute mt-24 mx-auto">
+          <div class="grid lg:py-16 absolute mt-24 mx-auto">
             <h4 class="text-lg text-left font-semibold text-primary-900">
               Housekeeping
             </h4>
