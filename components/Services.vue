@@ -92,7 +92,7 @@
             overflow-hidden
             bg-gray-100
             sm:rounded-xl
-            h-[50vh]                                    
+            h-[50vh]                                   
           "
         >
           <div class="p-3 text-white bg-primary-500 rounded-full">
@@ -561,7 +561,7 @@
               Housekeeping
             </h4>
           </div>
-          <div class="grid absolute  py-28 mx-4">
+          <div class="grid absolute py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               We provide end-to-end housekeeping services, such as cleaning the
               property and ensuring the proper functioning of electrical and
