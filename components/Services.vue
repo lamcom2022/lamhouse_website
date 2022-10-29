@@ -71,7 +71,7 @@
       <div
         class="
           grid grid-cols-4
-          gap-8
+          gap-8          
           mt-10
           sm:grid-cols-8
           lg:grid-cols-12
@@ -92,7 +92,7 @@
             overflow-hidden
             bg-gray-100
             sm:rounded-xl
-            lg:h-[50vh]          
+            h-[50vh]                                    
           "
         >
           <div class="p-3 text-white bg-primary-500 rounded-full">
@@ -130,7 +130,8 @@
             overflow-hidden
             bg-gray-100
             sm:rounded-xl
-           lg:h-[50vh]          
+           h-[50vh]   
+           max-h-full       
            
           "
         >
@@ -541,11 +542,12 @@
             col-span-4
             px-8
             py-12
-            space-y-4
+            lg:space-y-4
+            md:space-y-24
             overflow-hidden
             bg-gray-100
             sm:rounded-xl
-            h-[50vh]
+            lg:h-[50vh] 
           "
         >
           <div class="grid p-3 text-white bg-primary-500 rounded-full">
@@ -559,7 +561,7 @@
               Housekeeping
             </h4>
           </div>
-          <div class="grid absolute py-28 mx-4">
+          <div class="grid absolute  py-28 mx-4">
             <p class="text-base text-center text-gray-500">
               We provide end-to-end housekeeping services, such as cleaning the
               property and ensuring the proper functioning of electrical and
