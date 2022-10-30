@@ -32,16 +32,16 @@
                                             {{ $s(article.description).prune(100)._wrapped }}
                                         </ClientOnly>
                                     </p>
-                                    <a href="/form">
-                                     <!-- <p class="mt-3 text-base leading-6 text-primary-500 text-center">
+                                    <!-- <a href="/form">
+                                      <p class="mt-3 text-base leading-6 text-primary-500 text-center">
                                         <ClientOnly>
                                             {{ $s(article.link).prune(50)._wrapped }}
                                         </ClientOnly>
-                                    </p>  -->
+                                    </p>  
                                     <div class="grid w-3/4 mx-auto justify-center bg-primary h-12 mt-12 align-bottom rounded-lg">
                                     <span class="text-justify mt-3 text-white">Book Now</span>
                                     </div>
-                                    </a>
+                                    </a> -->
                               
                             </div>
                            <!--

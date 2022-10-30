@@ -22,10 +22,35 @@
     </div> 
    </div> -->
 
+   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid lg:grid-cols-3 md:flex md:flex-col py-10">
+    <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
+      <img class="w-full rounded"
+        src="https://res.cloudinary.com/lamcom/image/upload/v1665325147/mindbeyond/MindBeyond_Founder_lyjat9.jpg">
+      <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
+        <p class="text-primary text-center font-bold pt-10 text-2xl">Akshaya Ashokan</p>
+        <p class="text-primary text-center font-normal text-xl">CEO, Founder</p>
+      </div>
+    </div>
+    <!-- <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
+            <img class="w-full rounded-t" src="https://res.cloudinary.com/lamcom/image/upload/v1662786421/lamhouse/ravi_ynbww9.jpg">
+            <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
+                <p class="text-white text-center font-bold pt-10 text-2xl">Ravinther R</p>
+                <p class="text-white text-center font-normal text-xl">Design, Developer</p>
+            </div>
+        </div>
+        <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
+            <img class="w-full rounded" src="https://res.cloudinary.com/lamcom/image/upload/v1662786765/lamhouse/sripathy_kxethl.jpg">
+            <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
+                <p class="text-white text-center font-bold pt-10 text-2xl">Sripathi R</p>
+                <p class="text-white text-center font-normal text-xl">Head, Digital Marketing</p>
+            </div>
+        </div> -->
+  </div>
+
    <div class="max-w-7xl mx-auto mt-12">
-    <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl mt-12">
+    <!-- <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl mt-12">
       Our Strength Include
-    </h2>
+    </h2> -->
    
     <div class="mt-10 max-w-7xl">
 
@@ -61,30 +86,7 @@
     </div>
   </div> -->
 
-  <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid lg:grid-cols-3 md:flex md:flex-col py-10">
-    <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
-      <img class="w-full rounded"
-        src="https://res.cloudinary.com/lamcom/image/upload/v1665325147/mindbeyond/MindBeyond_Founder_lyjat9.jpg">
-      <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
-        <p class="text-primary text-center font-bold pt-10 text-2xl">Akshaya Ashokan</p>
-        <p class="text-primary text-center font-normal text-xl">CEO, Founder</p>
-      </div>
-    </div>
-    <!-- <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
-            <img class="w-full rounded-t" src="https://res.cloudinary.com/lamcom/image/upload/v1662786421/lamhouse/ravi_ynbww9.jpg">
-            <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
-                <p class="text-white text-center font-bold pt-10 text-2xl">Ravinther R</p>
-                <p class="text-white text-center font-normal text-xl">Design, Developer</p>
-            </div>
-        </div>
-        <div class="mx-auto px-2 lg:px-2 lg:py-10 md:py-10">
-            <img class="w-full rounded" src="https://res.cloudinary.com/lamcom/image/upload/v1662786765/lamhouse/sripathy_kxethl.jpg">
-            <div class="box-border h-32 w-full border-4 bg-primary-600 shadow-lg">
-                <p class="text-white text-center font-bold pt-10 text-2xl">Sripathi R</p>
-                <p class="text-white text-center font-normal text-xl">Head, Digital Marketing</p>
-            </div>
-        </div> -->
-  </div>
+  
 </template>
 
 <script>

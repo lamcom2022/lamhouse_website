@@ -105,22 +105,33 @@
 		<!--Main Menu (End)-->
 
 		<!--Nav Action button start-->
+		<!-- old  button -->
 		<div class="hidden md:flex md:items-center md:space-x-6">			
-			<!-- <NuxtLink to="#"
-				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
-				Sign in</NuxtLink> -->
-			<!-- <div
-				class="px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300">
-				<a href="/form">Contact us</a></div> -->
-				<header class="px-5 py-2 text-sm ring-2 ring-primary hover:bg-white-700 ring-inset text-white rounded-full">
-					<NuxtLink to="#" @click="contactform()"
+			 <!-- <div class="px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300" >
+				<a href="/form">Contact us</a>
+			</div>  -->
+			<div class="px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300" >
+				<a href="/form">Book Now</a>
+			</div>
+			<button @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+					class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+					<span class="flex items-center space-x-5 px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300">
+						<span class="pr-6 font-medium text-white">Contact us</span>
+					</span>
+				</button>
+				<!-- <header class="px-5 py-2 text-sm ring-2 ring-primary hover:bg-white-700 ring-inset text-white rounded-full">
+					<NuxtLink to="#" @click="showMenu()"
 					class="px-5 py-2 text-sm  ring-2 ring-primary hover:bg-white-700 ring-inset text-white rounded-full">
 						Contact us</NuxtLink>
-				</header>
+				</header> -->
 		</div>
+		<!-- old button ends -->
 		<!--Nav action button end-->
-		<!--Nav Ends-->
+		<!-- Nav Ends -->
+
+		
 	</header>
+	
 	<!--Mobile menu activator button (start)-->
 	<div @click="toggleMobileMenu" class="-mr-2 items-center sm:hidden">
 		<button type="button"

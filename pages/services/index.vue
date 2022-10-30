@@ -1,6 +1,6 @@
 <template>
+  <Hero/>
   <div>
-    
      <ServiceComp :services="services" />
     
   </div>

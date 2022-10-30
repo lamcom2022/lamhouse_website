@@ -1,9 +1,8 @@
 <template>
-	<a href="/">
+	<!-- <a href="/">
 		<span class="sr-only">Swara Nritya</span>
-		<img tag="img" to="#" alt="Logo"
-			src="https://res.cloudinary.com/lamcom/image/upload/v1664087024/mindbeyond/web-logo_f6zsos.png" />
-	</a>
+		<img tag="img" to="#" alt="Logo" src="https://res.cloudinary.com/lamcom/image/upload/v1664087024/mindbeyond/web-logo_f6zsos.png" />
+	</a> -->	
 	<!--<svg
 		id="logo-14"
 		width="73"
