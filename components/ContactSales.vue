@@ -24,7 +24,7 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <p class="text-sm leading-5 text-white">
+                                    <p class="text-lg leading-5 text-">
                                         Find out how we can help you?
                                     </p>
                                 </div>
