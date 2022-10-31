@@ -2,12 +2,14 @@
 <!-- <div class="bg-[url('https://res.cloudinary.com/lamcom/image/upload/v1665642938/mindbeyond/mental-health_rudukq.jpg')]">
 </div> -->
 	<main
-		class="mx-auto justify-center bg-primary lg:max-w-8xl px-2 lg:px-0 pt-8 h-[60vh] bg-[url('https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png')] bg-no-repeat bg-auto bg-right">
+		class="mx-auto grid grid-cols-2 bg-primary lg:max-w-8xl">
+		<div class="grid bg-primary md:py-16">
+			<span class="uppercase font-semibold text-[24px] lg:text-5xl text-center mt-16" >Home</span>
+			</div>
+		<div class="grid bg-primary mx-auto mt-16">
+			<img src="https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png">
+		</div>
 		
-		<h1 class="capitalize font-semibold text-[24px] lg:text-5xl text-left leading-snug text-gray-600">			
-			<!-- <span class="font-normal text-[24px] bg-clip-text text-white lg:text-3xl uppercase">Health & Mind</span><br /> -->
-			<a href="/"><span class="uppercase lg:mx-24 lg:mt-48 md:mt-28 absolute" >Home</span></a>
-		</h1>
 		<!-- <p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">
 			"The sole journey is the journey within " 
 		</p> -->
