@@ -1,13 +1,12 @@
 <template>
  <main
-		class="mx-auto grid grid-cols-2 bg-primary lg:max-w-8xl">
-		<div class="grid bg-primary md:py-16">
+		class="grid lg:grid-cols-2 md:grid-cols-1 bg-primary">
+		<div class="bg-primary md:py-16 flex flex-col">
 			<span class="uppercase font-semibold text-[24px] lg:text-5xl text-center mt-16" >Services</span>
 			</div>
-		<div class="grid bg-primary mx-auto mt-16">
+		<div class="bg-primary mx-auto mt-16 flex flex-col">
 			<img src="https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png">
 		</div>
-		
 		<!-- <p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">
 			"The sole journey is the journey within " 
 		</p> -->

@@ -1,11 +1,11 @@
 <template>
 
 <main
-		class="mx-auto grid grid-cols-2 bg-primary lg:max-w-8xl">
-		<div class="grid bg-primary md:py-16">
-			<span class="uppercase font-semibold text-[24px] lg:text-5xl text-center mt-16" >About Us</span>
+		class="grid lg:grid-cols-2 md:grid-cols-1 bg-primary">
+		<div class="bg-primary md:py-16 flex flex-col">
+			<span class="uppercase font-semibold text-[24px] lg:text-5xl text-center mt-16" >About us</span>
 			</div>
-		<div class="grid bg-primary mx-auto mt-16">
+		<div class="bg-primary mx-auto mt-16 flex flex-col">
 			<img src="https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png">
 		</div>
 		
