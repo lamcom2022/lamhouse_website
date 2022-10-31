@@ -1,5 +1,5 @@
 <template>
-	<header class="flex1 flex items-center bg-primary justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5">
+	<header class="flex1 flex items-center bg-secondary justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5">
 		<!-- Logo (Start)-->
 		<NuxtLink to="/">
 			<IconLogo class="w-14 h-14" />
@@ -110,12 +110,12 @@
 			 <!-- <div class="px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300" >
 				<a href="/form">Contact us</a>
 			</div>  -->
-			<div class="px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300" >
+			<div class="px-5 py-2 text-sm bg-primary text-white rounded-full transition-all duration-300" >
 				<a href="/form">Book Now</a>
 			</div>
 			<button @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
 					class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-					<span class="flex items-center space-x-5 px-5 py-2 text-sm bg-secondary text-white rounded-full transition-all duration-300">
+					<span class="flex items-center px-5 py-2 text-sm bg-primary text-white rounded-full transition-all duration-300">
 						<span class="pr-6 font-medium text-white">Contact us</span>
 					</span>
 				</button>
