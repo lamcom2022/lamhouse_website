@@ -22,7 +22,7 @@
             mt-6
             mb-0
             text-sm
-            font-normal
+            font-medium
             leading-normal
             text-gray-900
             sm:text-lg
@@ -44,7 +44,7 @@
             mt-6
             mb-0
             text-sm
-            font-normal
+            font-medium
             leading-normal
             text-gray-900
             sm:text-lg
@@ -62,7 +62,7 @@
             mt-6
             mb-0
             text-sm
-            font-normal
+            font-medium
             leading-normal
             text-gray-900
             sm:text-lg
@@ -81,7 +81,7 @@
             mt-6
             mb-0
             text-sm
-            font-normal
+            font-medium
             leading-normal
             text-gray-900
             sm:text-lg
