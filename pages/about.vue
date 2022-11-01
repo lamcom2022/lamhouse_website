@@ -42,6 +42,7 @@
 			</NuxtLink> -->
 		</div>
 	</main>
+  <AboutContent />
 
   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid">
      <div class="max-w-7xl px-4 sm:px-6 lg:px-8">
