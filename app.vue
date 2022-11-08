@@ -18,11 +18,11 @@ import { Calendar } from 'v-calendar';
 //const colorMode = useColorMode()
 //console.log(colorMode.preference)
 useHead({
-	title: "Property Management",
+	title: "International Property Management, Real estate agents Bangalore",
 	meta: [
 		{
 			name: "description",
-			content: "A property management partner has the potential to add significant value to your investment",
+			content: "Beyond Borders is managed by MRS. SWATHI GOWDA, a skilled real estate agent Bangalore with excellence in property management in Bangalore. Our hands-on approach focuses closely on the day-to-day activities of property management. ",
 		},
 		{
 			name: "viewport",
@@ -30,11 +30,15 @@ useHead({
 		},
 		{
 			property: "og:title",
-			content: "Beyond Border",
+			content: "Beyond Borders",
 		},
 		{
 			property: "og:description",
-			content: "A property management partner has the potential to add significant value to your investment",
+			content: "Beyond Borders is managed by MRS. SWATHI GOWDA, a skilled real estate agent Bangalore with excellence in property management in Bangalore. Our hands-on approach focuses closely on the day-to-day activities of property management. ",
+		},
+		{
+			property: "og:keywords",
+			content: "Real estate agents in Bangalore, property management agents in Bangalore, property management consultants, Property Tax Services in Bangalore, Legal aid services in Bangalore, property management services Bangalore, Housekeeping services in Bangalore, Audit firms in Bangalore,Tax Consultants in Bangalore,Home interiors services in Bangalore,senior citizen care services in Bangalore",
 		},
 		{
 			property: "og:image",
@@ -42,12 +46,13 @@ useHead({
 		},
 		{
 			property: "og:type",
-			content: "https://www.beyondborder.com",
+			content: "https://www.beyondbordersindia.in",
 		},
 		{
 			property: "og:site_name",
-			content: "Beyond Border",
+			content: "Beyond Borders",
 		},
 	],
 });
 </script>
+

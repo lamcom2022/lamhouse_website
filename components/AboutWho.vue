@@ -42,10 +42,7 @@
           trustworthy, honest and effecient partner, you have landed at the
           right place. Beyond borders will ensure all your property and home
           needs are met with the necessary attention from our professional
-          teams. <br />Click here and reach out to us!
-          <a class="text-primary-900" href="https://beyondbordersindia.in/"
-            >https://beyondbordersindia.in/</a
-          >
+          teams.
         </p>
         <p class="mt-6 mb-6 text-base font-normal text-center">
           Please reach out to us if your interested in job opportunities or

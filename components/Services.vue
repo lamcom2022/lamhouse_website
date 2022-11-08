@@ -65,9 +65,10 @@
       >
         Services
       </h2>
-      <p class="mt-2 text-lg text-center text-gray-600">
-        Check out our list of awesome services below.
+      <p class="mt-2 text-lg text-center text-gray-600 w-6xl">
+        "Services are provided to customers currently residing in USA, Canada, Saudi Arabia, UK, Europe, Singapore, Malaysia, Indonesia, Australia, Russia, China and Japan
       </p>
+     
       <div
         class="
           grid grid-cols-4

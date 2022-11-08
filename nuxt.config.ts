@@ -46,7 +46,7 @@ export default defineNuxtConfig({
 		// https://content.nuxtjs.org/api/configuration
 	},
 	head: {
-		title: process.env.npm_package_name || "Beyond Border",
+		title: process.env.npm_package_name || "International Property Management, Real estate agents Bangalore",
 		htmlAttrs: {
 			lang: "en",
 		},
@@ -58,56 +58,62 @@ export default defineNuxtConfig({
 				name: "description",
 				content:
 					process.env.npm_package_description ||
-					" Robotic process automation tool which provides a business to configure software bots as a first step toward implementing more complex AI solutions. Increase productivity and scale up operations using Intelligent Process Automation",
+					"Beyond Borders is managed by MRS. SWATHI GOWDA, a skilled real estate agent Bangalore with excellence in property management in Bangalore. Our hands-on approach focuses closely on the day-to-day activities of property management.",
 			},
 			{
 				hid: "keywords",
 				name: "keywords",
 				content:
-					"Robotic Process Automation, RPA tools, Robotic Automation Software, RPA Consulting services, Design Automation Services, Custom RPA Solutions, robotic process automation consulting, rpa consulting firms, rpa consulting companies, Robotic Process Automation RPA Tools, RPA Bot Development, Business process Automation",
+					"Real estate agents in Bangalore, property management agents in Bangalore, property management consultants, Property Tax Services in Bangalore, Legal aid services in Bangalore, property management services Bangalore, Housekeeping services in Bangalore, Audit firms in Bangalore,Tax Consultants in Bangalore,Home interiors services in Bangalore,senior citizen care services in Bangalore",
+			},
+			{
+				hid: "google-site-verification",
+				name: "google-site-verification",
+				content:
+					"xmHm_U0nCpo5R-iEA6eHfdLrVfFBbsm0TgiWHDPqhnE",
 			},
 			{
 				hid: "og:site_name",
 				name: "og:site_name",
-				content: "Beyond Border",
+				content: "Beyond Borders",
 			},
 			{
 				hid: "og:type",
 				name: "og:type",
-				content: "website",
+				content: "https://beyondbordersindia.in",
 			},
 			{
 				hid: "og:title",
 				name: "og:title",
-				content: process.env.npm_package_name || "Beyond Border",
+				content: process.env.npm_package_name || "International Property Management, Real estate agents Bangalore",
 			},
 			{
 				hid: "og:description",
 				name: "og:description",
 				content:
 					process.env.npm_package_description ||
-					"Robotic process automation tool which provides a business to configure software bots as a first step toward implementing more complex AI solutions. Increase productivity and scale up operations using Intelligent Process Automation",
+					"Beyond Borders is managed by MRS. SWATHI GOWDA, a skilled real estate agent Bangalore with excellence in property management in Bangalore. Our hands-on approach focuses closely on the day-to-day activities of property management. ",
 			},
 			{
 				hid: "og:image",
 				name: "og:image",
 				content:
-					"https://res.cloudinary.com/nathansweb/image/upload/v1640864433/www.xyz.com/brand-assets/logos/svg/NO_BORDER/Group_21-1_krgdr9.svg",
+					"https://res.cloudinary.com/lamcom/image/upload/v1665820582/beyondborder/logo/web-logo_as5t9k.png",
 			},
 			{
 				hid: "author",
 				name: "author",
-				content: "Beyond Border",
+				content: "Beyond Borders",
 			},
 			{
 				hid: "copyright",
 				name: "copyright",
-				content: "Beyond Border",
+				content: "Beyond Borders",
 			},
 			{
 				hid: "reply-to",
 				name: "reply-to",
-				content: "contact@beyondborder.com",
+				content: "services@beyondborders.in",
 			},
 		],
 		link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
@@ -125,3 +131,5 @@ export default defineNuxtConfig({
 		],
 	},
 });
+
+
