@@ -63,7 +63,7 @@
     </div> 
    </div> -->
 
-   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid lg:grid-cols-3 md:flex md:flex-col py-10">
+   <div class="max-w-7xl mx-auto mt-16 my-12 lg:grid lg:grid-cols-3 md:flex md:flex-col py-1">
     <div class="mx-auto lg:px-2 md:px-4 lg:py-10 md:py-10">
       <img class="w-full rounded"
         src="https://res.cloudinary.com/lamcom/image/upload/v1665325147/mindbeyond/MindBeyond_Founder_lyjat9.jpg">
@@ -93,8 +93,7 @@
       Our Strength Include
     </h2> -->
    
-    <div class="mt-10 max-w-7xl">
-
+    <div class="pb-10 mt-10 max-w-7xl">
       <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
         <div v-for="founderData in founderData" :key="founderData.name" class="relative">
           <dt>
@@ -107,7 +106,6 @@
       </dl>
     </div>
   </div>
-
   <!-- <div class="max-w-7xl mx-auto">
     <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
       Our Strength Include

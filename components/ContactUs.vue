@@ -12,7 +12,7 @@
                         <p>{{menuitems.contactus.companyname}}</p>
                         <p>{{menuitems.contactus.addressline1}}</p>
                         <p>{{menuitems.contactus.addressline2}}</p>
-                        <p>{{menuitems.contactus.city}} - {{menuitems.contactus.zip}}, {{menuitems.contactus.country}}</p>
+                        <!-- <p>{{menuitems.contactus.city}} - {{menuitems.contactus.zip}}, {{menuitems.contactus.country}}</p> -->
                     </dd>
                 </div>
                 <div class="mt-2">
