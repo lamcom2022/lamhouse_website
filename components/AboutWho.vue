@@ -3,7 +3,7 @@
     <div
       class="
         grid
-        lg:grid-cols-1
+        lg:grid-cols-2
         md:grid-cols-1
         relative
         max-w-lg
@@ -11,7 +11,7 @@
         lg:max-w-7xl
       "
     >
-      <div>
+      <div class="py-12">
         <h3
           class="
             text-lg
@@ -23,7 +23,7 @@
         ></h3>
         <h2
           class="
-            text-xl text-center
+            text-xl text-left
             tracking-tight
             font-bold
             text-primary-900
@@ -32,7 +32,7 @@
         >
           About Beyond Borders
         </h2>
-        <p class="mt-6 mb-6 text-base font-normal text-center">
+        <p class="mt-6 mb-6 text-base font-normal text-left">
           Beyond Borders is managed by
           <span class="uppercase text-primary-900 font-bold"
             >Mrs. Swathi Gowda</span
@@ -44,7 +44,7 @@
           needs are met with the necessary attention from our professional
           teams.
         </p>
-        <p class="mt-6 mb-6 text-base font-normal text-center">
+        <p class="mt-6 mb-6 text-base font-normal text-left">
           Please reach out to us if your interested in job opportunities or
           would like to join our staff. Being apart of Beyond borders’
           commitment will provide the knowledge to effectively increase your
@@ -55,11 +55,11 @@
         </p>
       </div>
 
-      <!-- <div class="mx-auto w-auto relative mt-12 mr-0">
+       <div class="mx-auto w-auto relative mt-12 mr-0">
         <img
-          src="https://res.cloudinary.com/lamcom/image/upload/v1666964947/beyondborder/about/swathi-small_gierqy.jpg"
+          src="https://res.cloudinary.com/lamcom/image/upload/v1667997952/beyondborder/about/small-pic_thz6ou.jpg"
         />
-      </div> -->
+      </div>
     </div>
   </div>
   <!-- who we are -->
