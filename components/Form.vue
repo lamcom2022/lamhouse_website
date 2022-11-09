@@ -61,7 +61,7 @@
         <input v-model="data.first_name" type="text" name="fname" id="fname"
           class="shrink w-72 form-control rounded mb-2 mx-4" />
         <!--Age -->
-        <div class="grid lg:grid-cols-2 md:grid-cols-1 mt-6">
+        <div class="grid lg:grid-cols-1 md:grid-cols-1 mt-6">
           <label for="Age" class="
               md:flex-none
               form-label
@@ -93,7 +93,7 @@
         </div>
 
         <!--Preferred pronouns -->
-        <div class="grid lg:grid-cols-2 mt-6">
+        <div class="grid lg:grid-cols-1 mt-6">
           <label for="Sex" class="
               form-label
               inline-block
@@ -146,7 +146,7 @@
         </div>
 
         <!--Current Status -->
-        <div class="grid lg:grid-cols-2 mt-6">
+        <div class="grid lg:grid-cols-1 mt-6">
           <label for="CurrentStatus" class="
               form-label
               inline-block
@@ -166,7 +166,7 @@
         </div>
 
         <!--Have you ever taken counselling before -->
-        <div class="grid lg:grid-cols-2 mt-6">
+        <div class="grid lg:grid-cols-1 mt-6">
           <label for="CurrentStatus" class="
               form-label
               inline-block
@@ -201,7 +201,7 @@
         </div>
 
         <!--Mode of Counselling preferred -->
-        <div class="grid lg:grid-cols-2 mt-6">
+        <div class="grid lg:grid-cols-1 mt-6">
           <label for="Mode of Counselling" class="
               form-label
               inline-block
@@ -231,7 +231,7 @@
         </div>
 
         <!--What would you like to talk about -->
-        <div class="grid lg:grid-cols-2 mt-6">
+        <div class="grid lg:grid-cols-1 mt-6">
           <label for="Sex" class="
               form-label
               inline-block
@@ -261,7 +261,7 @@
         </div>
 
         <!--Have you been clinically diagnosed with a mental health issue -->
-        <div class="grid lg:grid-cols-2 mt-6">
+        <div class="grid lg:grid-cols-1 mt-6">
           <label for="MentalHealth" class="
               form-label
               inline-block
@@ -283,7 +283,7 @@
         </div>
 
         <!--Are you taking any medication -->
-        <div class="grid lg:grid-cols-2 mt-6">
+        <div class="grid lg:grid-cols-1 mt-6">
           <label for="Medication" class="
               form-label
               inline-block
