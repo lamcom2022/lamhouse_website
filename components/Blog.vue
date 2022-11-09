@@ -11,28 +11,30 @@
                 <div class="mt-6 pt-5 grid gap-4 place-self-center lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8">
                     <div v-for="article of articles" :key="article._path"
                         class="shadow-lg flex-col flex-direction: column">
-                        
-                            <div class="flex flex-1 h-48 xxlmin:w-1/2 xxlmax:w-full object-center">
-                                <img v-if="article.coverimage" class="scale-x-50 scale-y-50 mx-auto object-center overflow-hidden"
-                                    :src="article.coverimage" />
-                            </div>                            
-                       
-                        
+
+                        <div class="flex flex-1 h-48 xxlmin:w-1/2 xxlmax:w-full object-center">
+                            <img v-if="article.coverimage"
+                                class="scale-x-50 scale-y-50 mx-auto object-center overflow-hidden"
+                                :src="article.coverimage" />
+                        </div>
+
+
                         <div class="flex flex-1 flex-col justify-evenly bg-white p-3">
                             <div class="flex-1">
-                                                           
-                                    <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900 text-center">
-                                        <ClientOnly>
-                                            {{ $s(article.title).prune(50)._wrapped }}
-                                        </ClientOnly>
-                                    </h3>
-                                    
-                                    <p class="mt-3 text-base leading-6 text-gray-500 text-center fixed top-0 left-0 right-0">
-                                        <ClientOnly>
-                                            {{ $s(article.description).prune(100)._wrapped }}
-                                        </ClientOnly>
-                                    </p>
-                                    <!-- <a href="/form">
+
+                                <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900 text-center">
+                                    <ClientOnly>
+                                        {{ $s(article.title).prune(50)._wrapped }}
+                                    </ClientOnly>
+                                </h3>
+
+                                <p
+                                    class="mt-3 text-base leading-6 text-gray-500 text-center fixed top-0 left-0 right-0">
+                                    <ClientOnly>
+                                        {{ $s(article.description).prune(100)._wrapped }}
+                                    </ClientOnly>
+                                </p>
+                                <!-- <a href="/form">
                                       <p class="mt-3 text-base leading-6 text-primary-500 text-center">
                                         <ClientOnly>
                                             {{ $s(article.link).prune(50)._wrapped }}
@@ -42,9 +44,10 @@
                                     <span class="text-justify mt-3 text-white">Book Now</span>
                                     </div>
                                     </a> -->
-                              
+
                             </div>
-                           <!--
+
+                            <!--
                             <div class="mt-3 flex items-center">
 
                                 <p class="text-sm leading-5 font-medium text-gray-900">
@@ -69,9 +72,17 @@
                         </div>
                     </div>
                 </div>
+
             </div>
+
+            <a href="/form">
+                <div class="bg-primary w-32 h-12 rounded-full text-center mx-auto py-3 mt-6">
+                    <span class="text-white font-normal text-sm text-center">Book Now</span>
+                </div>
+            </a>
         </div>
     </div>
+
 </template>
 
 <script>

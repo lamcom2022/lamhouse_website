@@ -2,11 +2,11 @@
 <!-- <div class="bg-[url('https://res.cloudinary.com/lamcom/image/upload/v1665642938/mindbeyond/mental-health_rudukq.jpg')]">
 </div> -->
 	<main
-		class="grid lg:grid-cols-2 md:grid-cols-1 bg-primary">
-		<div class="bg-primary md:py-16 flex flex-col">
+		class="grid lg:grid-cols md:grid-cols-1 bg-primary">
+		<!-- <div class="bg-primary md:py-16 flex flex-col">
 			<span class="uppercase font-semibold text-[24px] lg:text-5xl text-center mt-16" >Home</span>
-			</div>
-		<div class="bg-primary mx-auto mt-16 flex flex-col">
+			</div> -->
+		<div class="bg-primary mx-auto mt-12 flex flex-col">
 			<img src="https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png">
 		</div>
 		
