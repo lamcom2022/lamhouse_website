@@ -82,7 +82,7 @@
               font-semibold
               mt-6
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Sex</label>
-          <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Male">Male
               <input v-model="data.male" type="radio" name="age" id="male" class="form-control mt-0" /></label>
             <label for="Female">Female
@@ -102,7 +102,7 @@
               font-semibold
               mt-6
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Preferred Pronouns</label>
-          <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Male">She/Her
               <input v-model="data.gender" value="Female" type="radio" name="prefer" id="she"
                 class="form-control mt-0" /></label>
@@ -155,7 +155,7 @@
               font-semibold
               mt-6
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Current Status</label>
-          <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Student">Student
               <input v-model="data.job" value="Student" type="radio" name="status" id="student"
                 class="form-control mt-0" /></label>
@@ -176,7 +176,7 @@
               mt-6
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Have you ever taken counselling
             before?</label>
-          <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Yes">Yes
               <input v-model="data.counselingTaken" value="Yes" type="radio" name="counselling" id="yes"
                 class="form-control mt-0" /></label>
@@ -211,7 +211,7 @@
               mt-6
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Mode of Counselling
             preferred?</label>
-          <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Phone Call">Phone Call
               <input v-model="data.meetingpreference" value="Phone" type="radio" name="mcounselling" id="phonecall"
                 class="form-control mt-0" /></label>
@@ -241,7 +241,7 @@
               mt-6
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>What would you like to talk
             about</label>
-          <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Anxiety">Anxiety
               <input v-model="data.problem" value="Anxiety" type="checkbox" name="anxiety" id="anxiety"
                 class="form-control mt-0" /></label>
@@ -272,7 +272,7 @@
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Have you been clinically diagnosed
             with a mental health
             issue?</label>
-          <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Yes">Yes
               <input v-model="data.diagnosedMentalHealth" value="Yes" type="radio" name="mhealth" id="mhyes"
                 class="form-control mt-0" /></label>
@@ -293,7 +293,7 @@
               mt-6
             "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Are you taking any
             medication?</label>
-          <div class="flex gap-2 mx-4 mb-4 lg:mt-6">
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
             <label for="Yes">Yes
               <input v-model="data.medicationTaken" value="Yes" type="radio" name="medication" id="medyes"
                 class="form-control mt-0" /></label>

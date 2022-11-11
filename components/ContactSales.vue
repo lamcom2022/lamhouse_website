@@ -93,7 +93,7 @@
                                                                     name="phone_number" id="phone_number"
                                                                     autocomplete="tel"
                                                                     class="py-3 px-4 block w-full pl-5 focus:ring-green-500 focus:border-green-500 border-gray-300"
-                                                                    placeholder="1234567890">
+                                                                    placeholder="">
                                                                 <!--</div>-->
                                                             </div>
                                                         </div>
@@ -132,7 +132,7 @@
                             </span>
                             <span class="inline-flex rounded-md shadow-sm">
                                 <button v-on:click="sendContactUs" type="submit"
-                                    class="inline-flex justify-center py-2 px-4 border border-transparent text-sm leading-5 font-medium  text-white bg-primary-600 hover:bg-primary-500 focus:outline-none focus:border-green-700 focus:shadow-outline-green active:bg-primary-700 transition duration-150 ease-in-out">
+                                class="py-2 px-4 border border-gray-300 text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800 transition duration-150 ease-in-out">
                                     Send
                                 </button>
                             </span>
