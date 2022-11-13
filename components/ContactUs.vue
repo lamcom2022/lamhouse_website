@@ -107,6 +107,16 @@
                             </span>
                     </dd>
                 </div>
+
+                <div class="mt-3">
+                    <dt class="sr-only">Gstin</dt>
+                    <dd class="flex">
+                        <span class="ml-0">
+                                GSTIN : {{menuitems.contactus.gstin}}
+                            </span>
+                    </dd>
+                </div>
+
             </dl>
             
         </div>
