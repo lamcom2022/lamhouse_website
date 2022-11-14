@@ -29,6 +29,11 @@ useHead({
 			content: "width=device-width,initial-scale=1",
 		},
 		{
+			name: "google-site-verification",
+			content: "googlef76d0c7d5da811c7",
+		},
+
+		{
 			property: "og:title",
 			content: "Beyond Borders",
 		},

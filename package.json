@@ -33,6 +33,8 @@
   "dependencies": {
     "@fawmi/vue-google-maps": "^0.9.72",
     "@heroicons/vue": "^1.0.6",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
     "@sendgrid/mail": "^7.7.0",
     "@tailwindcss/forms": "^0.5.2",
     "destr": "^1.1.1",

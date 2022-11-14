@@ -41,10 +41,29 @@ export default defineNuxtConfig({
 			BASE_URL: process.env.MONGODB_ATLAS_REST_URL,
 		},
 	},
-	modules: ["@nuxt/content"],
+	modules: ["@nuxt/content", "@nuxtjs/sitemap","@nuxtjs/robots"],
+	robots: {
+		UserAgent: '*',
+		Disallow: '/admin',
+		Allow: '/'
+	  },
+	  buildModules: [
+		'@/modules/generate',
+		],
+	  sitemap: {
+		hostname: 'http://localhost:3000/',
+		gzip: true
+	  },
+	
 	content: {
 		// https://content.nuxtjs.org/api/configuration
 	},
+
+	
+		
+		  
+		
+	  
 	head: {
 		title: process.env.npm_package_name || "International Property Management, Real estate agents Bangalore",
 		htmlAttrs: {
@@ -70,7 +89,7 @@ export default defineNuxtConfig({
 				hid: "google-site-verification",
 				name: "google-site-verification",
 				content:
-					"xmHm_U0nCpo5R-iEA6eHfdLrVfFBbsm0TgiWHDPqhnE",
+					"googlef76d0c7d5da811c7",
 			},
 			{
 				hid: "og:site_name",
