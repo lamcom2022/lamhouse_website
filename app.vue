@@ -18,19 +18,19 @@ import { Calendar } from 'v-calendar';
 //const colorMode = useColorMode()
 //console.log(colorMode.preference)
 useHead({
-	title: "Lamhouse IT Solution",
+	title: "SRAVYA Food & Beverages",
 	meta: [
 		{
 			name: "description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity",
+			content: "Sravya Food and Beverages deals with Food and Agro-based commodities across the globe",
 		},
 		{
 			property: "og:title",
-			content: "Lamhouse IT Solution",
+			content: "SRAVYA Food & Beverages",
 		},
 		{
 			property: "og:description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity ",
+			content: "Sravya Food and Beverages deals with Food and Agro-based commodities across the globe ",
 		},
 		{
 			property: "og:image",
@@ -38,11 +38,11 @@ useHead({
 		},
 		{
 			property: "og:type",
-			content: "https://www.lamhouse.in",
+			content: "",
 		},
 		{
 			property: "og:site_name",
-			content: "Lamhouse",
+			content: "SRAVYA Food & Beverages",
 		},
 	],
 });
