@@ -1,7 +1,7 @@
 {
   "branding": {
     "logo": {
-      "source": "https://res.cloudinary.com/nathansweb/image/upload/v1660962725/aljabar.com/aljabar-logo_l4kodw.png",
+      "source": "https://res.cloudinary.com/lamcom/image/upload/v1668668504/sravya/logo/logo_gluxke.jpg",
       "href": "/"
     },
     "mark": {
@@ -32,20 +32,20 @@
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
       "icon": "M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z",
-      "title": "Services",
-      "link": "/services"
+      "title": "Service",
+      "link": "/service"
+    },
+    {
+      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
+      "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
+      "title": "Product",
+      "link": ""      
     },
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
       "title": "Team",
-      "link": "/team"      
-    },
-    {
-      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
-      "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
-      "title": "Clients",
-      "link": "/clients"      
+      "link": ""      
     }
     
   ],
@@ -105,17 +105,17 @@
           {
             "icon": "",
             "title": "About",
-            "link": "/about"
+            "link": ""
           },
           {
             "icon": "",
             "title": "Services",
-            "link": "/services"
+            "link": ""
           },
           {
             "icon": "",
-            "title": "Team",
-            "link": "/team"
+            "title": "Product",
+            "link": ""
           },
           {
             "icon": "",
@@ -162,7 +162,7 @@
         ]
       }
     ],
-    "copyright": "© Copyright 2021 LamHouse. All Rights Reserved."
+    "copyright": "© Copyright 2022 SRAVYA Food & Beverages. All Rights Reserved."
   },
   "socialmedia": [
     {
@@ -321,18 +321,18 @@
     }
   ],  
   "contactus": {
-    "companyname": "Lam House",
-    "addressline1": "#104, 2nd Cross, Royal County Layout, Parappana Agrahara",
+    "companyname": "SRAVYA Food & Beverages",
+    "addressline1": "Flat No: 308, Satwis Clairnet Apartment, Kalkeri, Main Road, Horamavu Post",
     "addressline2": "",
-    "city": "Al-Hasa",
+    "city": "Bengaluru",
     "state": "",
-    "country": "Bangalore Karnataka 560100",
+    "country": "Karnataka 560043",
     "zip": "",
-    "phone1": "(+91) 8861773950",
+    "phone1": "(+91) 9742070702",
     "phone2": "",
     "fax": "",
-    "email": "biz@lamhouse.in",
-    "website": "https://www.lamhouse.in"
+    "email": "chakrapani@sfbindia.in",
+    "website": ""
   },
   "map": {
     "mapsection": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.489847774526!2d77.6548749151321!3d12.876192590918535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c9d9255fc4d%3A0x6a652194251fe657!2sLAM%20House!5e0!3m2!1sen!2sin!4v1662564565090!5m2!1sen!2sin",

@@ -1,5 +1,5 @@
 <template>
-	<header class="flex1 flex items-center bg-primary-900  justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5">
+	<header class="flex1 flex items-center bg-primary-900  justify-between h-28 lg:max-w-8xl mx-auto px-5 lg:px-5">
 		<!-- Logo (Start)-->
 		<NuxtLink to="/">
 			<IconLogo class="w-14 h-14" />
@@ -96,7 +96,7 @@
 				</div>
 				<div v-else>
 					<a :href="menu.link"
-						class="text-xl leading-6 font-bold  focus:outline-none transition ease-in-out duration-150 text-white  hover:text-white  focus:text-white'">
+						class="text-xl leading-6 font-bold  focus:outline-none transition ease-in-out duration-150 text-white  hover:text-primary-500  focus:text-white'">
 						{{ menu.title }}
 					</a>
 				</div>

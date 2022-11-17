@@ -40,8 +40,8 @@ module.exports = {
       teal: colors.teal,
       orange: colors.orange,
       magenta: colors.magenta,
-      primary: colors.sky,
-      secondary: colors.pink,
+      primary: colors.green,
+      secondary: colors.rose,
       footer: colors.slate,
     },
     extend: {
