@@ -105,21 +105,21 @@
           {
             "icon": "",
             "title": "About",
-            "link": ""
+            "link": "about"
           },
           {
             "icon": "",
             "title": "Services",
-            "link": ""
+            "link": "services"
           },
           {
             "icon": "",
             "title": "Product",
-            "link": ""
+            "link": "product"
           },
           {
             "icon": "",
-            "title": "Clients",
+            "title": "Team",
             "link": ""
           }
         ]
