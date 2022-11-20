@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Hero />
-    <Blog :articles="articles" />    
+    <HomeHero />
+    <HomeBody :articles="articles" />    
    
   </div>
 
@@ -10,7 +10,7 @@
 <script setup>
 definePageMeta({
   //colorMode: 'system',
-  layout: "main",
+  layout: "home",
 })
 const { data: color } = ref('white')
 const { data: articles } = await useAsyncData('articles-list', () => queryContent('articles')

@@ -14,12 +14,7 @@
                 <p class="mb-5 text-base text-gray-300 sm:pr-10 md:text-lg">
                    Deals with Food and Agro-based commodities across the globe. 
                 </p>
-                <div class="flex flex-col items-center pt-2 sm:flex-row sm:pt-4">
-                  
-                    <a href="/" class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-primary-900 transition duration-200 bg-primary-500 rounded shadow-md sm:w-auto hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
-                        Learn More
-                    </a>
-                </div>
+                
             </div>
         </div>
     </section>
