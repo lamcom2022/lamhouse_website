@@ -7,7 +7,7 @@
 		</h1>
 	</main>
 
-    <!--Prodct section -->
+    <!--Product section -->
      <section class="px-2 py-24 bg-white md:px-0">
     <div class="container items-center max-w-8xl px-8 mx-auto">
         <div class="flex sm:-mx-3">
@@ -80,6 +80,6 @@
 <script>
 definePageMeta({
   //colorMode: 'system',
-  layout: "home",
+  layout: "main",
 });
 </script>

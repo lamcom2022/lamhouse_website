@@ -144,7 +144,7 @@
 import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon, ArrowCircleRightIcon } from '@heroicons/vue/outline/index.js'
 definePageMeta({
   //colorMode: 'system',
-  layout: "main",
+  layout: "home",
 })
 const about = [
   {
