@@ -46,7 +46,7 @@ export default defineNuxtConfig({
 		// https://content.nuxtjs.org/api/configuration
 	},
 	head: {
-		title: process.env.npm_package_name || "Swara Nritya Company",
+		title: process.env.npm_package_name || "Sravya Food & Beverages",
 		htmlAttrs: {
 			lang: "en",
 		},
@@ -58,18 +58,18 @@ export default defineNuxtConfig({
 				name: "description",
 				content:
 					process.env.npm_package_description ||
-					" Robotic process automation tool which provides a business to configure software bots as a first step toward implementing more complex AI solutions. Increase productivity and scale up operations using Intelligent Process Automation",
+					"Sravya Food and Beverages deals with Food and Agro-based commodities across the globe",
 			},
 			{
 				hid: "keywords",
 				name: "keywords",
 				content:
-					"Robotic Process Automation, RPA tools, Robotic Automation Software, RPA Consulting services, Design Automation Services, Custom RPA Solutions, robotic process automation consulting, rpa consulting firms, rpa consulting companies, Robotic Process Automation RPA Tools, RPA Bot Development, Business process Automation",
+					"Sravya Food and Beverages deals with Food and Agro-based commodities across the globe",
 			},
 			{
 				hid: "og:site_name",
 				name: "og:site_name",
-				content: "SwaraNritya",
+				content: "Sravya Food & Beverages",
 			},
 			{
 				hid: "og:type",
@@ -79,35 +79,35 @@ export default defineNuxtConfig({
 			{
 				hid: "og:title",
 				name: "og:title",
-				content: process.env.npm_package_name || "Swara Nritya Company",
+				content: process.env.npm_package_name || "Sravya Food & Beverages",
 			},
 			{
 				hid: "og:description",
 				name: "og:description",
 				content:
 					process.env.npm_package_description ||
-					"Robotic process automation tool which provides a business to configure software bots as a first step toward implementing more complex AI solutions. Increase productivity and scale up operations using Intelligent Process Automation",
+					"Sravya Food and Beverages deals with Food and Agro-based commodities across the globe",
 			},
 			{
 				hid: "og:image",
 				name: "og:image",
 				content:
-					"https://res.cloudinary.com/nathansweb/image/upload/v1640864433/www.xyz.com/brand-assets/logos/svg/NO_BORDER/Group_21-1_krgdr9.svg",
+					"",
 			},
 			{
 				hid: "author",
 				name: "author",
-				content: "SwaraNritya",
+				content: "Sravya Food & Beverages",
 			},
 			{
 				hid: "copyright",
 				name: "copyright",
-				content: "SwaraNritya",
+				content: "Sravya Food & Beverages",
 			},
 			{
 				hid: "reply-to",
 				name: "reply-to",
-				content: "contact@SwaraNritya.com",
+				content: "",
 			},
 		],
 		link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
