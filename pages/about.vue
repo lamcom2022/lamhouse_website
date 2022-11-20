@@ -5,8 +5,6 @@
 			
 			<span class="font-extrabold bg-clip-text text-primary-500  uppercase">About</span>
 		</h1>
-		
-		
 	</main>
  <!-- Section 2 -->
     <section class="w-full bg-white md:pt-12 md:pb-24">
