@@ -1,36 +1,11 @@
 <template>
-  <main
-    class="
-      mx-auto
-      bg-gradient-to-r
-      from-primary-800
-      via-primary-900
-      to-primary-800
-      ...
-      lg:max-w-8xl
-      px-5
-      lg:px-0
-      pt-14
-      lg:pt-12
-      h-64
-    "
-  >
-    <h1
-      class="
-        capitalize
-        font-semibold
-        text-[38px]
-        lg:text-7xl
-        text-center
-        leading-snug
-        text-white
-      "
-    >
-      <span class="font-extrabold bg-clip-text text-primary-500 uppercase"
-        >Product</span
-      >
-    </h1>
-  </main>
+ <main
+		class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-12">
+		<h1 class="capitalize font-semibold text-[38px] lg:text-7xl text-center text-white h-64 py-16">			
+			
+			<span class="font-extrabold bg-clip-text text-primary-500  uppercase">products</span>
+		</h1>
+	</main>
 
     <!--Prodct section -->
      <section class="px-2 py-24 bg-white md:px-0">

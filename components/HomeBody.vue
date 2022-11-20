@@ -154,7 +154,7 @@
             <p class="mx-auto text-base text-gray-700 sm:max-w-md lg:text-lg md:max-w-3xl">1.	Everybody who buys our product will be given a serial no and on <span class="text-secondary-600">EVERY SIX MONTHS THERE WILL BE A DRAW AND THE LUCKY WINNER WILL GET CASH PRICE OF RS 500000/- (RUPEES FIVELAKHS ONLY).</span></p>
             <div class="relative flex flex-col sm:flex-row sm:space-x-4">
                
-                <a href="#_" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">
+                <a href="product" class="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600">
                 Read More
                 </a>
             </div>
