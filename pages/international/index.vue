@@ -1,10 +1,7 @@
 <template>
-  <div>
-    <HomeHero />
-    <HomeBody :articles="articles" />    
-   
+  <div>    
+     <International />    
   </div>
-
 </template>
 
 <script setup>
@@ -13,11 +10,10 @@ definePageMeta({
   layout: "main",
 })
 const { data: color } = ref('white')
-const { data: articles } = await useAsyncData('articles-list', () => queryContent('articles')
+const { data: services } = await useAsyncData('services-list', () => queryContent('services')
   .only([
     "title",
     "description",
-    "link",
     "coverimage",
     "author",
     "date",

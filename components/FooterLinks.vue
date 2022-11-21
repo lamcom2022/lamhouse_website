@@ -1,12 +1,12 @@
 <template>
          <div class="grid grid-cols-2 gap-8 md:grid-cols-1 lg:grid-cols-4">
             <div>
-                <h4 class="text-sm text-white leading-5 font-semibold tracking-wider text-white uppercase">
+                <h4 class="text-sm text-white leading-5 font-semibold tracking-wider  uppercase">
                     {{ menuitems.footer.sections[0].name }}
                 </h4>
                 <ul class="mt-4">
                     <li class="mt-4" v-for="sm in menuitems.footer.sections[0].menus" :key="sm.title">
-                        <a :href="sm.link" class="text-base text-white leading-6 text-white hover:text-primary-500">
+                        <a :href="sm.link" class="text-base text-white leading-6  hover:text-primary-500">
                             {{ sm.title }}
                         </a>
                     </li>

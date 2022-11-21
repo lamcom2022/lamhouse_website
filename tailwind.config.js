@@ -22,6 +22,7 @@ module.exports = {
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
       'logo': '#1a1312',
+      'darkgray': '#010005',
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       purple: colors.purple,
