@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "bundledDependencies": [
+    "buffer-from",
+    "defu",
+    "source-map-support",
+    "property-information",
+    "dayjs",
+    "html-tags",
+    "@googlemaps/markerclustererplus",
+    "slugify",
+    "@intlify/shared",
+    "@intlify/core-base",
+    "destr",
+    "radix3",
+    "ohmyfetch",
+    "node-fetch-native",
+    "unenv",
+    "h3",
+    "ufo",
+    "scule",
+    "ohash",
+    "unstorage",
+    "hookable",
+    "cookie-es",
+    "pathe",
+    "source-map",
+    "unctx",
+    "mitt",
+    "@intlify/devtools-if",
+    "@intlify/message-compiler"
+  ]
+}
