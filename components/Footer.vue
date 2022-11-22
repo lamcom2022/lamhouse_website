@@ -13,10 +13,17 @@
       </div>
       <div class="mt-8 border-t border-white pt-8 md:flex md:items-center md:justify-between">
         <div class="flex md:order-2">
-          <a :href="sm.link" class="ml-6 text-white hover:text-primary-500" v-for="sm in menuitems.socialmedia"
+          <a :href="sm.link" class="ml-0 text-white hover:text-primary-500" v-for="sm in menuitems.socialmedia"
             :key="sm.title">
             <span class="sr-only"> {{ sm.title }} </span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path :fill-rule="sm.rule" :d="sm.icon" :clip-rule="sm.rule" />
+            </svg>            
+          </a>
+          <a :href="sm.link" class="text-white -ml-4 hover:text-primary-500" v-for="sm in menuitems.socialmedia"
+            :key="sm.title">
+            <span class="sr-only"> {{ sm.title }} </span>
+          <svg class="h-6 w-6 " fill="white" viewBox="0 0 640 640">
               <path :fill-rule="sm.rule" :d="sm.icon" :clip-rule="sm.rule" />
             </svg>
           </a>

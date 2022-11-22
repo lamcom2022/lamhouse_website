@@ -19,13 +19,34 @@
 
     </section>
 
-    <!--Product section -->
-     <section class="px-2 py-24 bg-white md:px-0">
-    <div class="container items-center max-w-8xl px-8 mx-auto">
-        <div class="flex sm:-mx-3">
-        <div class="w-full md:w-1/2 md:px-3">
-            <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-            <h1 class="text-4xl font-extrabold tracking-tight text-primary-600 sm:text-5xl md:text-4xl lg:text-4xl xl:text-4xl">
+    <!-- Section 10 -->
+  <section class="w-full px-8 py-12 md:py-16 bg-white xl:px-0">
+    <div
+      class="
+        flex flex-col
+        max-w-7xl
+        px-3
+        mx-auto
+        md:px-0
+        lg:px-8
+        xl:px-0
+        md:flex-row
+      "
+    >
+      <div
+        class="
+          w-full
+          max-w-1/2
+          pr-2
+          mb-6
+          space-y-1
+          md:mb-0 md:space-y-4 md:w-full
+          xl:pr-12
+         
+        "
+      >
+      <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
+        <h1 class="text-4xl font-extrabold tracking-tight text-primary-600 sm:text-5xl md:text-4xl lg:text-4xl xl:text-4xl">
                Proposal               
             </h1>
             <p class="mx-auto text-base text-gray-700 sm:max-w-md lg:text-lg md:max-w-3xl">I request everybody to join in this social cause by buying our first health product and PARTCIPATING IN MARATHON support us by Buying our products.</p>
@@ -39,16 +60,27 @@
             </p>
             <p>2.	Every Month for our Members we will supply conventional and Organic Agro and health products example Dried Red Chilli this will be export quality and the price will be less than the cheap quality what we are Buying from Grocery shop nearby or any Big Marts. We will supply you initially only 250 grams if you feel comfortable with price and quality you can order us. </p>
             <p>3.	Please note Every order will help you in getting quality product and the profit in sale will indirectly help who needs help may be in the form of Education, or used for Rehabilitation etc.</p>
-            </div>
-        </div>
-        
-             <div class="w-full md:w-1/2 md:px-3">
+      </div>
+      </div>
+
+      <div
+        class="
+          relative
+          w-full
+          max-w-1/2
+          mt-6
+          overflow-hidden
+          md:mt-1 md:w-full
+          lg:mx-12 md:mx-4
+        "
+      >
+        <div class="w-full space-y-2">
             <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-            <h1 class="text-4xl font-extrabold tracking-tight text-primary-600 sm:text-5xl md:text-4xl lg:text-4xl xl:text-4xl">
+          <h1 class="text-4xl font-extrabold tracking-tight text-primary-600 sm:text-5xl md:text-4xl lg:text-4xl xl:text-4xl">
                 <span class="block xl:inline">OUR FIRST LAUNCHING HEALTH PRODUCT </span>                
             </h1>
            
-            <h1 class="text-4xl font-extrabold tracking-tight text-secondary-900 sm:text-5xl md:text-4xl lg:text-4xl xl:text-4xl">
+            <h1 class="text-4xl font-extrabold tracking-tight text-secondary-600 sm:text-5xl md:text-4xl lg:text-4xl xl:text-4xl">
                 PRODUCT DETAILS:               
             </h1>
 
@@ -80,12 +112,9 @@
            </ul>
             </div>
         </div>
-        </div>
-       
+      </div>
     </div>
-    </section> 
-
-
+  </section>
   
 </template>
 

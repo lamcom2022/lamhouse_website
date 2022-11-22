@@ -48,9 +48,9 @@
         <h2
           class="
             pb-2
-            text-5xl
+            lg:text-3xl
             font-extrabold          
-            lg:text-2xl            
+            md:text-2xl            
             w-60 h-12 rounded-md bg-secondary-600 
              text-white hover:text-primary-100 text-center py-2
            "
@@ -62,9 +62,9 @@
         <h2
           class="
             mt-8
-            text-5xl
+            lg:text-3xl
             font-extrabold          
-            lg:text-2xl            
+            md:text-2xl            
             w-60 h-12 rounded-md bg-secondary-600 
              text-white hover:text-primary-100 text-center py-2
           "
@@ -77,9 +77,9 @@
         <h2
           class="
            mt-8
-            text-5xl
+            lg:text-3xl
             font-extrabold          
-            lg:text-2xl            
+            md:text-2xl            
             w-60 h-12 rounded-md bg-secondary-600 
              text-white hover:text-primary-100 text-center py-2
           "
@@ -97,10 +97,10 @@
           mt-6
           overflow-hidden
           md:mt-1 md:w-4xl
-          mx-12
+          lg:mx-12 md:mx-4
         "
       >
-        <div class="w-full space-y-6">
+        <div class="w-full space-y-2">
           <h2
             class="
               w-full
@@ -108,8 +108,7 @@
               font-sans
               text-4xl
               font-black
-              leading-loose
-              tracking-wide
+              leading-loose              
               text-secondary-600
               border-0 border-gray-200
               sm:text-5xl
@@ -158,7 +157,7 @@
             ARRANGEMENT TO THE VENUE
           </p>
           <div class="relative pb-10 border-primary-600 border-spacing-4 border-l-8 border-solid">
-                  <h2 class="w-full mx-12 font-sans text-4xl font-black leading-loose tracking-wide text-primary-600 border-0 sm:text-5xl mb-8 mt-8">
+                  <h2 class="w-full mx-12 font-sans text-5xl lg:text-3xl font-black leading-loose tracking-wide text-primary-600 border-0 md:text-3xl mb-8 mt-8">
                     BANK DETAILS
                   </h2>
                  

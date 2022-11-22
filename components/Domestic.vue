@@ -36,7 +36,9 @@
                       </div>
                       <h3 class="mt-0 mb-2 text-xl font-bold box-border"> KARNATAKA </h3>
                       <ul>
+                        <NuxtLink to="bangalore">
                         <li>BANGALORE</li>
+                        </NuxtLink>
                         <li>SHIMAGO</li>
                         <li>MANGALORE</li>
                         <li>RAICHUR</li>

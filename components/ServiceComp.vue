@@ -20,11 +20,11 @@
     </section>
 
       <!-- Section College Students -->
-      <section class="box-border relative w-full font-sans leading-6 text-gray-700 border-0 border-gray-200 border-solid">
-          <div class="box-border flex flex-col items-center px-8 py-8 mx-auto leading-6 border-solid max-w-8xl xl:px-16 md:items-stretch md:justify-center md:py-8">
+       <section class="box-border relative w-full font-sans leading-6 text-gray-700 border-0 border-gray-200 border-solid">
+          <div class="box-border flex flex-col items-center px-8 py-8 mx-auto leading-6 border-solid max-w-8xl md:px-16 xl:px-16 md:items-stretch md:justify-center md:py-8">
               <div class="relative pb-10">
-                  <h2 class="w-full m-0 font-sans text-4xl font-black leading-loose tracking-wide text-primary-600 border-0 border-gray-200 sm:text-5xl mt-8 mb-8">
-                     COLLEGE STUDENTS/TEACHERS
+                  <h2 class="w-full m-0 font-sans text-4xl font-black leading-loose tracking-wide text-primary-600 border-0 border-gray-200 sm:text-5xl mb-8">
+                     COLLEGE STUDENTS / TEACHERS
                   </h2>
                  
                   <p class="text-lg font-semibold">
@@ -48,7 +48,7 @@
 
         <!-- Section Manufacturing sector -->
       <section class="box-border relative w-full font-sans leading-6 text-gray-700 border-0 border-gray-200 border-solid">
-          <div class="box-border flex flex-col items-center px-8 py-8 mx-auto leading-6 border-solid max-w-8xl xl:px-16 md:items-stretch md:justify-center md:py-8">
+          <div class="box-border flex flex-col items-center px-8 py-8 mx-auto leading-6 border-solid max-w-8xl sm:px-16 xl:px-16 md:items-stretch md:justify-center md:py-8">
               <div class="relative pb-10">
                   <h2 class="w-full m-0 font-sans text-4xl font-black leading-loose tracking-wide text-primary-600 border-0 border-gray-200 sm:text-5xl mb-8">
                     MANUFACTURING SECTOR/TRADERS
