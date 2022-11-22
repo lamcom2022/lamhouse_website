@@ -31,6 +31,8 @@
             <h1 class="text-6xl font-black text-white lg:text-7xl">Marathon 26 March</h1>
             <h1 class="text-6xl font-black text-purple-500 lg:text-5xl">Purple Day(March 26th)</h1>
             <p class="text-2xl font-medium text-gray-200">Purple Day is a grassroots celebration that is aimed at raising worldwide awareness of epilepsy, a condition that affects over 65 million people globally</p>
+            <h1 class="text-6xl font-black text-purple-500 lg:text-7xl">venue </h1>
+            <p class="text-2xl font-black text-white lg:text-5xl">Bangalore University campus UCPE grounds</p>
             <a href="services" class="py-3.5 inline-block uppercase px-8 bg-gradient-to-br from-pink-400 to-pink-600 text-white rounded-full font-medium text-lg">Read more</a>
         </div>
         <div class="relative z-30 max-w-4xl px-4 mx-auto mt-16 lg:px-0">
