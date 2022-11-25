@@ -146,6 +146,8 @@
 
 <script>
 //const config = useRuntimeConfig()
+const emailURL = "http://localhost:4406/";
+
 export default {
     components: {
 
@@ -159,15 +161,34 @@ export default {
     },
     methods: {
         async sendContactUs(args) {
+            console.log("Send Contact")
             try {
                 let request = {}
                 const { data: contact } = await useFetch("api/contact", {
-                    method: 'post', body: this.data                    
+                    method: 'post', body: this.data
                 })
-                alert("Thank you for your enquiry! our customer success team will repond as soon as possible.")
-                const { data: sendemail } = await useFetch("/api/sendemail", {
-                    method: 'post', body: this.data                    
+
+                fetch(emailURL, {
+                    method: "POST",
+                    body: JSON.stringify(this.data),
+                    headers: {
+                        "content-type": "application/json"
+                    }
                 })
+                    .then(response => response.json())
+                    .then(result => {
+                        if (result) {
+                            // there was an error...
+                            alert("Sent Email");
+                          console.log(result);
+                        } else {
+
+                        }
+                    });
+                // alert("Thank you for your enquiry! our customer success team will repond as soon as possible.")
+                // const { data: sendemail } = await useFetch("/api/sendemail", {
+                //     method: 'post', body: this.data                    
+                // })
                 alert("Email delivered successfully");
 
                 this.data = {}
