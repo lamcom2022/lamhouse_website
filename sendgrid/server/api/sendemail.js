@@ -9,7 +9,7 @@ export default async (req, res) => {
 
     //In local use Localhost
     //const emailURL = "http://localhost:4406/";
-    const emailURL = "https://lamhouse.netlify.app:4406/";
+    const emailURL = "https://lamhouse.in:4406/";
 
     const contact = await $fetch(`${emailURL}`, {
         method: 'post'
