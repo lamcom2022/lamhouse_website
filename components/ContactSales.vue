@@ -146,8 +146,8 @@
 
 <script>
 //const config = useRuntimeConfig()
-  //const emailURL = "http://localhost/";
-const emailURL = "https://lamhouse.in/";
+//const emailURL = "http://localhost:4406/";
+const emailURL = "https://lamhouse.in:4406/";
 
 export default {
     components: {

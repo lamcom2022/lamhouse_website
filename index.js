@@ -41,19 +41,19 @@ router.post('/', (req, res, next) => {
     const mail = {
         // from: process.env.SMTP_FROM_EMAIL,
         from: "info@lamhouse.in",
-        // to: process.env.SMTP_TO_EMAIL,
-        to: "pradeephari1594@gmail.com",
+        //to: process.env.SMTP_TO_EMAIL,
+        //to: "pradeephari1594@gmail.com",
+        to: req.body.email,
+        cc: "sureshbabuweb@gmail.com,ravintherr.r@gmail.com",
+        bcc: "sureshbabu73@gmail.com",
         subject: 'New Contact Form Submission',
         text: `
-      from:
-      ${req.body.first_name}
-
-      contact details
-      email: ${req.body.email}
-      phone: ${req.body.phone_number}
-      company: ${req.body.company}
-      message:
-      ${req.body.description}`,
+        from: ${req.body.first_name}
+        contact details
+        email: ${req.body.email}
+        phone: ${req.body.phone_number}
+        company: ${req.body.company}
+        message:${req.body.description}`,
     }
     transporter.sendMail(mail, (err, data) => {
         if (err) {
