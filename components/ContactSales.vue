@@ -146,7 +146,8 @@
 
 <script>
 //const config = useRuntimeConfig()
-const emailURL = "http://localhost:4406/";
+  //const emailURL = "http://localhost/";
+const emailURL = "https://lamhouse.netlify.app/";
 
 export default {
     components: {
