@@ -147,7 +147,9 @@
 <script>
 //const config = useRuntimeConfig()
 //const emailURL = "http://localhost:4406/";
-const emailURL = "https://lamhouse.in:4406/";
+//const emailURL = "https://lamhouse.in:4406/";
+//const emailURL = "http://localhost:9000/.netlify/functions/api/sendmail";
+const emailURL = "https://sendmaillamcom.netlify.app/.netlify/functions/api/sendmail";
 
 export default {
     components: {
@@ -165,12 +167,15 @@ export default {
             console.log("Send Contact")
             try {
                 let request = {}
+                this.data.frommail ="info@lamhouse.in"
+                this.data.ccmail ="ravinther@lamhouse.in,pradeep@lamhouse.in"
+                this.data.bccmail ="suresh@lamhouse.in"
                 const { data: contact } = await useFetch("api/contact", {
                     method: 'post', body: this.data
                 })
-
+                debugger
                 fetch(emailURL, {
-                    method: "POST",
+                    method: "post",
                     body: JSON.stringify(this.data),
                     headers: {
                         "content-type": "application/json"
@@ -180,7 +185,7 @@ export default {
                     .then(result => {
                         if (result) {
                             // there was an error...
-                            alert("Sent Email");
+                            alert("Email delivered successfully");
                           console.log(result);
                         } else {
 
@@ -190,7 +195,7 @@ export default {
                 // const { data: sendemail } = await useFetch("/api/sendemail", {
                 //     method: 'post', body: this.data                    
                 // })
-                alert("Email delivered successfully");
+                //alert("Email delivered successfully");
 
                 this.data = {}
                 this.isContactFormVisible = !this.isContactFormVisible;
