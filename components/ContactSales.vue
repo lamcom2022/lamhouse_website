@@ -148,7 +148,7 @@
 //const config = useRuntimeConfig()
 //const emailURL = "http://localhost:4406/";
 //const emailURL = "https://lamhouse.in:4406/";
-//const emailURL = "http://localhost:9000/.netlify/functions/api/sendmail";
+// const emailURL = "http://localhost:9000/.netlify/functions/api/sendmail";
 const emailURL = "https://sendmaillamcom.netlify.app/.netlify/functions/api/sendmail";
 
 export default {
@@ -169,7 +169,10 @@ export default {
                 let request = {}
                 this.data.frommail ="info@lamhouse.in"
                 this.data.ccmail ="ravinther@lamhouse.in,pradeep@lamhouse.in"
-                this.data.bccmail ="suresh@lamhouse.in"
+                this.data.bccmail ="suresh@lamhouse.in",
+                this.data.transportpwd = "am@zecH12#",
+                this.data.transportusername = "info@lamhouse.in"
+
                 const { data: contact } = await useFetch("api/contact", {
                     method: 'post', body: this.data
                 })
