@@ -8,9 +8,9 @@
       <img src="https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png">
     </div>
 
-    <!-- <p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">
-			"The sole journey is the journey within " 
-		</p> -->
+    <p class="mt-10 text-small text-center text-white font-normal">
+			“ Grant yourself the grace that it is okay to be not okay “ 
+		</p>
     <div class="text-center p-10 flex items-center justify-center space-x-4">
       <!-- <a href="/form"><div
 				class="px-5 py-2 text-sm  ring-2 ring-primary hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
