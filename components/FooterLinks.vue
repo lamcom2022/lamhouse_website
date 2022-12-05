@@ -1,5 +1,5 @@
 <template>
-         <div class="grid grid-cols-2 gap-8 md:grid-cols-1 lg:grid-cols-4">
+         <div class="grid  gap-4 md:grid-cols-1 lg:grid-cols-2 w-96">
             <div>
                 <h4 class="text-sm text-white leading-5 font-semibold tracking-wider  uppercase">
                     {{ menuitems.footer.sections[0].name }}
@@ -12,13 +12,18 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="lg:flex lg:flex-col md:grid-cols-1">
                 <h4 class="text-sm leading-5 font-semibold tracking-wider text-white uppercase">
-                    {{ menuitems.footer.sections[2].name }}
+                    {{ menuitems.footer.sections[2].name}}
                 </h4>
-                <ul class="mt-4">
-                    <li class="mt-4" v-for="sm in menuitems.footer.sections[2].menus" :key="sm.title">
-                        <a :href="sm.link" class="text-base leading-6 text-white hover:text-primary-500">
+                <ul class="font-bold text-2xl">
+                    <li class="mt-4" v-for="sm in menuitems.footer.sections[2].menus" :key="sm.heading">
+                        <a :href="sm.link" class="text-4xl leading-4 text-white hover:text-primary-500">
+                            {{ sm.heading }}
+                        </a>
+                    </li>
+                     <li class="mt-4" v-for="sm in menuitems.footer.sections[2].menus" :key="sm.title">
+                        <a :href="sm.link" class="text-base leading-4 text-white hover:text-primary-500">
                             {{ sm.title }}
                         </a>
                     </li>

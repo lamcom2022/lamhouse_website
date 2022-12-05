@@ -1,11 +1,13 @@
 <template>
-    <div class="mt-8 xl:mt-0 w-full grid lg:grid-cols-2">
-        <div class=" md:grid md:grid-cols-2">
-              <h4 class="text-sm leading-5 font-semibold tracking-wider text-white uppercase">Contact Us</h4>
+    <div class="mt-8 xl:mt-0 grid lg:grid-cols-2">
+        <div class=" w-96 mx-auto justify-between">
+              <h4 class="text-4xl font-semibold text-white uppercase mb-6">UPI</h4>
+               <img src="https://res.cloudinary.com/lamcom/image/upload/v1670226181/sravya/images/qr_gzlqdo.png">
                </div>
+   
             <div>
         
-            <dl class="mt-2 text-base leading-20 text-white w-full">
+            <dl class="mt-2 text-base text-white w-96 lg:mx-48">
                 <div>
                     <h4 class="text-sm leading-5 font-semibold tracking-wider text-white uppercase">Contact Us</h4>
                     <dt class="sr-only">Postal address</dt>
