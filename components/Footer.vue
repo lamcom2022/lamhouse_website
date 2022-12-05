@@ -16,7 +16,7 @@
           <a :href="sm.link" class="ml-6 text-white hover:text-primary-500" v-for="sm in menuitems.socialmedia"
             :key="sm.title">
             <span class="sr-only"> {{ sm.title }} </span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 48 48">
               <path :fill-rule="sm.rule" :d="sm.icon" :clip-rule="sm.rule" />
             </svg>
           </a>
