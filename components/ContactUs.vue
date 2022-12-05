@@ -1,9 +1,10 @@
 <template>
-    <div class="mt-8 xl:mt-0 w-96">
-        <div class="md:grid md:grid-cols-2">
-            
+    <div class="mt-8 xl:mt-0 w-full grid lg:grid-cols-2">
+        <div class=" md:grid md:grid-cols-2">
+              <h4 class="text-sm leading-5 font-semibold tracking-wider text-white uppercase">Contact Us</h4>
+               </div>
             <div>
-            </div>
+        
             <dl class="mt-2 text-base leading-20 text-white w-full">
                 <div>
                     <h4 class="text-sm leading-5 font-semibold tracking-wider text-white uppercase">Contact Us</h4>
