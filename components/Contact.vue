@@ -93,9 +93,10 @@
           >
             <h4 class="w-full text-4xl font-medium leading-snug">Contact Us</h4>
             <div class="relative w-full mt-6 space-y-8">
-              <form action="#" method="post">
+              <form name="Contact" id="Contact" method="post"
+              @submit.prevent="sendContactUs" ref="frmContact">
                 <div class="relative py-6">
-                  <label
+                  <label for="first_name"
                     class="
                       absolute
                       px-2
@@ -105,10 +106,12 @@
                       text-gray-600
                       bg-white
                     "
-                    >Name</label
+                    >Name *</label
                   >
-                  <input
-                    type="text"
+                  <input v-model="data.first_name"
+                    type="text" name="first_name"
+                    id="first_name"
+                    autocomplete="given-name"
                     class="
                       block
                       w-full
@@ -137,10 +140,14 @@
                       text-gray-600
                       bg-white
                     "
-                    >Email Address</label
+                    >Email Address *</label
                   >
                   <input
-                    type="text"
+                  v-model="data.email"
+                    type="email"
+                    name="email"
+                    id="email"
+                    autocomplete="name"
                     class="
                       block
                       w-full
@@ -168,9 +175,13 @@
                       text-gray-600
                       bg-white
                     "
-                    >Phone</label
+                    >Phone*</label
                   >
                   <input
+                  v-model="data.phone_number"
+                  name="phone_number"
+                  id="phone_number"
+                  autocomplete="tel"
                     type="number"
                     class="
                       block
@@ -194,10 +205,11 @@
                     >Message</label
                   >
                   <textarea
+                  v-model="data.description"
+                  id="description"
+                  name="description"
                     rows="4"
-                    cols="50"
-                    name="msg"
-                    id="msg"
+                    cols="50"                   
                     class="
                       block
                       w-full
@@ -215,6 +227,7 @@
                 </div>
                 <div class="relative mb-6 py-4">
                   <button
+                  v-on:click="sendContactUs"
                     type="submit"
                     class="
                       inline-flex
@@ -452,3 +465,95 @@
     </div>
   </section>
 </template>
+
+<script>
+//const config = useRuntimeConfig()
+//const emailURL = "http://localhost:4406/";
+//const emailURL = "https://lamhouse.in:4406/";
+// const emailURL = "http://localhost:9000/.netlify/functions/api/sendmail";
+ const emailURL =
+ "https://sendmaillamcom.netlify.app/.netlify/functions/api/sendmail";
+
+export default {
+  components: {},
+  data() {
+    return {
+      isContactFormVisible: false,
+      data: { "form-name": "contact" },
+      api: "",
+    };
+  },
+  methods: {
+    async sendContactUs(args) {
+      console.log("Send Contact");
+      try {
+        let request = {};
+        this.data.frommail = "info@lamhouse.in";
+        this.data.ccmail = "ravinther@lamhouse.in,pradeep@lamhouse.in";
+        (this.data.bccmail = "suresh@lamhouse.in"),
+          (this.data.transportpwd = "am@zecH12#"),
+          (this.data.transportusername = "info@lamhouse.in");
+
+        const { data: contact } = await useFetch("api/contact", {
+          method: "post",
+          body: this.data,
+        });
+        debugger;
+        fetch(emailURL, {
+          method: "post",
+          body: JSON.stringify(this.data),
+          headers: {
+            "content-type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((result) => {
+            if (result) {
+              // there was an error...
+              alert("Email delivered successfully");
+              console.log(result);
+            } else {
+            }
+          });
+        // alert("Thank you for your enquiry! our customer success team will repond as soon as possible.")
+        // const { data: sendemail } = await useFetch("/api/sendemail", {
+        //     method: 'post', body: this.data
+        // })
+        //alert("Email delivered successfully");
+
+        this.data = {};
+        this.isContactFormVisible = !this.isContactFormVisible;
+        //this.$toast.success("Thank you for your enquiry! our customer success team will repond as soon as possible.")
+      } catch (error) {
+        this.isContactFormVisible = !this.isContactFormVisible;
+        alert(JSON.stringify(error));
+        //this.$toast.error(JSON.stringify(error))
+      } finally {
+      }
+    },
+    handleSelectedInProduct(data) {
+      this.data.product = data;
+    },
+    handleSelectedInCountryCode(data) {
+      this.data.country_code = data;
+    },
+  },
+  computed: {},
+  mounted() {
+    this.$toast.add({
+      severity: "info",
+      summary: "Info Message",
+      detail: "Message Content",
+      life: 10000,
+    });
+  },
+  created() {
+    useNuxtApp().$bus.$on("evtShowContactSales", (data) => {
+      this.isContactFormVisible = true;
+    });
+  },
+  beforeDestroy() {
+    useNuxtApp().$bus.$off("evtShowContactSales");
+  },
+};
+</script>

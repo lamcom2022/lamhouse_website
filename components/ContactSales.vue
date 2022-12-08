@@ -146,6 +146,7 @@
 
 <script>
 //const config = useRuntimeConfig()
+const emailURL = "https://sendmaillamcom.netlify.app/.netlify/functions/api/sendmail";
 export default {
     components: {
 
@@ -160,15 +161,35 @@ export default {
     methods: {
         async sendContactUs(args) {
             try {
+                alert('sendContactUs')
                 let request = {}
+                this.data.frommail ="info@beyondbordersindia.in"
+                this.data.ccmail ="services@beyondbordersindia.in,ravinther@lamhouse.in"
+                this.data.bccmail ="suresh@lamhouse.in",
+                this.data.transportpwd = "l@mhousE12#",
+                this.data.transportusername = "info@beyondbordersindia.in"
+
                 const { data: contact } = await useFetch("api/contact", {
                     method: 'post', body: this.data                    
                 })
-                alert("Thank you for your enquiry! our customer success team will repond as soon as possible.")
-                const { data: sendemail } = await useFetch("/api/sendemail", {
-                    method: 'post', body: this.data                    
+
+                fetch(emailURL, {
+                    method: "post",
+                    body: JSON.stringify(this.data),
+                    headers: {
+                        "content-type": "application/json"
+                    }
                 })
-                alert("Email delivered successfully");
+                    .then(response => response.json())
+                    .then(result => {
+                        if (result) {
+                            // there was an error...
+                            alert("Email delivered successfully");
+                          console.log(result);
+                        } else {
+
+                        }
+                    });
 
                 this.data = {}
                 this.isContactFormVisible = !this.isContactFormVisible;
