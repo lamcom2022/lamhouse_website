@@ -11,8 +11,7 @@
                         relative
                         w-full
                         px-4
-                        leading-6
-                        text-center
+                        leading-6                       
                         xl:flex-grow-0 xl:flex-shrink-0
                         lg:flex-grow-0 lg:flex-shrink-0
                       ">
@@ -37,7 +36,7 @@
                     </div>
                 </div>
 
-                <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
+                <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl mt-12">
                     Services
                 </h2>
                 <h3 class="text-lg tracking-tight font-normal text-primary-900 sm:text-1xl my-6">

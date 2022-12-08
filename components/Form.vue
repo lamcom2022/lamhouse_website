@@ -341,7 +341,7 @@
               confidential information would be shared with them.
             </p>
           </label>
-          <div class="grid grid-cols-2">
+          <div class="grid lg:grid-cols-2">
             <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
               Name of emergency contact
             </label>
@@ -349,7 +349,7 @@
               class="shrink w-72 form-control rounded mb-2 mx-4" />
           </div>
 
-          <div class="grid grid-cols-2">
+          <div class="grid lg:grid-cols-2">
             <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
               Phone number of emergency contact
             </label>
@@ -357,7 +357,7 @@
               class="shrink w-72 form-control rounded mb-2 mx-4" />
           </div>
 
-          <div class="grid grid-cols-2">
+          <div class="grid lg:grid-cols-2">
             <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
               Email ID of emergency contact
             </label>
@@ -368,7 +368,7 @@
 
         <!--Conducting Sessions -->
 
-        <div class="grid grid-cols-2 mt-6">
+        <div class="grid lg:grid-cols-2 mt-6">
           <label for="PhoneNumber" class="form-label inline-block mb-2 text-gray-700 font-semibold">
             We will be conducting sessions from 11:00 am - 7:00 pm IST, from Monday to Saturday. Do you have a time
             preference? If yes, please mention the day and time.

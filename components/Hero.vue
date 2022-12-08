@@ -7,7 +7,7 @@
 			<span class="uppercase font-semibold text-[24px] lg:text-5xl text-center mt-16" >Home</span>
 			</div> -->
 		<div class="bg-primary mx-auto mt-12 flex flex-col">
-			<img src="https://res.cloudinary.com/lamcom/image/upload/v1670220933/mindbeyond/banner-image_sce7um.png">
+			<img src="https://res.cloudinary.com/lamcom/image/upload/v1667198347/mindbeyond/banner_fk1nex.png">
 		</div>
 		
 		<p class="mt-10 text-small text-center text-white font-normal">

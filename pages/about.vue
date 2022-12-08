@@ -5,7 +5,7 @@
       <span class="uppercase font-semibold text-[24px] lg:text-5xl text-center mt-16">About us</span>
     </div>
     <div class="bg-primary mx-auto mt-16 flex flex-col">
-      <img src="https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png">
+      <img src="https://res.cloudinary.com/lamcom/image/upload/v1667198347/mindbeyond/banner_fk1nex.png">
     </div>
 
     <p class="mt-10 text-small text-center text-white font-normal">
@@ -64,8 +64,7 @@
                 relative
                 w-full
                 px-4
-                leading-6
-                text-center
+                leading-6               
                 xl:flex-grow-0 xl:flex-shrink-0
                 lg:flex-grow-0 lg:flex-shrink-0
               ">
