@@ -11,7 +11,7 @@
 		</div>
 		
 		<p class="mt-10 text-small text-center text-white font-normal">
-			“It’s an act of bravery to feel your feelings “
+			“The sole journey is the journey within“
 		</p>
 		<div class="text-center p-10 flex items-center justify-center space-x-4">
 			<!-- <a href="/form"><div

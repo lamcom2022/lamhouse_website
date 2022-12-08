@@ -1,7 +1,7 @@
 <template>
   <!-- Section 5 -->
   <section
-    class="relative block py-20 overflow-hidden leading-6 text-left bg-gray-150"
+    class="relative block py-20 overflow-hidden leading-6 text-left bg-gray-250"
   >
     <div class="w-full max-w-5xl px-8 mx-auto leading-6 text-left xl:px-12">
       <div

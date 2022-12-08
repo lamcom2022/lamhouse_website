@@ -303,6 +303,30 @@
           </div>
         </div>
 
+        <!--Are you taking any medication -->
+        <div class="grid lg:grid-cols-1 mt-6">
+          <label for="Medication" class="
+                      form-label
+                      inline-block
+                      mb-2
+                      text-gray-700
+                      font-semibold
+                      mt-6
+                    "><span class="text-secondary px-2 text-lg gap-2 font-semibold">*</span>Therapy Session</label>
+          <div class="grid gap-2 mx-4 mb-4 lg:mt-6">
+            <label for="Individual">Individual
+              <input v-model="data.Individual" value="Yes" type="radio" name="Individual" id="Individual"
+                class="form-control mt-0" /></label>
+            <label for="Family Therapy ">Family Therapy 
+              <input v-model="data.Family" value="No" type="radio" name="therapy" id="Family"
+                class="form-control mt-0" /></label>
+
+                <label for="CoupleTherapy">Couple's Therapy
+                  <input v-model="data.Family" value="No" type="radio" name="therapy" id="Couple"
+                    class="form-control mt-0" /></label>
+          </div>
+        </div>
+
         <!--Emergency contact details  -->
         <div class="grid mt-6">
           <label for="Session" class="form-label inline-block mb-2 text-gray-700 font-semibold">

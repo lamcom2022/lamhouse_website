@@ -4,8 +4,8 @@
 		<div class="bg-primary md:py-16 flex flex-col">
 			<span class="uppercase font-semibold text-[24px] lg:text-5xl text-center mt-16" >Team</span>
 			</div>
-		<div class="bg-primary mx-auto mt-16 flex flex-col">
-			<img src="https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png">
+		<div class="bg-primary mt-2 flex rounded-xl">
+			<img class="max-w-full h-auto rounded-lg" src="https://res.cloudinary.com/lamcom/image/upload/v1667199524/mindbeyond/banner-image_c9onlr.png">
 		</div>
 		
 		<!-- <p class="mt-10 text-small text-center text-white font-normal lg:text-3xl ">

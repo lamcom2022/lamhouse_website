@@ -24,7 +24,7 @@
             text-sm
             font-medium
             leading-normal
-            text-gray-900
+            text-gray-700
             sm:text-lg
           "
         >

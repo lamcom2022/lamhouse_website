@@ -53,137 +53,135 @@
     </div>
   </div>
 
-  <div class="max-w-7xl mx-auto mt-16 my-16 lg:flex">
+  <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid">
     <div class="max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="lg:text-left md:text-left">
-        <h1 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">About Me</h1>
-      </div>
-    </div>
-  </div>
-
-  <section
-  class="relative block py-10 overflow-hidden leading-6 text-left bg-gray-150"
->
-  <div class="w-full max-w-5xl px-8 mx-auto leading-6 text-left xl:px-12">
-    <div
-      class="
-        relative
-        w-full
-        px-4
-        leading-6
-        text-center
-        xl:flex-grow-0 xl:flex-shrink-0
-        lg:flex-grow-0 lg:flex-shrink-0
-      ">
-     
-      <p
-        class="
-          box-border
-          mx-0
-          mt-6
-          mb-0
-          text-sm
-          font-medium
-          leading-normal
-          text-gray-900
-          sm:text-lg
-        "
+        <div class="grid-cols-2">
+          <h1 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">About Me</h1>
+          <div class="w-full max-w-5xl px-8 mx-auto leading-6 text-left xl:px-12">
+            <div
+              class="
+                relative
+                w-full
+                px-4
+                leading-6
+                text-center
+                xl:flex-grow-0 xl:flex-shrink-0
+                lg:flex-grow-0 lg:flex-shrink-0
+              ">
+             
+              <p
+                class="
+                  box-border
+                  mx-0
+                  mt-6
+                  mb-0
+                  text-sm
+                  font-medium
+                  leading-normal
+                  text-gray-900
+                  sm:text-lg
+                "
+              >
+              I am a counselling psychologist from Bangalore. 
+              My work is focused on counselling individuals, groups or families to help them understand problems, define goals and develop realistic action plans. I specialize in providing Psychological Guidance, Emotional Wellness, Anxiety Stress and Anger Management, Behavioural Coaching and Group Therapy.
+              I have an eye for the social stigma that surrounds the words ‘mental health’. By envisioning a safer environment to lend a helping hand to aid an individual’s issues and encourage healing recovery, I gave life to Mind & Beyond to offer support through specialised therapies and techniques customised for one’s needs considering their journey.
+              </p>
+            </div>
+          </div>
+        </div>
+        <section
+        class="relative block py-10 overflow-hidden leading-6 text-left bg-gray-150"
       >
-      I am a counselling psychologist from Bangalore. 
-      My work is focused on counselling individuals, groups or families to help them understand problems, define goals and develop realistic action plans. I specialize in providing Psychological Guidance, Emotional Wellness, Anxiety Stress and Anger Management, Behavioural Coaching and Group Therapy.
-      I have an eye for the social stigma that surrounds the words ‘mental health’. By envisioning a safer environment to lend a helping hand to aid an individual’s issues and encourage healing recovery, I gave life to Mind & Beyond to offer support through specialised therapies and techniques customised for one’s needs considering their journey.
-      </p>
-    </div>
-  </div>
-
-
-  <div class="max-w-7xl mx-auto mt-12 my-12 lg:flex">
-    <div class="max-w-7xl px-4 sm:px-4 lg:px-8">
-      <div class="sm:text-left md:text-left">
-        <h3 class="text-3xl tracking-tight text-gray-00 sm:text-2xl">Qualifications</h3>
+      
+      
+        <div class="max-w-7xl mx-auto mt-12 my-12 lg:flex">
+          <div class="max-w-7xl px-4 sm:px-4 lg:px-8">
+            <div class="sm:text-left md:text-left">
+              <h3 class="text-3xl tracking-tight text-gray-00 sm:text-2xl">Qualifications</h3>
+              <div class="max-w-7xl mx-auto mt-12">
+                <div class="pb-10 mt-10 max-w-7xl">
+                  <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
+                    <div v-for="about in about" :key="about.name" class="relative">
+                      <dt>
+                        <div class="absolute flex items-center justify-center h-8 w-8 rounded-md bg-primary text-white">
+                          <component :is="about.icon" class="h-6 w-6" aria-hidden="true" />
+                        </div>
+                        <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ about.name }}</p>
+                      </dt>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="max-w-7xl mx-auto mt-12 my-8 lg:flex">
+          <div class="max-w-7xl px-4 sm:px-4 lg:px-8">
+            <div class="sm:text-left md:text-left">
+              <h3 class="text-3xl tracking-tight text-gray-00 sm:text-2xl">Training / Professional Certifications</h3>
+              <div class="max-w-7xl mx-auto mt-12">
+                <div class="pb-10 mt-10 max-w-7xl">
+                  <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
+                    <div v-for="certification in certification" :key="certification.name" class="relative">
+                      <dt>
+                        <div class="absolute flex items-center justify-center h-8 w-8 rounded-md bg-primary text-white">
+                          <component :is="certification.icon" class="h-6 w-6" aria-hidden="true" />
+                        </div>
+                        <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ certification.name }}</p>
+                      </dt>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        
+        <!-- <div class="max-w-7xl mx-auto mt-12">
+          <div class="pb-10 mt-10 max-w-7xl">
+            <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
+              <div v-for="certification in certification" :key="certification.name" class="relative">
+                <dt>
+                  <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
+                    <component :is="certification.icon" class="h-6 w-6" aria-hidden="true" />
+                  </div>
+                  <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ certification.name }}</p>
+                </dt>
+              </div>
+            </dl>
+          </div>
+        </div> -->
+      
+      
+        <!-- <AboutContent /> -->
+      
+        <div class="max-w-7xl mx-auto mt-12 my-12 lg:flex">
+          <div class="max-w-7xl px-4 sm:px-4 lg:px-8">
+            <div class="sm:text-left md:text-left">
+              <h3 class="text-3xl tracking-tight text-gray-00 sm:text-2xl">Vision</h3>
+            </div>
+            <div class="mt-5 max-w-6xl">
+              <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
+                <div v-for="legacy in legacy" :key="legacy.name" class="relative">
+                  <dt>
+                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ legacy.name }}</p>
+                  </dt>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      
+          <!-- Vision -->
+      
+        </section>
       </div>
     </div>
   </div>
 
-  
-  <div class="max-w-7xl mx-auto mt-12">
-    <div class="pb-10 mt-10 max-w-7xl">
-      <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
-        <div v-for="about in about" :key="about.name" class="relative">
-          <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
-              <component :is="about.icon" class="h-6 w-6" aria-hidden="true" />
-            </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ about.name }}</p>
-          </dt>
-        </div>
-      </dl>
-    </div>
-  </div>
-
-
-  <div class="max-w-7xl mx-auto mt-12 my-12 lg:flex">
-    <div class="max-w-7xl px-4 sm:px-4 lg:px-8">
-      <div class="sm:text-left md:text-left">
-        <h3 class="text-3xl tracking-tight text-gray-00 sm:text-2xl">Training / Professional Certifications</h3>
-      </div>
-    </div>
-  </div>
-
-  <div class="max-w-7xl mx-auto mt-12">
-    <div class="pb-10 mt-10 max-w-7xl">
-      <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
-        <div v-for="certification in certification" :key="certification.name" class="relative">
-          <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
-              <component :is="certification.icon" class="h-6 w-6" aria-hidden="true" />
-            </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ certification.name }}</p>
-          </dt>
-        </div>
-      </dl>
-    </div>
-  </div>
-  
-  <!-- <div class="max-w-7xl mx-auto mt-12">
-    <div class="pb-10 mt-10 max-w-7xl">
-      <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
-        <div v-for="certification in certification" :key="certification.name" class="relative">
-          <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
-              <component :is="certification.icon" class="h-6 w-6" aria-hidden="true" />
-            </div>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ certification.name }}</p>
-          </dt>
-        </div>
-      </dl>
-    </div>
-  </div> -->
-
-
-  <!-- <AboutContent /> -->
-
-  <div class="max-w-7xl mx-auto mt-12 my-12 lg:flex">
-    <div class="max-w-7xl px-4 sm:px-4 lg:px-8">
-      <div class="sm:text-left md:text-left">
-        <h3 class="text-3xl tracking-tight text-gray-00 sm:text-2xl">Vision</h3>
-      </div>
-    </div>
-  </div>
-
-
-    <!-- Vision -->
-    <div class="mt-10 max-w-7xl">
-      <dl class="space-y-10 md:space-y-0 md:grid md:gap-y-10">
-        <div v-for="legacy in legacy" :key="legacy.name" class="relative">
-          <dt>
-            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">{{ legacy.name }}</p>
-          </dt>
-        </div>
-      </dl>
-    </div>
-
-  </section>
 
 
 
@@ -239,13 +237,9 @@ const certification = [
 
 const legacy = [
   {
-    name: 'We envision a future in which individuals thrive in communities that support mental health, achieve health equity, and promote well-being.',
+    name: 'We envision a future in which individuals thrive in communities that support mental health, achieve health equity, and promote well-being. To be committed to mental health wellness through prevention, intervention, treatment and psycho - education.',
     icon: ArrowCircleRightIcon,
-  },
-  {
-    name: 'To be committed to mental health wellness through prevention, intervention, treatment and psycho - education.',
-    icon: ArrowCircleRightIcon,
-  },
+  }
 ]
 export default {
   setup() {
