@@ -31,7 +31,17 @@
 							</svg>
 						</button>
 					</div>
+					
 				</div>
+				<div class="mt-12 mx-7 px-5 py-2 w-36 text-center text-sm bg-primary text-white rounded-full transition-all duration-300" >
+				<a href="/form">Book Now</a>
+			</div>
+			<button @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+					class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+					<span class="flex items-center px-5 py-2 text-sm bg-primary text-white rounded-full transition-all duration-300">
+						<span class="w-24 mx-2 font-medium text-white text-center">Contact us</span>
+					</span>
+				</button>
 				<nav id="nav"
 					class="px-1 pt-6 overflow-y-auto font-medium text-base sm:px-3 xl:px-5 lg:text-sm pb-10 lg:pt-10 lg:pb-14 sticky?lg:h-(screen-18)">
 					<LeftNavColor :data="[]" />
