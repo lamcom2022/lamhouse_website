@@ -1,8 +1,6 @@
 <template>
-<div>
-    
-     <TreatmentPolicy />
-    
+  <div>
+    <TreatmentPolicy />
   </div>
 
 </template>
@@ -11,6 +9,6 @@
 import ClientsComp from '@/components/ClientsComp.vue'
 definePageMeta({
   //colorMode: 'system',
-  layout: "main",
+  // layout: "main",
 })
 </script>

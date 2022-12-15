@@ -27,13 +27,12 @@
                                         {{ $s(article.title).prune(50)._wrapped }}
                                     </ClientOnly>
                                 </h3>
-
-                                <p
+                                <!-- <p
                                     class="mt-3 text-base leading-6 text-gray-500 text-center fixed top-0 left-0 right-0">
                                     <ClientOnly>
                                         {{ $s(article.description).prune(100)._wrapped }}
                                     </ClientOnly>
-                                </p>
+                                </p> -->
                                 <!-- <a href="/form">
                                       <p class="mt-3 text-base leading-6 text-primary-500 text-center">
                                         <ClientOnly>
@@ -44,6 +43,34 @@
                                     <span class="text-justify mt-3 text-white">Book Now</span>
                                     </div>
                                     </a> -->
+
+                            </div>
+                            <br>
+                            <br>
+                            <div class="p-2 flex ">
+                                <ul class="servicelist">
+                                    <li class="servicelistText">
+                                               {{ $s(article.bullet1).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(article.bullet2).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(article.bullet3).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(article.bullet4).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(article.bullet5).prune(50)._wrapped }}
+                                    </li>
+                                    <!-- <li>
+                                        {{ $s(service.bullet6).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(service.bullet7).prune(50)._wrapped }}
+                                    </li> -->
+                                </ul>
 
                             </div>
 
@@ -98,6 +125,23 @@ export default {
 </script>
 
 <style>
+
+.servicelist li{
+    padding: 8px;
+    background-color: #728574;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+    align-items: center;
+    align-self: center;
+    display:    flex;
+    align-content: space-around;
+    box-shadow: black;
+}
+.servicelistText{
+    color: black;
+}
+
 .article-card {
     border-radius: 8px;
 }

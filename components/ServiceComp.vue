@@ -58,28 +58,51 @@
                             <div class="flex-2">
                                 <a :href="service._path">
                                     <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900 text-center">
+                                        {{ $s(service.title).prune(50)._wrapped }}
                                         <ClientOnly>
-                                            {{ $s(service.title).prune(50)._wrapped }}
                                         </ClientOnly>
                                     </h3>
-                                    <h3 class="mt-2 text-xl leading-7 font-semibold text-gray-900 text-center">
-                                        <ClientOnly>
-                                            {{ $s(service.bullet2).prune(50)._wrapped }}
-                                        </ClientOnly>
-                                    </h3>
-                                    <!-- <a href="/form">
-                                    <div class="grid w-3/4 mx-auto justify-center bg-primary h-12 mt-12 align-bottom rounded-lg">
-                                    <span class="text-justify mt-3 text-white">Book Now</span>
-                                    </div>
-                                     </a> -->
-                                    <p class="mt-3 text-base leading-6 text-gray-500 text-center">
-                                        <ClientOnly>
-                                            {{ $s(service.bullet1).prune(500)._wrapped }}
-                                        </ClientOnly>
-                                    </p>
                                 </a>
+                                <!-- <a href="/form">
+                                <div class="grid w-3/4 mx-auto justify-center bg-primary h-12 mt-12 align-bottom rounded-lg">
+                                <span class="text-justify mt-3 text-white">Book Now</span>
+                                </div>
+                                 </a> -->
+                                <!-- <p class="mt-3 text-base leading-6 text-gray-500 text-center">
+                                    <ClientOnly>
+                                        {{ $s(service.status).prune(500)._wrapped }}
+                                    </ClientOnly>
+                                </p> -->
                                 <div>
                                 </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="p-2 flex ">
+                                <ul class="servicelist">
+                                    <li class="servicelistText">
+                                               {{ $s(service.bullet1).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(service.bullet2).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(service.bullet3).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(service.bullet4).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(service.bullet5).prune(50)._wrapped }}
+                                    </li>
+                                    <!-- <li>
+                                        {{ $s(service.bullet6).prune(50)._wrapped }}
+                                    </li>
+                                    <li>
+                                        {{ $s(service.bullet7).prune(50)._wrapped }}
+                                    </li> -->
+                                </ul>
+
                             </div>
                             <!--
                             <div class="mt-3 flex items-center">
@@ -128,6 +151,21 @@ export default {
 </script>
 
 <style>
+.servicelist li{
+    padding: 8px;
+    background-color: #728574;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+    align-items: center;
+    align-self: center;
+    display:    flex;
+    align-content: space-around;
+    box-shadow: black;
+}
+.servicelistText{
+    color: black;
+}
 .article-card {
     border-radius: 8px;
     height: 300vh;

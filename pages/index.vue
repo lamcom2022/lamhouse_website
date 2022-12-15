@@ -2,7 +2,7 @@
   <div>
     <Hero />
     <HomeContent />
-    <Blog :articles="articles" />    
+    <Blog :articles="articles" />
     <!-- <Testimonials /> -->
   </div>
 
@@ -25,6 +25,12 @@ const { data: articles } = await useAsyncData('articles-list', () => queryConten
     "_path",
     "tags",
     "type",
+    "bullet1",
+    "bullet2",
+    "bullet3",
+    "bullet4",
+    "bullet5",
+    "bullet6",
   ])
   .find())
 </script>
