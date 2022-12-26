@@ -178,7 +178,6 @@
                 type="submit">
                 Submit
               </button>
-              <button @click="exportToPDF">Export to PDF</button>
             </form>
           </div>
 
