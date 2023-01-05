@@ -24,8 +24,7 @@
           +917204001302 or email us at akshaya@mindnbeyond.in
         </p>
         <p class="mt-4 text-gray-700">
-          Kindly note that we charge a fee depending on the duration of the
-          session.
+          Charges for therapy may vary based on types of therapy, duration of session etc.
         </p>
         <p class="mt-4 text-gray-700">
           The details of making the payment will be shared once a session has
