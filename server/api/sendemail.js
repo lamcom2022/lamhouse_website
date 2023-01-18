@@ -21,7 +21,7 @@ export default async (req, res, err) => {
             }
         ],
         "from": {
-            "email": "sureshbabuweb@gmail.com",
+            "email": "ravindhar66@gmail.com",
             "name": "lamhouse"
         },
         // "reply_to": {
