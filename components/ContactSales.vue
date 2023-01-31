@@ -168,11 +168,11 @@ export default {
             try {
                 let request = {}
                 this.data.frommail ="info@lamhouse.in"
-                this.data.ccmail ="biz@lamhouse.in,pradeep@lamhouse.in"
+                this.data.ccmail ="pradeep@lamhouse.in"
                 this.data.bccmail ="suresh@lamhouse.in",
                 this.data.transportpwd = "am@zecH12#",
                 this.data.transportusername = "info@lamhouse.in"
-                this.data.email = "muthu@lamhouse.in"
+                this.data.email = "biz@lamhouse.in"
                 const { data: contact } = await useFetch("api/contact", {
                     method: 'post', body: this.data
                 })
