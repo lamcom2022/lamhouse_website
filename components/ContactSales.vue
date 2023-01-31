@@ -123,6 +123,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="w-full flex-shrink-0 px-4 py-4 space-x-4 flex justify-end">
                             <span class="inline-flex rounded-md shadow-sm">
                                 <button type="button"
@@ -162,9 +163,22 @@ export default {
             api: ""
         }
     },
+  
+
     methods: {
         async sendContactUs(args) {
             console.log("Send Contact")
+            try {
+                    const tokenV2 = await this.$recaptcha.getResponse(this.widgetId)
+                    console.log('V2 ReCaptcha token:', tokenV2)
+
+                    const token = await this.$recaptcha.execute('login')
+                    console.log('V3 ReCaptcha token:', token)
+
+                    this.$recaptcha.reset(this.widgetId)
+                } catch (error) {
+                    console.log('Login error:', error)
+                }
             try {
                 let request = {}
                 this.data.frommail ="info@lamhouse.in"

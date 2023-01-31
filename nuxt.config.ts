@@ -44,6 +44,7 @@ export default defineNuxtConfig({
 	modules: ["@nuxt/content"],
 	content: {
 		// https://content.nuxtjs.org/api/configuration
+		
 	},
 	head: {
 		title: process.env.npm_package_name || "Swara Nritya Company",

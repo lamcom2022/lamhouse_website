@@ -1,7 +1,7 @@
 {
-  "name": "aljabr",
+  "name": "lamhouse",
   "version": "1.0.0",
-  "description": "Al Jabr laundry And dry cleaning is considered the largest commercial laundry in the Middle East,Five laundry plants serve more than 500 receiving shops situated in cities and villages throughout the eastern province, Riyadh, Jeddah, Qasim and Kharj",
+  "description": "Lamhouse is the One Stop Solution for all your Digital Marketing Requirements.",
   "author": "Zynomi Technologies Pvt. ltd.",
   "private": true,
   "scripts": {
@@ -33,6 +33,7 @@
   "dependencies": {
     "@fawmi/vue-google-maps": "^0.9.72",
     "@heroicons/vue": "^1.0.6",
+    "@nuxtjs/recaptcha": "^1.1.1",
     "@sendgrid/mail": "^7.7.0",
     "@tailwindcss/forms": "^0.5.2",
     "body-parser": "^1.20.1",
