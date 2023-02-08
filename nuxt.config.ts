@@ -47,7 +47,7 @@ export default defineNuxtConfig({
 		
 	},
 	head: {
-		title: process.env.npm_package_name || "Swara Nritya Company",
+		title: process.env.npm_package_name || "Lam House",
 		htmlAttrs: {
 			lang: "en",
 		},
@@ -70,7 +70,7 @@ export default defineNuxtConfig({
 			{
 				hid: "og:site_name",
 				name: "og:site_name",
-				content: "SwaraNritya",
+				content: "Lam House",
 			},
 			{
 				hid: "og:type",
@@ -80,7 +80,7 @@ export default defineNuxtConfig({
 			{
 				hid: "og:title",
 				name: "og:title",
-				content: process.env.npm_package_name || "Swara Nritya Company",
+				content: process.env.npm_package_name || "Lam House",
 			},
 			{
 				hid: "og:description",
@@ -98,17 +98,17 @@ export default defineNuxtConfig({
 			{
 				hid: "author",
 				name: "author",
-				content: "SwaraNritya",
+				content: "Lam House",
 			},
 			{
 				hid: "copyright",
 				name: "copyright",
-				content: "SwaraNritya",
+				content: "Lam House",
 			},
 			{
 				hid: "reply-to",
 				name: "reply-to",
-				content: "contact@SwaraNritya.com",
+				content: "biz@lamhouse.in",
 			},
 		],
 		link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
