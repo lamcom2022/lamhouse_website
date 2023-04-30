@@ -125,6 +125,11 @@
           },
           {
             "icon": "",
+            "title": "Blog",
+            "link": "/blog"
+          },
+          {
+            "icon": "",
             "title": "Clients",
             "link": "/clients"
           }
