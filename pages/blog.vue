@@ -44,16 +44,28 @@
 			</NuxtLink>-->
     </div>
   </main>
-  <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid md:flex md:flex-col">
-    <div class="mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="lg:text-left md:text-left">
-        <h2
-          class="mt-2 text-2xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl pb=10"
-        >
-          Do small businesses need Software Solutions for their Businesses?
-        </h2>
-        <p class="mt-5 p-2 leading-7">
-          Any country gets 44% of its revenue from small businesses and their
+   <!-- Section 7 -->
+   <section class="w-full bg-white">
+        <div class="max-w-5xl px-10 py-10 mx-auto xl:px-0">          
+
+            <div class="flex flex-wrap mt-10 overflow-hidden">
+                <div class="w-full overflow-hidden md:w-4/6 lg:w-4/6 xl:w-4/6">
+                    <div class="ml-2 mr-2 md:mr-4">
+                        <div class="pb-12">
+                            <a href="#_" class="relative block w-full overflow-hidden h-80 rounded-xl">
+                                <img class="object-cover object-top w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1682866786/lamhouse/blog/softsolution_ul0i4y.jpg" alt="">
+                            </a>
+                            <a href="#_" class="relative block mt-5 mb-1 text-xs font-medium tracking-wide text-green-500 uppercase">Software</a>
+                            <h2 class="mb-1 text-2xl font-semibold text-gray-900"><a href="#_">Do small businesses need Software Solutions for their Businesses?</a></h2>
+
+
+                            <span class="block mb-5 text-xs font-normal text-gray-800">
+
+                                <span class="ml-1 text-gray-500">Written by Jane Doe on December 02, 2019</span>
+                            </span>
+                           
+                            <p class="mt-3 p-2 leading-7">
+        Any country gets 44% of its revenue from small businesses and their
           growth is attributed to the direct development of a country's economy.
           As a part of the stability and growth of such small businesses, they
           all need to use software solutions in one way or the other to keep
@@ -119,12 +131,59 @@
           tools they need to operate more efficiently, provide a better customer
           experience, and make data-driven decisions to grow their business.
         </p>
-      </div>
-    </div>
-    <div class="mx-auto px-4 sm:px-6 lg:px-8">
-    <button class="text-white bg-blue-700 rounded-lg w-24 h-auto"><a href="/blog-1">Next</a></button>
-    </div>
-  </div>
+                        </div>
+                      
+                    </div>
+
+                </div>
+
+                 <!-- Begining of Sidebar -->
+                 <div class="w-full mt-12 overflow-hidden md:w-2/6 lg:w-2/6 xl:w-2/6 md:mt-0">
+                    <div class="ml-2 mr-2 md:ml-4">                     
+                      <div class="mt-0">
+                            <h2 class="mb-5 text-lg font-medium text-gray-900">Categories</h2>
+                            <ul>
+                                <li class="flex"><a href="#_" class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900">Software</a><span class="p-2 text-lg font-thin text-gray-700">1</span></li>
+                                <li class="flex"><a href="#_" class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900">Digital Marketing</a><span class="p-2 text-lg font-thin text-gray-700">1</span></li>
+                              
+                            </ul>
+                        </div>
+                     
+                        <div class="mt-16">
+                            <h2 class="mb-5 text-lg font-medium text-gray-900">Recent Posts</h2>
+                            <ul>
+                                <li class="mb-5">
+                                    <a href="/blog" class="flex">
+                                        <div class="w-1/3 overflow-hidden rounded">
+                                            <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1682866786/lamhouse/blog/softsolution_ul0i4y.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center w-2/3 p-2">
+                                            <h3 class="mb-2 font-serif font-thin text-gray-900">Do small businesses need Software Solutions for their Businesses?</h3>
+                                            <span class="block text-xs font-thin text-gray-800">January 02, 2023</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mb-5">
+                                    <a href="/blog-1" class="flex">
+                                        <div class="w-1/3 overflow-hidden rounded">
+                                            <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1682866786/lamhouse/blog/digitalmarketing_ser5yo.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center w-2/3 p-2">
+                                            <h3 class="mb-2 font-serif font-thin text-gray-900">Why do Small Businesses Need Digital Marketing?</h3>
+                                            <span class="block text-xs font-thin text-gray-800">January 04, 2023</span>
+                                        </div>
+                                    </a>
+                                </li>                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+ 
 </template>
 
 <script>
