@@ -173,7 +173,18 @@
                                             <span class="block text-xs font-thin text-gray-800">January 04, 2023</span>
                                         </div>
                                     </a>
-                                </li>                               
+                                </li>
+                                <li class="mb-5">
+                                    <a href="/blog-2" class="flex">
+                                        <div class="w-1/3 overflow-hidden rounded">
+                                            <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1683010721/lamhouse/blog/digital_xpdf9a.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center w-2/3 p-2">
+                                            <h3 class="mb-2 font-serif font-thin text-gray-900">Does digital marketing work for you?</h3>
+                                            <span class="block text-xs font-thin text-gray-800">May 02, 2023</span>
+                                        </div>
+                                    </a>
+                                </li>                                               
                             </ul>
                         </div>
                     </div>

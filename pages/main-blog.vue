@@ -59,7 +59,7 @@
                                 </a>
                                 <h2 class="mb-2 font-serif text-lg text-gray-900"><a href="/blog">Do small businesses need Software Solutions for their Businesses?</a></h2>
                                 <p class="mb-3 text-sm text-gray-800"> Any country gets 44% of its revenue from small businesses and their
-                                     growth is attributed to the direct development of a country's economy....
+                                     growth is attributed to the direct development of a country's economy...
                                     <a href="/blog" class="inline-flex items-center ml-1 text-xs text-gray-500 underline">
                                         <span>Continue Reading</span>
                                         <svg class="w-3 h-3 ml-1 transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -73,7 +73,20 @@
                                 </a>
                                 <h2 class="mb-2 font-serif text-lg text-gray-900"><a href="/blog-1">Why do Small Businesses Need Digital Marketing?</a></h2>
                                 <p class="mb-3 text-sm text-gray-800">  In this Digital world, we have seen many small businesses rise and
-                                      many fall too....
+                                      many fall too...
+                                    <a href="/blog-1" class="inline-flex items-center ml-1 text-xs text-gray-500 underline">
+                                        <span>Continue Reading</span>
+                                        <svg class="w-3 h-3 ml-1 transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="col-span-12 md:col-span-6">
+                                <a href="/blog-1" class="block h-48 mb-3 overflow-hidden rounded-lg">
+                                    <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1683010721/lamhouse/blog/digital_xpdf9a.jpg" alt="">
+                                </a>
+                                <h2 class="mb-2 font-serif text-lg text-gray-900"><a href="/blog-2">Does digital marketing work for you?</a></h2>
+                                <p class="mb-3 text-sm text-gray-800">  Most small business think that they do not need digital marketing, or do not know if they need it...
                                     <a href="/blog-1" class="inline-flex items-center ml-1 text-xs text-gray-500 underline">
                                         <span>Continue Reading</span>
                                         <svg class="w-3 h-3 ml-1 transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -95,7 +108,7 @@
                             <h2 class="mb-5 text-lg font-medium text-gray-900">Categories</h2>
                             <ul>
                                 <li class="flex"><a href="#_" class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900">Software</a><span class="p-2 text-lg font-thin text-gray-700">1</span></li>
-                                <li class="flex"><a href="#_" class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900">Digital Marketing</a><span class="p-2 text-lg font-thin text-gray-700">1</span></li>
+                                <li class="flex"><a href="#_" class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900">Digital Marketing</a><span class="p-2 text-lg font-thin text-gray-700">2</span></li>
                               
                             </ul>
                         </div>
@@ -124,7 +137,18 @@
                                             <span class="block text-xs font-thin text-gray-800">January 04, 2023</span>
                                         </div>
                                     </a>
-                                </li>                               
+                                </li>  
+                                <li class="mb-5">
+                                    <a href="/blog-1" class="flex">
+                                        <div class="w-1/3 overflow-hidden rounded">
+                                            <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1683010721/lamhouse/blog/digital_xpdf9a.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center w-2/3 p-2">
+                                            <h3 class="mb-2 font-serif font-thin text-gray-900">Does digital marketing work for you?</h3>
+                                            <span class="block text-xs font-thin text-gray-800">May 02, 2023</span>
+                                        </div>
+                                    </a>
+                                </li>                                       
                             </ul>
                         </div>
                     </div>
