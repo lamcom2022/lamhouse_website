@@ -28,7 +28,6 @@
       "title": "About",
       "link": "/about"
     },
-    
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
       "icon": "M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z",
@@ -36,24 +35,29 @@
       "link": "/services"
     },
     {
+      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
+      "icon": "M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z",
+      "title": "Careers",
+      "link": "/careers/career"
+    },
+    {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
       "title": "Team",
-      "link": "/team"      
+      "link": "/team"
     },
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
       "title": "Blog",
-      "link": "/main-blog"      
+      "link": "/main-blog"
     },
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
       "title": "Clients",
-      "link": "/clients"      
+      "link": "/clients"
     }
-    
   ],
   "leftnav": [
     {
@@ -101,7 +105,6 @@
   "footer": {
     "sections": [
       {
-        
         "menus": [
           {
             "icon": "",
@@ -135,7 +138,6 @@
           }
         ]
       },
-    
       {
         "name": "Important Link",
         "menus": [
@@ -156,9 +158,7 @@
           }
         ]
       },
-     
       {
-        
         "menus": [
           {
             "icon": "",
@@ -194,8 +194,6 @@
       "link": "https://instagram.com/lamhouseofficial?igshid=ZDdkNTZiNTM=",
       "rule": "evenodd"
     }
-   
-   
   ],
   "testimonials": [
     {
@@ -207,7 +205,7 @@
       "clienteducation": "",
       "clienttitle": "",
       "clientcompany": "",
-      "clienticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
+      "clienticon": "https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],
   "about": [
@@ -220,7 +218,7 @@
       "clienteducation": "",
       "clienttitle": "",
       "clientcompany": "",
-      "abouticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
+      "abouticon": "https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],
   "legacy": [
@@ -233,7 +231,7 @@
       "clienteducation": "",
       "clienttitle": "",
       "clientcompany": "",
-      "abouticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
+      "abouticon": "https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],
   "companies": [
@@ -337,7 +335,7 @@
       "description": "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.",
       "img": "https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
     }
-  ],  
+  ],
   "contactus": {
     "companyname": "Lam House",
     "addressline1": "#104, 2nd Cross, Royal County Layout, Parappana Agrahara",

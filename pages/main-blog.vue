@@ -82,12 +82,25 @@
                             </div>
 
                             <div class="col-span-12 md:col-span-6">
-                                <a href="/blog-1" class="block h-48 mb-3 overflow-hidden rounded-lg">
+                                <a href="/blog-2" class="block h-48 mb-3 overflow-hidden rounded-lg">
                                     <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1683010721/lamhouse/blog/digital_xpdf9a.jpg" alt="">
                                 </a>
                                 <h2 class="mb-2 font-serif text-lg text-gray-900"><a href="/blog-2">Does digital marketing work for you?</a></h2>
                                 <p class="mb-3 text-sm text-gray-800">  Most small business think that they do not need digital marketing, or do not know if they need it...
-                                    <a href="/blog-1" class="inline-flex items-center ml-1 text-xs text-gray-500 underline">
+                                    <a href="/blog-2" class="inline-flex items-center ml-1 text-xs text-gray-500 underline">
+                                        <span>Continue Reading</span>
+                                        <svg class="w-3 h-3 ml-1 transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="col-span-12 md:col-span-6">
+                                <a href="/blog-3" class="block h-48 mb-3 overflow-hidden rounded-lg">
+                                    <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1683265020/lamhouse/blog/namaste_oaddfu.jpg" alt="">
+                                </a>
+                                <h2 class="mb-2 font-serif text-lg text-gray-900"><a href="/blog-3">5 Things COVID – 19 making us go back to our traditional ways of living.</a></h2>
+                                <p class="mb-3 text-sm text-gray-800"> It might be a weird but an apt question in the current scenario. You just need ...
+                                    <a href="/blog-3" class="inline-flex items-center ml-1 text-xs text-gray-500 underline">
                                         <span>Continue Reading</span>
                                         <svg class="w-3 h-3 ml-1 transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                                     </a>
@@ -139,7 +152,7 @@
                                     </a>
                                 </li>  
                                 <li class="mb-5">
-                                    <a href="/blog-1" class="flex">
+                                    <a href="/blog-2" class="flex">
                                         <div class="w-1/3 overflow-hidden rounded">
                                             <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1683010721/lamhouse/blog/digital_xpdf9a.jpg" alt="">
                                         </div>
@@ -148,7 +161,18 @@
                                             <span class="block text-xs font-thin text-gray-800">May 02, 2023</span>
                                         </div>
                                     </a>
-                                </li>                                       
+                                </li>  
+                                <li class="mb-5">
+                                    <a href="/blog-3" class="flex">
+                                        <div class="w-1/3 overflow-hidden rounded">
+                                            <img class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105" src="https://res.cloudinary.com/lamcom/image/upload/v1683265020/lamhouse/blog/namaste_oaddfu.jpg" alt="">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center w-2/3 p-2">
+                                            <h3 class="mb-2 font-serif font-thin text-gray-900">5 Things COVID – 19 making us go back to our traditional ways of living.</h3>
+                                            <span class="block text-xs font-thin text-gray-800">April 27, 2020</span>
+                                        </div>
+                                    </a>
+                                </li>                                                        
                             </ul>
                         </div>
                     </div>
