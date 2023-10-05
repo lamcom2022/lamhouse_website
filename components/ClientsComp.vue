@@ -71,12 +71,12 @@
           />
         </a>
       </div>
-      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+      <!-- <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
           class="w-full aspect-auto object-none object-center"
           src="https://res.cloudinary.com/lamcom/image/upload/v1662727824/lamhouse/clientlogo/dhi_f3y1zs.png"
         />
-      </div>
+      </div> -->
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <a class="flex justify-center" href="https://tredgepro.netlify.app/">
           <img
@@ -113,30 +113,42 @@
           src="https://res.cloudinary.com/lamcom/image/upload/v1662792327/lamhouse/clientlogo/jagapathi1_x2z3dk.png"
         />
       </div>
-      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+      <!-- <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
           class="w-full aspect-auto object-none object-center"
           src="https://res.cloudinary.com/lamcom/image/upload/v1662789592/lamhouse/clientlogo/k6_wnnkti.png"
         />
+      </div> -->
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex items-center"
+          href="https://kfsdev.netlify.app/index1.html"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662789921/lamhouse/clientlogo/kfs_v11rzc.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662789921/lamhouse/clientlogo/kfs_v11rzc.png"
-        />
+        <a
+          class="flex items-center"
+          href="https://rollerskating.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662792521/lamhouse/clientlogo/krsa_habda0.png"
+          />
+        </a>
       </div>
-      <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662792521/lamhouse/clientlogo/krsa_habda0.png"
-        />
-      </div>
-      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+      <!-- <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
           class="w-full aspect-auto object-none object-center"
           src="https://res.cloudinary.com/lamcom/image/upload/v1662791309/lamhouse/clientlogo/mkagencies_uezpq1.png"
         />
-      </div>
+      </div> -->
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
           class="w-full aspect-auto object-none object-center"
@@ -144,10 +156,16 @@
         />
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662792644/lamhouse/clientlogo/navipower_i9rsc1.png"
-        />
+        <a
+          class="flex items-center"
+          href="https://navipowerllp.com/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662792644/lamhouse/clientlogo/navipower_i9rsc1.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
