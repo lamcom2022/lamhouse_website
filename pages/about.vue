@@ -1,6 +1,6 @@
 <template>
   <main
-    class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-12"
+    class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-28 mt-14"
   >
     <h1
       class="capitalize font-semibold text-[38px] lg:text-7xl text-center leading-snug text-white"
