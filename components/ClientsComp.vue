@@ -31,7 +31,11 @@
         </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <a class="flex justify-center" href="#">
+        <a
+          class="flex justify-center"
+          href="https://beyondbordersindia.in/"
+          target="_blank"
+        >
           <img
             class="w-full aspect-auto object-none object-center"
             src="https://res.cloudinary.com/lamcom/image/upload/v1696490436/lamhouse/clientlogo/beyondborder_rfcv9m.png"
@@ -62,6 +66,14 @@
           />
         </a>
       </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a class="flex justify-center" href="https://cosmy.netlify.app/">
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696569624/lamhouse/clientlogo/cosmy_ul9wlg.png"
+          />
+        </a>
+      </div>
 
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <a class="flex justify-center" href="http://creativeteamventures.com/">
@@ -78,10 +90,38 @@
         />
       </div> -->
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <a class="flex justify-center" href="https://tredgepro.netlify.app/">
+        <a
+          class="flex justify-center"
+          href="https://tredgepro.netlify.app/"
+          target="_blank"
+        >
           <img
             class="w-full aspect-auto object-none object-center"
             src="https://res.cloudinary.com/lamcom/image/upload/v1662795146/lamhouse/clientlogo/dredgepro_io3lfe.png"
+          />
+        </a>
+      </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex justify-center"
+          href="https://deafaidsociety.in/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696571110/lamhouse/clientlogo/deaf_zjszmv.png"
+          />
+        </a>
+      </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex justify-center"
+          href="https://eesha.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696569065/lamhouse/clientlogo/eesha_bgh82m.png"
           />
         </a>
       </div>
@@ -150,10 +190,28 @@
         />
       </div> -->
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662795565/lamhouse/clientlogo/massavi_tfefmx.png"
-        />
+        <a
+          class="flex justify-center"
+          href="https://massavi.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662795565/lamhouse/clientlogo/massavi_tfefmx.png"
+          />
+        </a>
+      </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex justify-center"
+          href="https://mindnbeyond.in/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696571688/lamhouse/clientlogo/mind_jcoj5x.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <a
@@ -174,28 +232,76 @@
         />
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662793437/lamhouse/clientlogo/pk_oymcai.png"
-        />
+        <a
+          class="flex items-center"
+          href="https://pkiyengerlamhouse.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662793437/lamhouse/clientlogo/pk_oymcai.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662793685/lamhouse/clientlogo/paschim_zb4tmc.png"
-        />
+        <a
+          class="flex justify-center"
+          href="https://paschimtradinginstitute.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662793685/lamhouse/clientlogo/paschim_zb4tmc.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662793890/lamhouse/clientlogo/rdssigns_znmlgc.png"
-        />
+        <a
+          class="flex justify-center"
+          href="https://purent.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696570439/lamhouse/clientlogo/purent_su4n8d.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662793981/lamhouse/clientlogo/sakthi_bfc6sb.png"
-        />
+        <a
+          class="flex items-center"
+          href="https://rds-signs.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662793890/lamhouse/clientlogo/rdssigns_znmlgc.png"
+          />
+        </a>
+      </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex items-center"
+          href="https://scotinternational.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696568740/lamhouse/clientlogo/scot_wky7o6.png"
+          />
+        </a>
+      </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex items-center"
+          href="https://www.sfbindia.in/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696571361/lamhouse/clientlogo/sravya_o3mqlb.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
@@ -210,10 +316,46 @@
         />
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex items-center"
+          href="https://tripta.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696568359/lamhouse/clientlogo/tripta_lagf9k.png"
+          />
+        </a>
+      </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex items-center"
+          href="https://urbanscape.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696569965/lamhouse/clientlogo/urban_jfbqqz.png"
+          />
+        </a>
+      </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
           class="w-full aspect-auto object-none object-center"
           src="https://res.cloudinary.com/lamcom/image/upload/v1662795819/lamhouse/clientlogo/veera_chpvm4.png"
         />
+      </div>
+      <div class="flex justify-center w-full bg-white shadow-lg h-64">
+        <a
+          class="flex items-center"
+          href="https://vishwapoornima.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1696567992/lamhouse/clientlogo/vishwa_f1h0ly.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
