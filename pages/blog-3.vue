@@ -1,6 +1,6 @@
 <template>
   <main
-    class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-12"
+    class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-28 mt-14"
   >
     <h1
       class="capitalize font-semibold text-[38px] lg:text-7xl text-center leading-snug text-white"
@@ -11,13 +11,13 @@
     </h1>
 
     <div class="text-center p-10 flex items-center justify-center space-x-4">
-      <NuxtLink
+      <!-- <NuxtLink
         to="#"
         @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
         class="px-5 py-2 text-sm ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300"
       >
         Contact us</NuxtLink
-      >
+      > -->
       <!--<div class="relative group">
 				<div
 					class="absolute -inset-0.5 bg-gradient-to-r from-secondary-600 to-primary-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
@@ -203,7 +203,6 @@
                 lead people to believe them to be superstition and now, I
                 believe COVID -19 is a better teacher than a disease to us.
               </p>
-             
             </div>
           </div>
         </div>
@@ -218,16 +217,23 @@
               <ul>
                 <li class="flex">
                   <a
-                    href="#_"
+                    href="blog"
                     class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900"
                     >Software</a
                   ><span class="p-2 text-lg font-thin text-gray-700">1</span>
                 </li>
                 <li class="flex">
                   <a
-                    href="#_"
+                    href="blog-2"
                     class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900"
                     >Digital Marketing</a
+                  ><span class="p-2 text-lg font-thin text-gray-700">2</span>
+                </li>
+                <li class="flex">
+                  <a
+                    href="/blog-3"
+                    class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900"
+                    >General</a
                   ><span class="p-2 text-lg font-thin text-gray-700">1</span>
                 </li>
               </ul>

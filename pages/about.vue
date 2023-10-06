@@ -11,13 +11,13 @@
     </h1>
 
     <div class="text-center p-10 flex items-center justify-center space-x-4">
-      <NuxtLink
+      <!-- <NuxtLink
         to="#"
         @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
         class="px-5 py-2 text-sm ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300"
       >
         Contact us</NuxtLink
-      >
+      > -->
       <!--<div class="relative group">
 				<div
 					class="absolute -inset-0.5 bg-gradient-to-r from-secondary-600 to-primary-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
