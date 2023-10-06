@@ -310,10 +310,16 @@
         />
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662795030/lamhouse/clientlogo/techdeal_gl9prv.png"
-        />
+        <a
+          class="flex justify-center"
+          href="https://techiedeal.in/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662795030/lamhouse/clientlogo/techdeal_gl9prv.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <a
