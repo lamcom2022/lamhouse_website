@@ -142,16 +142,28 @@
         </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662792427/lamhouse/clientlogo/jagapath2_noeyvh.png"
-        />
+        <a
+          class="flex justify-center"
+          href="https://www.jagapathichits.com/"
+          target="_blank"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662792427/lamhouse/clientlogo/jagapath2_noeyvh.png"
+          />
+        </a>
       </div>
       <div class="flex justify-center w-full bg-white shadow-lg h-64">
-        <img
-          class="w-full aspect-auto object-none object-center"
-          src="https://res.cloudinary.com/lamcom/image/upload/v1662792327/lamhouse/clientlogo/jagapathi1_x2z3dk.png"
-        />
+        <a
+          class="flex justify-center"
+          target="_blank"
+          href="https://www.facebook.com/jagapathichts.prakashreddy/"
+        >
+          <img
+            class="w-full aspect-auto object-none object-center"
+            src="https://res.cloudinary.com/lamcom/image/upload/v1662792327/lamhouse/clientlogo/jagapathi1_x2z3dk.png"
+          />
+        </a>
       </div>
       <!-- <div class="flex justify-center w-full bg-white shadow-lg h-64">
         <img
