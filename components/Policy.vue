@@ -10,7 +10,9 @@
           </p>
         </div>
         <div class="w-[10%] text-center">
-          <p class="bg-primary rounded-full p-2 text-white">Download</p>
+          <a href="MnBpolicy.pdf">
+            <p class="bg-primary rounded-full p-2 text-white">Download</p></a
+          >
         </div>
       </div>
       <h1 class="mb-5 text-xl font-bold text-left md:text-3xl">
