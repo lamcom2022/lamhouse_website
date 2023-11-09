@@ -10,4 +10,6 @@ definePageMeta({
   //colorMode: 'system',
   layout: "main",
 });
+
+// layout: "main",
 </script>

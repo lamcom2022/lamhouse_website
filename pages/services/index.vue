@@ -63,6 +63,12 @@ const { data: services } = await useAsyncData('services-list', () => queryConten
     "_path",
     "tags",
     "type",
+	"bullet1",
+	"bullet2",
+	"bullet3",
+	"bullet4",
+	"bullet5",
+	"bullet6",
   ])
   .find())
 </script>

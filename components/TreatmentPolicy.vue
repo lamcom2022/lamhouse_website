@@ -1,6 +1,6 @@
 <template>
   <!-- Section 3 -->
-  <section class="w-full py-24 mx-auto bg-white">
+  <section id="pdfdoc" class="w-full py-24 mx-auto bg-white">
     <div class="max-w-5xl px-12 mx-auto xl:px-12">
       <div class="mb-5">
         <p class="text-gray-700">
@@ -163,7 +163,11 @@
           <p class="text-gray-700">
             By signing below, I show that I agree to abide by the above policies
             and give consent to treatment.
-          </p>
+            By signing below, I show that I agree to abide by the above policies and give consent to treatment.
+        </p>
+</div>
+</div>
+          <!-- customer form details -->
           <div class="grid">
             <form name="Tpolicy" id="Tpolicy" class="space-y-8" method="POST">
               <div class="mt-4 w-3/4 grid lg:grid-cols-2 md:grid-cols-1">
@@ -209,13 +213,55 @@
               <button
                 class="w-32 h-12 bg-primary rounded-lg border-2 border-yellow-500 py-3 mt-12 hover:bg-yellow-500"
                 type="submit"
-              >
+              ></button>
+                <label for="first-name" class="text-sm font-medium text-gray-700 py-3">Name: </label>
+                <input type="text" name="first-name" id="first-name" autocomplete="given-name">
+              </div>
+              <div class="mt-4 w-3/4 grid lg:grid-cols-2 md:grid-cols-1">
+                <label for="first-name" class="text-sm font-medium text-gray-700 py-3">Date: </label>
+                <input type="text" name="first-name" id="first-name" autocomplete="given-name">
+              </div>
+              <div class="mt-4 w-3/4 grid lg:grid-cols-2 md:grid-cols-1">
+                <label for="first-name" class="text-sm font-medium text-gray-700 py-3">Contact Number: </label>
+                <input type="text" name="first-name" id="first-name" autocomplete="given-name">
+              </div>
+
+              <button class="w-32 h-12 bg-primary rounded-lg border-2 border-yellow-500 py-3 mt-12 hover:bg-yellow-500"
+                type="submit">
                 Submit
               </button>
             </form>
           </div>
         </div>
+
+
+        </div>
+
       </div>
     </div>
   </section>
 </template>
+
+<style>
+#pdfdoc {
+  margin-top: 60px;
+}
+</style>
+
+<script>
+export default {
+  name: "pdfdoc",
+  components: {},
+  data() {
+    return {};
+  },
+  methods: {
+    exportToPDF() {
+      html2pdf(document.getElementById("pdfdoc"), {
+        margin: 1,
+        filename: "i-was-html.pdf",
+      });
+    },
+  },
+};
+</script>

@@ -8,8 +8,8 @@
           Valued Services
         </h3>
         <!-- <h2 class="text-3xl tracking-tight font-extrabold text-gray-600 sm:text-4xl">
-                    Managed IT, Software, Data & <br />Digital Marketing Services for Your Organization.
-                </h2> -->
+                  Managed IT, Software, Data & <br />Digital Marketing Services for Your Organization.
+              </h2> -->
         <div
           class="mt-6 pt-5 grid gap-4 place-self-center lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8"
         >
@@ -37,48 +37,73 @@
                     {{ $s(article.title).prune(50)._wrapped }}
                   </ClientOnly>
                 </h3>
-
-                <p
-                  class="mt-3 text-base leading-6 text-gray-500 text-center fixed top-0 left-0 right-0"
-                >
-                  <ClientOnly>
-                    {{ $s(article.description).prune(100)._wrapped }}
-                  </ClientOnly>
-                </p>
+                <!-- <p
+                                  class="mt-3 text-base leading-6 text-gray-500 text-center fixed top-0 left-0 right-0">
+                                  <ClientOnly>
+                                      {{ $s(article.description).prune(100)._wrapped }}
+                                  </ClientOnly>
+                              </p> -->
                 <!-- <a href="/form">
-                                      <p class="mt-3 text-base leading-6 text-primary-500 text-center">
-                                        <ClientOnly>
-                                            {{ $s(article.link).prune(50)._wrapped }}
-                                        </ClientOnly>
-                                    </p>  
-                                    <div class="grid w-3/4 mx-auto justify-center bg-primary h-12 mt-12 align-bottom rounded-lg">
-                                    <span class="text-justify mt-3 text-white">Book Now</span>
-                                    </div>
-                                    </a> -->
+                                    <p class="mt-3 text-base leading-6 text-primary-500 text-center">
+                                      <ClientOnly>
+                                          {{ $s(article.link).prune(50)._wrapped }}
+                                      </ClientOnly>
+                                  </p>  
+                                  <div class="grid w-3/4 mx-auto justify-center bg-primary h-12 mt-12 align-bottom rounded-lg">
+                                  <span class="text-justify mt-3 text-white">Book Now</span>
+                                  </div>
+                                  </a> -->
+              </div>
+              <br />
+              <br />
+              <div class="p-2 flex">
+                <ul class="servicelist">
+                  <li class="servicelistText">
+                    {{ $s(article.bullet1).prune(50)._wrapped }}
+                  </li>
+                  <li>
+                    {{ $s(article.bullet2).prune(50)._wrapped }}
+                  </li>
+                  <li>
+                    {{ $s(article.bullet3).prune(50)._wrapped }}
+                  </li>
+                  <li>
+                    {{ $s(article.bullet4).prune(50)._wrapped }}
+                  </li>
+                  <li>
+                    {{ $s(article.bullet5).prune(50)._wrapped }}
+                  </li>
+                  <!-- <li>
+                                      {{ $s(service.bullet6).prune(50)._wrapped }}
+                                  </li>
+                                  <li>
+                                      {{ $s(service.bullet7).prune(50)._wrapped }}
+                                  </li> -->
+                </ul>
               </div>
 
               <!--
-                            <div class="mt-3 flex items-center">
+                          <div class="mt-3 flex items-center">
 
-                                <p class="text-sm leading-5 font-medium text-gray-900">
-                                    {{ article.author }}
-                                </p>
-                                <span class="mx-1">
-                                    &middot;
-                                </span>
-                                <div class="flex text-sm leading-5 text-gray-500">
+                              <p class="text-sm leading-5 font-medium text-gray-900">
+                                  {{ article.author }}
+                              </p>
+                              <span class="mx-1">
+                                  &middot;
+                              </span>
+                              <div class="flex text-sm leading-5 text-gray-500">
 
-                                    {{ $dayjs(article.date).format('DD-MMM-YYYY') }}
+                                  {{ $dayjs(article.date).format('DD-MMM-YYYY') }}
 
-                                    <span class="mx-1">
-                                        &middot;
-                                    </span>
-                                    <span>
+                                  <span class="mx-1">
+                                      &middot;
+                                  </span>
+                                  <span>
 
-                                    </span>
-                                </div>
-                            </div>
-                          -->
+                                  </span>
+                              </div>
+                          </div>
+                        -->
             </div>
           </div>
         </div>
@@ -108,6 +133,22 @@ export default {
 </script>
 
 <style>
+.servicelist li {
+  padding: 8px;
+  background-color: #728574;
+  margin: 5px;
+  border-radius: 5px;
+  color: #fff;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  align-content: space-around;
+  box-shadow: black;
+}
+.servicelistText {
+  color: black;
+}
+
 .article-card {
   border-radius: 8px;
 }
