@@ -32,7 +32,6 @@
       "title": "About us",
       "link": "/about"
     },
-    
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
       "icon": "M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z",
@@ -86,7 +85,6 @@
   "footer": {
     "sections": [
       {
-        
         "menus": [
           {
             "icon": "",
@@ -105,7 +103,6 @@
           }
         ]
       },
-    
       {
         "name": "Important Link",
         "menus": [
@@ -126,9 +123,7 @@
           }
         ]
       },
-     
       {
-        
         "menus": [
           {
             "icon": "",
@@ -139,11 +134,16 @@
             "icon": "",
             "title": "Terms",
             "link": "/legal/tc"
+          },
+          {
+            "icon": "",
+            "title": "Policy",
+            "link": "/policy"
           }
         ]
       }
     ],
-    "copyright": "© Copyright 2021 Mind & Beyond. All Rights Reserved."
+    "copyright": "©️copyright reserved to Mind & Beyond ®️"
   },
   "socialmedia": [
     {
@@ -160,7 +160,7 @@
       "clientname": "Individual Therapy Sessions",
       "clientname1": "Couple Therapy Sessions",
       "clientname2": "Group Therapy Sessions",
-      "clienticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
+      "clienticon": "https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],
   "about": [
@@ -173,7 +173,7 @@
       "clienteducation": "",
       "clienttitle": "",
       "clientcompany": "",
-      "abouticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
+      "abouticon": "https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],
   "legacy": [
@@ -186,7 +186,7 @@
       "clienteducation": "",
       "clienttitle": "",
       "clientcompany": "",
-      "abouticon":"https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
+      "abouticon": "https://res.cloudinary.com/lamcom/image/upload/v1661954104/lamhouse/icon/tick_x9zhqf.png"
     }
   ],
   "companies": [
@@ -290,11 +290,11 @@
       "description": "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.",
       "img": "https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
     }
-  ],  
+  ],
   "contactus": {
     "companyname": "Mind & Beyond",
-    "phone1": "(+91) 7204001302",
-    "email": "akshaya@mindnbeyond.in"
+    "phone1": "(+91) 8075634397",
+    "email": "hello@mindnbeyond.in"
   },
   "map": {
     "mapsection": "",

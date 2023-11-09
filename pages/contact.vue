@@ -1,15 +1,12 @@
 <template>
-    <ContactSales />
+  <ContactSales />
 </template>
 <script>
 definePageMeta({
   //colorMode: 'system',
   layout: "main",
-})
-export default {
-    
-}
+});
+export default {};
 </script>
 <style scoped>
-
 </style>

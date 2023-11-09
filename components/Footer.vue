@@ -2,7 +2,6 @@
   <div class="bg-primary ... lg:max-w-8xl">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-2">
-
         <!--Footer Links (Start)-->
         <FooterLinks />
         <!--Footer Links (end)-->
@@ -11,10 +10,16 @@
         <!-- <ContactUs /> -->
         <!--Newsletter-->
       </div>
-      <div class="mt-8 border-t border-white pt-8 md:flex md:items-center md:justify-between">
+      <div
+        class="mt-8 border-t border-white pt-8 md:flex md:items-center md:justify-between"
+      >
         <div class="flex md:order-2">
-          <a :href="sm.link" class="ml-6 text-white hover:text-primary-500" v-for="sm in menuitems.socialmedia"
-            :key="sm.title">
+          <a
+            :href="sm.link"
+            class="ml-6 text-white hover:text-primary-500"
+            v-for="sm in menuitems.socialmedia"
+            :key="sm.title"
+          >
             <span class="sr-only"> {{ sm.title }} </span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 48 48">
               <path :fill-rule="sm.rule" :d="sm.icon" :clip-rule="sm.rule" />
@@ -26,17 +31,13 @@
         </p>
       </div>
     </div>
-
   </div>
-
 </template>
 <script>
 import menuitems from "@/store/siteconfig.json";
 
 export default {
-  components: {
-
-  },
+  components: {},
   data() {
     return {
       menuitems,

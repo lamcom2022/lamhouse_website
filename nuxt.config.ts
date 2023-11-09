@@ -1,4 +1,4 @@
-import {defineNuxtConfig} from "nuxt";
+import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 import rollupPluginTs from "rollup-plugin-typescript2";
@@ -51,8 +51,8 @@ export default defineNuxtConfig({
 			lang: "en",
 		},
 		meta: [
-			{charset: "utf-8"},
-			{name: "viewport", content: "width=device-width, initial-scale=1"},
+			{ charset: "utf-8" },
+			{ name: "viewport", content: "width=device-width, initial-scale=1" },
 			{
 				hid: "description",
 				name: "description",
@@ -110,7 +110,7 @@ export default defineNuxtConfig({
 				content: "contact@SwaraNritya.com",
 			},
 		],
-		link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
+		link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
 		script: [
 			{
 				hid: "underscore",

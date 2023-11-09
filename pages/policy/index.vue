@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TreatmentPolicy />
+    <Policy />
   </div>
 </template>
 
