@@ -1,12 +1,17 @@
 <template>
   <!-- Section 3 -->
   <section class="w-full py-24 mx-auto bg-white">
-    <div class="max-w-5xl px-12 mx-auto xl:px-12">
-      <div class="mb-5">
-        <p class="text-gray-700">
-          The policies, methods, and particular concerns for Tele therapy are
-          laid out in this document.
-        </p>
+    <div class="max-w-7xl px-12 mx-auto xl:px-12">
+      <div class="mb-5 flex flex-row w-full">
+        <div class="w-[90%] text-left">
+          <p class="text-gray-700">
+            The policies, methods, and particular concerns for Tele therapy are
+            laid out in this document.
+          </p>
+        </div>
+        <div class="w-[10%] text-center">
+          <p class="bg-primary rounded-full p-2 text-white">Download</p>
+        </div>
       </div>
       <h1 class="mb-5 text-xl font-bold text-left md:text-3xl">
         CONFIDENTIALITY
