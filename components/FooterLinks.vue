@@ -14,6 +14,7 @@
         >
           <a
             :href="sm.link"
+            target="_blank"
             class="text-base text-white leading-6 text-white hover:text-primary-500"
           >
             {{ sm.title }}

@@ -13,7 +13,7 @@
       <div
         class="mt-8 border-t border-white pt-8 md:flex md:items-center md:justify-between"
       >
-        <!-- <div class="flex md:order-2">
+        <div class="flex md:order-2">
           <a
             :href="sm.link"
             class="ml-6 text-white hover:text-primary-500"
@@ -21,11 +21,11 @@
             :key="sm.title"
           >
             <span class="sr-only"> {{ sm.title }} </span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 48 48">
+            <svg class="h-9 w-9" fill="currentColor" viewBox="0 0 16 16">
               <path :fill-rule="sm.rule" :d="sm.icon" :clip-rule="sm.rule" />
             </svg>
           </a>
-        </div> -->
+        </div>
         <p class="mt-8 text-white text-base leading-6 md:mt-0 md:order-1">
           {{ menuitems.footer.copyright }}
         </p>
