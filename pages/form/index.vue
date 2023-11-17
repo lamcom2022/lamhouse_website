@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Form />
+    <GForm />
   </div>
 </template>
 
