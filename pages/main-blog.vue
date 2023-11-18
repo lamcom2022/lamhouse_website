@@ -367,45 +367,4 @@ definePageMeta({
   //colorMode: 'system',
   layout: "main",
 });
-const about = [
-  {
-    name: "Our Goal is: Every business idea must grow and have an online presence – however big or small!!",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "Success followed us after our debut. Yet, in keeping with changing trends, we quickly expanded our services, to include graphic design, website design and app development in our repertoire of projects.",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "It has been 10 years, and the journey has been incredible.",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "With every year, our expertise and reputed clientele list grew bigger and bigger, both nationally and internationally. Today we positively state that we have numerous happy and satisfied clients whose visions and ideas we have brought to life.",
-    icon: ArrowCircleRightIcon,
-  },
-];
-
-const legacy = [
-  {
-    name: "The name LAM House is inspired by and dedicated to my parents and family. LAM is an acronym for Life, Art and Multimedia.",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "Mr. Muthuraman A. as the proprietor of this company brings along with him over 20 years of experience in the fields of animation and graphic design. From managerial roles, to HR roles to administrative details to the financial aspects of a graphic designing and software development firm. In the past years he has grown and groomed our team to reflect these qualities of integrity and dedication in their work.",
-    icon: ArrowCircleRightIcon,
-  },
-];
-export default {
-  setup() {
-    return {
-      about,
-      legacy,
-    };
-  },
-};
 </script>
