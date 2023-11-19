@@ -319,7 +319,7 @@
             reconnection is not possible.
           </p>
           <p class="text-gray-700 py-3 italic text-md font-semibold">
-            Mind N Beyond reserves the right to change the policies at any time
+            Mind & Beyond reserves the right to change the policies at any time
             without any prior notice to clients.
           </p>
         </div>
