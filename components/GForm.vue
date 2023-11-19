@@ -1,14 +1,5 @@
 <template>
   <div class="max-w-7xl mx-auto mt-16 my-16 lg:grid px-4 border-white">
-    <!-- <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSfRh4cMuyKEdrYtdd-BxL5b_WMrChA7E15uOVxKzGB3X7E6PA/viewform?embedded=true"
-      width="100%"
-      height="4919"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0"
-      >Loading…</iframe> -->
-
     <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLSfRh4cMuyKEdrYtdd-BxL5b_WMrChA7E15uOVxKzGB3X7E6PA/viewform?embedded=true"
       width="100%"
@@ -16,8 +7,7 @@
       frameborder="0"
       marginheight="0"
       marginwidth="0"
-      >Loading…</iframe
-    >
+      >Loading…</iframe>
   </div>
 
   <!-- <h2>{{data}}</h2> -->
