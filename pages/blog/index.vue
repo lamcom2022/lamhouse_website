@@ -1,5 +1,5 @@
 <template>
-  <main
+  <section
     class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-28 mt-14"
   >
     <h1
@@ -43,7 +43,7 @@
 				>
 			</NuxtLink>-->
     </div>
-  </main>
+  </section>
   <!-- Section 7 -->
   <section class="w-full bg-white">
     <div class="max-w-5xl px-10 py-10 mx-auto xl:px-0">
