@@ -50,175 +50,105 @@
       <div class="flex flex-wrap mt-10 overflow-hidden">
         <div class="w-full overflow-hidden md:w-4/6 lg:w-4/6 xl:w-4/6">
           <div class="ml-2 mr-2 md:mr-4">
-            <div class="grid grid-cols-12 gap-8">
-              <div class="col-span-12 md:col-span-6">
-                <a
-                  href="/blogf"
-                  class="block h-48 mb-3 overflow-hidden rounded-lg"
+            <div class="pb-12">
+              <a
+                href="#_"
+                class="relative block w-full overflow-hidden h-80 rounded-xl"
+              >
+                <img
+                  class="object-cover object-top w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105"
+                  src="https://res.cloudinary.com/lamcom/image/upload/v1682866786/lamhouse/blog/softsolution_ul0i4y.jpg"
+                  alt=""
+                />
+              </a>
+              <a
+                href="#_"
+                class="relative block mt-5 mb-1 text-xs font-medium tracking-wide text-green-500 uppercase"
+                >Software</a
+              >
+              <h2 class="mb-1 text-2xl font-semibold text-gray-900">
+                <a href="#_"
+                  >Do small businesses need Software Solutions for their
+                  Businesses?</a
                 >
-                  <img
-                    class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105"
-                    src="https://res.cloudinary.com/lamcom/image/upload/v1682866786/lamhouse/blog/softsolution_ul0i4y.jpg"
-                    alt=""
-                  />
-                </a>
-                <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blogf"
-                    >Do small businesses need Software Solutions for their
-                    Businesses?</a
-                  >
-                </h2>
-                <p class="mb-3 text-sm text-gray-800">
-                  Any country gets 44% of its revenue from small businesses and
-                  their growth is attributed to the direct development of a
-                  country's economy...
-                  <a
-                    href="/blogf"
-                    class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
-                  >
-                    <span>Continue Reading</span>
-                    <svg
-                      class="w-3 h-3 ml-1 transform -rotate-45"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"
-                      ></path>
-                    </svg>
-                  </a>
-                </p>
-              </div>
+              </h2>
 
-              <div class="col-span-12 md:col-span-6">
-                <a
-                  href="/blog-1"
-                  class="block h-48 mb-3 overflow-hidden rounded-lg"
+              <span class="block mb-5 text-xs font-normal text-gray-800">
+                <span class="ml-1 text-gray-500"
+                  >Written by Jane Doe on December 02, 2019</span
                 >
-                  <img
-                    class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105"
-                    src="https://res.cloudinary.com/lamcom/image/upload/v1682866786/lamhouse/blog/digitalmarketing_ser5yo.jpg"
-                    alt=""
-                  />
-                </a>
-                <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blog-1"
-                    >Why do Small Businesses Need Digital Marketing?</a
-                  >
-                </h2>
-                <p class="mb-3 text-sm text-gray-800">
-                  In this Digital world, we have seen many small businesses rise
-                  and many fall too...
-                  <a
-                    href="/blog-1"
-                    class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
-                  >
-                    <span>Continue Reading</span>
-                    <svg
-                      class="w-3 h-3 ml-1 transform -rotate-45"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"
-                      ></path>
-                    </svg>
-                  </a>
-                </p>
-              </div>
+              </span>
 
-              <div class="col-span-12 md:col-span-6">
-                <a
-                  href="/blog-2"
-                  class="block h-48 mb-3 overflow-hidden rounded-lg"
-                >
-                  <img
-                    class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105"
-                    src="https://res.cloudinary.com/lamcom/image/upload/v1683010721/lamhouse/blog/digital_xpdf9a.jpg"
-                    alt=""
-                  />
-                </a>
-                <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blog-2">Does digital marketing work for you?</a>
-                </h2>
-                <p class="mb-3 text-sm text-gray-800">
-                  Most small business think that they do not need digital
-                  marketing, or do not know if they need it...
-                  <a
-                    href="/blog-2"
-                    class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
-                  >
-                    <span>Continue Reading</span>
-                    <svg
-                      class="w-3 h-3 ml-1 transform -rotate-45"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"
-                      ></path>
-                    </svg>
-                  </a>
-                </p>
-              </div>
+              <p class="mt-3 p-2 leading-7">
+                Any country gets 44% of its revenue from small businesses and
+                their growth is attributed to the direct development of a
+                country's economy. As a part of the stability and growth of such
+                small businesses, they all need to use software solutions in one
+                way or the other to keep pace with the country's growing
+                economy. But many business owners hesitate to take the leave
+                towards digitizing their business saying why should I need
+                Software solutions, it's meant for big businesses only is it
+                really helpful for their small business?
+              </p>
+              <p class="mt-2 p-2 leading-7">
+                The answer is Yes, software solutions can be extremely helpful
+                for small businesses in many ways. Here are some examples:
+              </p>
+              <h3
+                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
+              >
+                Streamlined operations:
+              </h3>
+              <p class="mt-2 p-2 leading-7">
+                Small businesses can use software solutions to streamline their
+                operations and improve efficiency. For example, the software can
+                automate tasks such as inventory management, invoicing, and
+                scheduling, freeing up time for small business owners to focus
+                on other areas of their business.
+              </p>
+              <h3
+                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
+              >
+                Improved customer experience:
+              </h3>
+              <p class="mt-2 p-2 leading-7">
+                Software solutions can help small businesses provide a better
+                customer experience. For example, a small retail business can
+                use point-of-sale software to process transactions quickly and
+                accurately, and a service business can use scheduling software
+                to make it easy for customers to book appointments online.
+              </p>
 
-              <div class="col-span-12 md:col-span-6">
-                <a
-                  href="/blog-3"
-                  class="block h-48 mb-3 overflow-hidden rounded-lg"
-                >
-                  <img
-                    class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105"
-                    src="https://res.cloudinary.com/lamcom/image/upload/v1683265020/lamhouse/blog/namaste_oaddfu.jpg"
-                    alt=""
-                  />
-                </a>
-                <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blog-3"
-                    >5 Things COVID – 19 making us go back to our traditional
-                    ways of living.</a
-                  >
-                </h2>
-                <p class="mb-3 text-sm text-gray-800">
-                  It might be a weird but an apt question in the current
-                  scenario. You just need ...
-                  <a
-                    href="/blog-3"
-                    class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
-                  >
-                    <span>Continue Reading</span>
-                    <svg
-                      class="w-3 h-3 ml-1 transform -rotate-45"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M14 5l7 7m0 0l-7 7m7-7H3"
-                      ></path>
-                    </svg>
-                  </a>
-                </p>
-              </div>
+              <h3
+                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
+              >
+                Data analysis:
+              </h3>
+              <p class="mt-2 p-2 leading-7">
+                Small businesses can use software solutions to analyze data and
+                gain insights into their business operations. For example, a
+                small e-commerce business can use analytics software to track
+                website traffic and sales data to make data-driven decisions
+                about marketing and product offerings
+              </p>
+
+              <h3
+                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
+              >
+                Cost savings:
+              </h3>
+              <p class="mt-2 p-2 leading-7">
+                Software solutions can also help small businesses save money.
+                For example, cloud-based software eliminates the need for
+                expensive hardware and IT staff, and automation can reduce labor
+                costs.
+              </p>
+              <p class="mt-2 p-2 leading-7">
+                Overall, software solutions can provide small businesses with
+                the tools they need to operate more efficiently, provide a
+                better customer experience, and make data-driven decisions to
+                grow their business.
+              </p>
             </div>
           </div>
         </div>
