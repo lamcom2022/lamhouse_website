@@ -1,5 +1,5 @@
 <template>
-  <main
+  <section
     class="mx-auto bg-gradient-to-r from-primary-800 via-primary-900 to-primary-800 ... lg:max-w-8xl px-5 lg:px-0 pt-14 lg:pt-28 mt-14"
   >
     <h1
@@ -12,39 +12,38 @@
 
     <div class="text-center p-10 flex items-center justify-center space-x-4">
       <!-- <NuxtLink
-        to="#"
-        @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
-        class="px-5 py-2 text-sm ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300"
-      >
-        Contact us</NuxtLink
-      > -->
+          to="#"
+          @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+          class="px-5 py-2 text-sm ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300"
+        >
+          Contact us</NuxtLink
+        > -->
       <!--<div class="relative group">
-				<div
-					class="absolute -inset-0.5 bg-gradient-to-r from-secondary-600 to-primary-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
-				</div>
-				<button @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
-					class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-					<span class="flex items-center space-x-5">
-						<span class="pr-6 font-medium text-white">Contact us</span>
-					</span>
-				</button>
-			</div>
-
-			<NuxtLink
-				to="#"
-				class="text-sm group overflow-hidden relative bg-gray-50 ring-1 hover:ring-transparent ring-gray-300 rounded-full transition-all duration-300"
-			>
-				<div
-					class="absolute h-full w-0 group-hover:w-full transition-all duration-500 bg-primary-700"
-				></div>
-				<span
-					class="block px-6 py-3 transition-all duration-500 group-hover:text-white relative"
-					>Take Tour</span
-				>
-			</NuxtLink>-->
+                  <div
+                      class="absolute -inset-0.5 bg-gradient-to-r from-secondary-600 to-primary-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
+                  </div>
+                  <button @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+                      class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                      <span class="flex items-center space-x-5">
+                          <span class="pr-6 font-medium text-white">Contact us</span>
+                      </span>
+                  </button>
+              </div>
+  
+              <NuxtLink
+                  to="#"
+                  class="text-sm group overflow-hidden relative bg-gray-50 ring-1 hover:ring-transparent ring-gray-300 rounded-full transition-all duration-300"
+              >
+                  <div
+                      class="absolute h-full w-0 group-hover:w-full transition-all duration-500 bg-primary-700"
+                  ></div>
+                  <span
+                      class="block px-6 py-3 transition-all duration-500 group-hover:text-white relative"
+                      >Take Tour</span
+                  >
+              </NuxtLink>-->
     </div>
-  </main>
-
+  </section>
   <!-- Section 7 -->
   <section class="w-full bg-white">
     <div class="max-w-5xl px-10 py-10 mx-auto xl:px-0">
@@ -54,7 +53,7 @@
             <div class="grid grid-cols-12 gap-8">
               <div class="col-span-12 md:col-span-6">
                 <a
-                  href="/blog-0"
+                  href="/blogf"
                   class="block h-48 mb-3 overflow-hidden rounded-lg"
                 >
                   <img
@@ -64,7 +63,7 @@
                   />
                 </a>
                 <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blog-0"
+                  <a href="/blogf"
                     >Do small businesses need Software Solutions for their
                     Businesses?</a
                   >
@@ -74,7 +73,7 @@
                   their growth is attributed to the direct development of a
                   country's economy...
                   <a
-                    href="/blog-0"
+                    href="/blogf"
                     class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
                   >
                     <span>Continue Reading</span>
@@ -355,19 +354,3 @@
     </div>
   </section>
 </template>
-
-<script>
-import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
-  ArrowCircleRightIcon,
-} from "@heroicons/vue/outline/index.js";
-definePageMeta({
-  //colorMode: 'system',
-  layout: "main",
-});
-</script>
-<style scoped>
-</style>
