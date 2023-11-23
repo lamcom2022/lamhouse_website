@@ -74,7 +74,7 @@
                   their growth is attributed to the direct development of a
                   country's economy...
                   <a
-                    href="/blog-0"
+                    href="/blogf"
                     class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
                   >
                     <span>Continue Reading</span>
@@ -98,7 +98,7 @@
 
               <div class="col-span-12 md:col-span-6">
                 <a
-                  href="/blog-1"
+                  href="/blogd"
                   class="block h-48 mb-3 overflow-hidden rounded-lg"
                 >
                   <img
@@ -108,7 +108,7 @@
                   />
                 </a>
                 <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blog-1"
+                  <a href="/blogd"
                     >Why do Small Businesses Need Digital Marketing?</a
                   >
                 </h2>
@@ -116,7 +116,7 @@
                   In this Digital world, we have seen many small businesses rise
                   and many fall too...
                   <a
-                    href="/blog-1"
+                    href="/blogd"
                     class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
                   >
                     <span>Continue Reading</span>
@@ -140,7 +140,7 @@
 
               <div class="col-span-12 md:col-span-6">
                 <a
-                  href="/blog-2"
+                  href="/blogd"
                   class="block h-48 mb-3 overflow-hidden rounded-lg"
                 >
                   <img
@@ -150,13 +150,13 @@
                   />
                 </a>
                 <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blog-2">Does digital marketing work for you?</a>
+                  <a href="/blogd">Does digital marketing work for you?</a>
                 </h2>
                 <p class="mb-3 text-sm text-gray-800">
                   Most small business think that they do not need digital
                   marketing, or do not know if they need it...
                   <a
-                    href="/blog-2"
+                    href="/blogd"
                     class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
                   >
                     <span>Continue Reading</span>
@@ -234,14 +234,14 @@
               <ul>
                 <li class="flex">
                   <a
-                    href="blog"
+                    href="/blogf"
                     class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900"
                     >Software</a
                   ><span class="p-2 text-lg font-thin text-gray-700">1</span>
                 </li>
                 <li class="flex">
                   <a
-                    href="blog-2"
+                    href="/blogd"
                     class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900"
                     >Digital Marketing</a
                   ><span class="p-2 text-lg font-thin text-gray-700">2</span>
@@ -262,7 +262,7 @@
               </h2>
               <ul>
                 <li class="mb-5">
-                  <a href="/blog" class="flex">
+                  <a href="/blogf" class="flex">
                     <div class="w-1/3 overflow-hidden rounded">
                       <img
                         class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105"
@@ -284,7 +284,7 @@
                   </a>
                 </li>
                 <li class="mb-5">
-                  <a href="/blog-1" class="flex">
+                  <a href="/blogd" class="flex">
                     <div class="w-1/3 overflow-hidden rounded">
                       <img
                         class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105"
