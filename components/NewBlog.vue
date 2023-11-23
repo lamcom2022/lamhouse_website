@@ -54,7 +54,7 @@
             <div class="grid grid-cols-12 gap-8">
               <div class="col-span-12 md:col-span-6">
                 <a
-                  href="/blog-0"
+                  href="/blogf"
                   class="block h-48 mb-3 overflow-hidden rounded-lg"
                 >
                   <img
@@ -64,7 +64,7 @@
                   />
                 </a>
                 <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blog-0"
+                  <a href="/blogf"
                     >Do small businesses need Software Solutions for their
                     Businesses?</a
                   >
