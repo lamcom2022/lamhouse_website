@@ -74,13 +74,13 @@
 
 <script>
 export default {
-    components: {},
+    // components: {},
     props: {
         articles: Array,
     },
-    filters: {
+    // filters: {
 
-    },
+    // },
 };
 </script>
 

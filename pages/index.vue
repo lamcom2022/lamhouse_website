@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero />
-    <Blog :articles="articles" />    
+    <Blog />    
     <Testimonials />
   </div>
 
