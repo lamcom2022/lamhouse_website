@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import MainBlog from "@/components/MainBlog.vue";
+import NewBlog from "@/components/NewBlog.vue";
 definePageMeta({
   //colorMode: 'system',
   layout: "main",
