@@ -57,7 +57,7 @@
               >
                 <img
                   class="object-cover object-top w-full h-full transition duration-300 ease-out transform scale-100 hover:scale-105"
-                  src="https://res.cloudinary.com/lamcom/image/upload/v1682866786/lamhouse/blog/digitalmarketing_ser5yo.jpg"
+                  src="https://res.cloudinary.com/lamcom/image/upload/v1683010721/lamhouse/blog/digital_xpdf9a.jpg"
                   alt=""
                 />
               </a>
@@ -67,59 +67,58 @@
                 >Digital Marketing</a
               >
               <h2 class="mb-1 text-2xl font-semibold text-gray-900">
-                <a href="#_">
-                  Why do Small Businesses Need Digital Marketing?</a
-                >
+                <a href="#_"> Does digital marketing work for you?</a>
               </h2>
 
               <span class="block mb-5 text-xs font-normal text-gray-800">
                 <span class="ml-1 text-gray-500"
-                  >Written by Jane Doe on December 02, 2023</span
+                  >Written by Muthuraman on May 02, 2023</span
                 >
               </span>
 
               <p class="mt-5 p-2 leading-7">
-                In this Digital world, we have seen many small businesses rise
-                and many fall too, One of the main reasons for the failure of
-                fall of their business is attributed to bad or wrong or no
-                marketing. Here, let's talk about how small businesses need
-                Digital Marketing.
-              </p>
-              <p class="mt-2 p-2 leading-7">
-                Small businesses need digital marketing for several reasons
-              </p>
-              <h3
-                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
-              >
-                Increased visibility:
-              </h3>
-              <p class="mt-2 p-2 leading-7">
-                In today's digital age, people spend more time online than ever.
-                Digital marketing can help small businesses reach their target
-                audience and increase their visibility online
-              </p>
-              <h3
-                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
-              >
-                Cost-effective:
-              </h3>
-              <p class="mt-2 p-2 leading-7">
-                Digital marketing is often more cost effective than traditional
-                marketing methods like print, radio, or television advertising.
-                With digital marketing, small businesses can reach a large
-                audience without spending a lot of money.
+                Most small business think that they do not need digital
+                marketing, or do not know if they need it. To determine if
+                digital marketing will work for you depends on various factors,
+                such as your business type, goals, target audience, budget, and
+                resources. Here are some key factors to consider:
               </p>
 
               <h3
                 class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
               >
-                Targeted marketing:
+                Business Type:
               </h3>
               <p class="mt-2 p-2 leading-7">
-                Digital marketing allows businesses to target specific
-                demographics, geographic locations, and interests. This can help
-                small businesses reach the people most likely to be interested
-                in their products or services.
+                If you have a business that requires an online presence, digital
+                marketing can work wonders for you. Whether you're selling
+                products or services, or simply want to build brand awareness,
+                digital marketing can help you reach a wider audience.
+              </p>
+              <h3
+                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
+              >
+                Goals:
+              </h3>
+              <p class="mt-2 p-2 leading-7">
+                Determine your marketing goals before deciding if digital
+                marketing will work for you. Are you looking to increase sales,
+                generate leads, build brand awareness, or drive website traffic?
+                Digital marketing can help you achieve any of these goals, but
+                it's important to identify your specific objectives before
+                investing in a marketing strategy.
+              </p>
+
+              <h3
+                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
+              >
+                Target Audience:
+              </h3>
+              <p class="mt-2 p-2 leading-7">
+                Digital marketing is an effective way to reach your target
+                audience. If your target audience is online, digital marketing
+                can help you connect with them through various channels like
+                social media, search engines, email, and display ads.
               </p>
 
               <h3
@@ -136,17 +135,31 @@
               <h3
                 class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
               >
-                Competitive edge:
+                Budget:
               </h3>
               <p class="mt-2 p-2 leading-7">
-                Digital marketing can give small businesses a competitive edge
-                over their competitors who may not have an online presence or
-                effective digital marketing strategies.
+                Digital marketing can be cost-effective compared to traditional
+                marketing methods, but it still requires an investment.
+                Determine your budget and evaluate the costs of various digital
+                marketing channels to determine if it's financially feasible for
+                your business.
+              </p>
+              <h3
+                class="mt-5 text-xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl pb=10"
+              >
+                Resources:
+              </h3>
+              <p class="mt-2 p-2 leading-7">
+                Digital marketing requires time and resources to be effective.
+                Do you have the skills, knowledge, and resources to execute a
+                digital marketing strategy? If not, you may need to outsource or
+                hire an agency like LAM HOUSE to help. Click here in case you
+                like to talk to LAM House team to know more.
               </p>
               <p class="mt-2 p-2 leading-7">
-                Overall, digital marketing is essential for small businesses to
-                stay relevant, compete in their industry, and reach their target
-                audience in a cost-effective way.
+                Hence, If you have an online presence, a clear marketing goal, a
+                target audience that is active online, a budget, and the
+                necessary resources, digital marketing is likely to work for you
               </p>
             </div>
           </div>

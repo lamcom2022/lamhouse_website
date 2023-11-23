@@ -177,7 +177,7 @@
                 </li>
                 <li class="flex">
                   <a
-                    href="/blog-3"
+                    href="/blogg"
                     class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900"
                     >General</a
                   ><span class="p-2 text-lg font-thin text-gray-700">1</span>
@@ -234,7 +234,7 @@
                   </a>
                 </li>
                 <li class="mb-5">
-                  <a href="/blog-2" class="flex">
+                  <a href="/blogd1" class="flex">
                     <div class="w-1/3 overflow-hidden rounded">
                       <img
                         class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105"
@@ -255,7 +255,7 @@
                   </a>
                 </li>
                 <li class="mb-5">
-                  <a href="/blog-3" class="flex">
+                  <a href="/blogg" class="flex">
                     <div class="w-1/3 overflow-hidden rounded">
                       <img
                         class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105"

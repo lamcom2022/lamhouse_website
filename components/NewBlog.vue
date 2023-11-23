@@ -140,7 +140,7 @@
 
               <div class="col-span-12 md:col-span-6">
                 <a
-                  href="/blogd"
+                  href="/blogd1"
                   class="block h-48 mb-3 overflow-hidden rounded-lg"
                 >
                   <img
@@ -150,13 +150,13 @@
                   />
                 </a>
                 <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blogd">Does digital marketing work for you?</a>
+                  <a href="/blogd1">Does digital marketing work for you?</a>
                 </h2>
                 <p class="mb-3 text-sm text-gray-800">
                   Most small business think that they do not need digital
                   marketing, or do not know if they need it...
                   <a
-                    href="/blogd"
+                    href="/blogd1"
                     class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
                   >
                     <span>Continue Reading</span>
@@ -180,7 +180,7 @@
 
               <div class="col-span-12 md:col-span-6">
                 <a
-                  href="/blog-3"
+                  href="/blogg"
                   class="block h-48 mb-3 overflow-hidden rounded-lg"
                 >
                   <img
@@ -190,7 +190,7 @@
                   />
                 </a>
                 <h2 class="mb-2 font-serif text-lg text-gray-900">
-                  <a href="/blog-3"
+                  <a href="/blogg"
                     >5 Things COVID – 19 making us go back to our traditional
                     ways of living.</a
                   >
@@ -199,7 +199,7 @@
                   It might be a weird but an apt question in the current
                   scenario. You just need ...
                   <a
-                    href="/blog-3"
+                    href="/blogg"
                     class="inline-flex items-center ml-1 text-xs text-gray-500 underline"
                   >
                     <span>Continue Reading</span>
@@ -248,7 +248,7 @@
                 </li>
                 <li class="flex">
                   <a
-                    href="/blog-3"
+                    href="/blogg"
                     class="flex-1 block py-2 font-serif text-lg font-thin text-gray-900"
                     >General</a
                   ><span class="p-2 text-lg font-thin text-gray-700">1</span>
@@ -305,7 +305,7 @@
                   </a>
                 </li>
                 <li class="mb-5">
-                  <a href="/blog-2" class="flex">
+                  <a href="/blogd1" class="flex">
                     <div class="w-1/3 overflow-hidden rounded">
                       <img
                         class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105"
@@ -326,7 +326,7 @@
                   </a>
                 </li>
                 <li class="mb-5">
-                  <a href="/blog-3" class="flex">
+                  <a href="/blogg" class="flex">
                     <div class="w-1/3 overflow-hidden rounded">
                       <img
                         class="object-cover object-center w-full h-full transition duration-300 ease-out transform scale-100 rounded hover:scale-105"

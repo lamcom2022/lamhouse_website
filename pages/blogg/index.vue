@@ -1,11 +1,11 @@
 <template>
   <div>
-    <BlogD />
+    <BlogG />
   </div>
 </template>
 
 <script setup>
-import BlogD from "~~/components/BlogD.vue";
+import BlogG from "~~/components/BlogG.vue";
 definePageMeta({
   //colorMode: 'system',
   layout: "main",
