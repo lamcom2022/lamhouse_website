@@ -368,36 +368,6 @@ definePageMeta({
   //colorMode: 'system',
   layout: "main",
 });
-
-const team = [
-  {
-    name: "We take end to end responsibility of your project/ product (from discussion to design to deliverables)",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "We provide personalised attention to every customer (your need and desire is our focus)",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "We have effective partnership models with a host of qualified artists and partner studios",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "Fair and Accurate Billing",
-    icon: ArrowCircleRightIcon,
-  },
-  {
-    name: "We impart professional advice and solutions as required",
-    icon: ArrowCircleRightIcon,
-  },
-];
-export default {
-  setup() {
-    return {
-      team,
-    };
-  },
-};
 </script>
 <style scoped>
 </style>
