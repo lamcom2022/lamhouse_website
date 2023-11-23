@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MainBlog />
+    <NewBlog />
   </div>
 </template>
 
